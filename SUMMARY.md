@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to Pendulum](README.md)
-* [Community](community.md)
+* [General Links](general-links.md)
 
 ## Playground
 

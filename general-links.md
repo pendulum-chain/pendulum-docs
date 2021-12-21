@@ -1,4 +1,10 @@
-# Community
+# General Links
+
+### Info
+
+* [Website](https://pendulumchain.org)
+* [Github](https://github.com/pendulum-chain)
+* [Newsletter](https://pendulumchain.org/newsletter)
 
 ### Social and Announcements
 
