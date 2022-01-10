@@ -1,12 +1,4 @@
-# General Links
-
-### Info
-
-* [Website](https://pendulumchain.org)
-* [Github](https://github.com/pendulum-chain)
-* [Newsletter](https://pendulumchain.org/newsletter)
-
-### Social and Announcements
+# Social Media
 
 * [Twitter](https://twitter.com/pendulum\_chain)
 * [Medium](https://pendulum-chain.medium.com)
@@ -14,6 +6,4 @@
 * [Telegram](https://t.me/pendulum\_chain)
 * [LinkedIn](https://www.linkedin.com/company/pendulum-chain/)
 * [Discord](https://discord.com/invite/NBGVC75Fsf)
-
-
 
