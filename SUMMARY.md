@@ -6,7 +6,6 @@
 * [Governance](governance.md)
 * [Tokenomics](tokenomics.md)
 * [FAQ](faq.md)
-* [Glossary](glossary.md)
 
 ## Playground
 
