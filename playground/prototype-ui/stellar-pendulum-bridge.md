@@ -14,7 +14,7 @@ You can use the bridge view to make a deposit to Pendulum or make a withdrawal t
 
 Let us make a deposit of 18 EUR tokens to Pendulum. For this, we just need to select the EUR asset and type ‘18’ in the amount field and press the “TO PENDULUM” button, which will be grayed out while processing the transaction.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 After the transaction succeeds, we can see the balance updated on the table, showing the 18 EUR we received. Now, we can repeat the same process for USDC.
 

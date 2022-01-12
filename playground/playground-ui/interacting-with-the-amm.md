@@ -32,4 +32,14 @@ You can query the current LP balance of accounts using the `lp_balance_of` messa
 
 Click on "Call" and "Sign & Submit" to submit the transaction.&#x20;
 
+## Notes
+
+You can tell the difference between a successful smart contract call and a failing one by looking at the number of events that are emitted after sending the transaction.
+
+A successful one will fire lots of `contracts.ContractEmitted` events while a failing one will not.
+
+The `system.ExtrinsicSuccess` event alone is **not** an indicator of a successful contract call. It is shown almost always even if the contract call failed.
+
+![Events shown for a successful contract call](<../../.gitbook/assets/image (3).png>)
+
 ## &#x20;
