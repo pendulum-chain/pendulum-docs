@@ -9,9 +9,13 @@
 
 ## Playground
 
+* [Prototype UI](playground/prototype-ui/README.md)
+  * [Connect Account](playground/prototype-ui/connect-account.md)
+  * [Stellar-Pendulum Bridge](playground/prototype-ui/stellar-pendulum-bridge.md)
+  * [Interacting with the AMM](playground/prototype-ui/interacting-with-the-amm.md)
 * [Playground UI](playground/playground-ui/README.md)
-  * [Connect Account](playground/playground-ui/connect-account.md)
-  * [Stellar-Pendulum Bridge](playground/playground-ui/stellar-pendulum-bridge.md)
+  * [Compiling the contract](playground/playground-ui/compiling-the-contract.md)
+  * [Deploying the AMM](playground/playground-ui/deploying-the-amm.md)
   * [Interacting with the AMM](playground/playground-ui/interacting-with-the-amm.md)
 
 ## Links

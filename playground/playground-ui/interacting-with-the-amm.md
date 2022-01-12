@@ -1,21 +1,35 @@
 # Interacting with the AMM
 
-**Note**: In order for the following steps to work make sure that the account you imported to the Playground has some EUR and USDC on Pendulum. You can check the Pendulum balances in the “BRIDGE” tab.
+To interact with your deployed smart contract navigate to the "[Execute](https://playground.pendulumchain.org/#/execute)" tab in the sidebar and click on the "Execute" button shown next to your contract in the list of instantiated contracts.
 
-For demonstration purposes we deployed an automated market maker (AMM) smart contract for the asset pair EUR-USDC to the pendulum chain. You can interact with this smart contract directly through the playground UI. Just click on the “AMM” button at the top.
+## Querying data
 
-The first thing you will see is the ‘Swap’ interface. You can use it to trade some of your EUR tokens for USDC or vice versa. To do this, you specify how much you want to receive of an asset and the amount you have to spend for this is calculated and filled in the other text field automatically.
+You can query metadata from the AMM. These include the total supply of minted LP tokens, the issuer and code of the pooled assets, the minimum liquidity of a liquidity pool, and the reserves/balances of the liquidity pool.&#x20;
 
-![](<../../.gitbook/assets/image (8).png>)
+To do so, click on the "Message to Send" field and select one of the messages that don't specify arguments in the brackets. Since these calls only read data from the smart contract they can be sent as an RPC call so you don't have to create and sign a transaction for each query.&#x20;
 
-You can also become a liquidity provider by supplying your USDC and EUR to the pool. Again, you only specify the amount of one asset and the other amount is calculated automatically such that it matches the ratio of the current pool reserves. In return for this operation you receive _liquidity provider tokens_ (LPT) which are used for tracking your contribution to the pool and can later be used to withdraw your share from the pool again.
+## Deposit
 
-![](<../../.gitbook/assets/image (6).png>)
+To deposit assets to the liquidity pool select either `deposit_asset_1` or `deposit_asset_2` as the message to send. Enter the desired amount you want to deposit of your respective asset in the "amount" field shown beneath. You can only enter one amount because the corresponding amount that you have to deposit of the other asset is calculated automatically by the AMM.
 
-If at a later point in time you want to regain your assets from the pool again, you can trade the LPT you received for supplying liquidity to withdraw your share from the pool. The estimated returns you receive for your LPT are shown below the input field.
+{% hint style="info" %}
+You receive so-called liquidity provider (LP) tokens for your deposit. These tokens are used to track your share of the pool and can later be used to withdraw your assets from the liquidity pool. LP tokens are unique for every liquidity pool.&#x20;
+{% endhint %}
 
-![](<../../.gitbook/assets/image (5).png>)
+Click on "Call" and "Sign & Submit" to submit the transaction.&#x20;
 
-You can also always have a look at the stats of the AMM, i.e. the total supply of pool tokens (LPT), your share of the pool and the reserves of the pool. Reserves are similar to the ‘balance’ of the AMM, i.e. the total amount of USDC and EUR that the smart contract holds as supplied liquidity.
+## Swap
 
-![](<../../.gitbook/assets/image (11).png>)
+To swap assets with the AMM, select either `swap_asset_1_for_asset_2` or `swap_asset_2_for_asset_1` depending on which asset you want to swap for what. Specify how much of the other asset you want to receive in the "amountToReceive" field. The AMM internally calculates the amount you have to pay.&#x20;
+
+Click on "Call" and "Sign & Submit" to submit the transaction.&#x20;
+
+## Withdraw
+
+To withdraw assets that you added to the liquidity pool, select the `withdraw` message and specify how many of your LP tokens you want to trade. The amount you receive of the pooled assets depends on your share in the liquidity pool.
+
+You can query the current LP balance of accounts using the `lp_balance_of` message.
+
+Click on "Call" and "Sign & Submit" to submit the transaction.&#x20;
+
+## &#x20;
