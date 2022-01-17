@@ -1,6 +1,6 @@
 # Connect Account
 
-The first time you access the Playground, you will see the screen below, meaning that no account is connected yet.
+The first time you access the Prototype, you will see the screen below, meaning that no account is connected yet.
 
 To connect an account, there are two options:
 

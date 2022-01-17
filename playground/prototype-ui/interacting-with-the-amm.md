@@ -1,8 +1,8 @@
 # Interacting with the AMM
 
-**Note**: In order for the following steps to work make sure that the account you imported to the Playground has some EUR and USDC on Pendulum. You can check the Pendulum balances in the “BRIDGE” tab.
+**Note**: In order for the following steps to work make sure that the account you imported to the prototype has some EUR and USDC on Pendulum. You can check the Pendulum balances in the “BRIDGE” tab.
 
-For demonstration purposes we deployed an automated market maker (AMM) smart contract for the asset pair EUR-USDC to the pendulum chain. You can interact with this smart contract directly through the playground UI. Just click on the “AMM” button at the top.
+For demonstration purposes we deployed an automated market maker (AMM) smart contract for the asset pair EUR-USDC to the pendulum chain. You can interact with this smart contract directly through the prototype UI. Just click on the “AMM” button at the top.
 
 The first thing you will see is the ‘Swap’ interface. You can use it to trade some of your EUR tokens for USDC or vice versa. To do this, you specify how much you want to receive of an asset and the amount you have to spend for this is calculated and filled in the other text field automatically.
 

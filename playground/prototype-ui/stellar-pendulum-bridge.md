@@ -2,7 +2,7 @@
 
 The **bridge** allows for the movement of assets from Stellar to Pendulum and vice versa.
 
-In the Playground, the trusted assets by default are USDC or EUR, but our testnet supports any generic asset that the user trusts and would want to move between networks.
+In the Prototype, the trusted assets by default are USDC or EUR, but our testnet supports any generic asset that the user trusts and would want to move between networks.
 
 If you go to the Bridge page by clicking the “BRIDGE” button, you can see a balance of 100 USDC and 100 EUR for your account on the Stellar Network.
 

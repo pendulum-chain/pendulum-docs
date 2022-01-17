@@ -1,3 +1,3 @@
-# Playground UI
+# Prototype UI
 
-This document describes how to use the [Pendulum Playground](https://playground.pendulumchain.org), a simple user interface to interact with the Pendulum prototype.
+This document describes how to use the [Pendulum Prototype](https://determined-khorana-670183.netlify.app), a simple user interface to interact with the Pendulum prototype.
