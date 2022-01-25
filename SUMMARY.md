@@ -18,6 +18,13 @@
   * [Deploying the AMM](playground/playground-ui/deploying-the-amm.md)
   * [Interacting with the AMM](playground/playground-ui/interacting-with-the-amm.md)
 
+## Build
+
+* [Running Pendulum locally](build/running-pendulum-locally/README.md)
+  * [Local relay chain setup](build/running-pendulum-locally/local-relay-chain-setup.md)
+  * [Local Pendulum chain setup](build/running-pendulum-locally/local-pendulum-chain-setup.md)
+  * [Troubleshooting](build/running-pendulum-locally/troubleshooting.md)
+
 ## Links
 
 * [Website](https://pendulumchain.org)
