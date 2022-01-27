@@ -58,6 +58,7 @@ Run the following command but replace `<ALICE_NODE_ID>` with the node Identity o
 --base-path /tmp/parachain/alice \
 --port 40333 \
 --ws-port 8844 \
+--enable-offchain-indexing TRUE \
 -- \
 --execution wasm \
 --chain ./rococo-custom-2-raw.json \
