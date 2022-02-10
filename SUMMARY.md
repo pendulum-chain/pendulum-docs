@@ -24,6 +24,13 @@
   * [Local relay chain setup](build/running-pendulum-locally/local-relay-chain-setup.md)
   * [Local Pendulum chain setup](build/running-pendulum-locally/local-pendulum-chain-setup.md)
   * [Troubleshooting](build/running-pendulum-locally/troubleshooting.md)
+* [Using pendulum-launch](build/using-pendulum-launch/README.md)
+  * [🐛 Install](build/using-pendulum-launch/install.md)
+  * [⚙ Configure](build/using-pendulum-launch/configure.md)
+  * [🚀 Launch](build/using-pendulum-launch/launch.md)
+  * [Sub-commands](build/using-pendulum-launch/sub-commands/README.md)
+    * [generate-specs](build/using-pendulum-launch/sub-commands/generate-specs.md)
+    * [export-genesis](build/using-pendulum-launch/sub-commands/export-genesis.md)
 
 ## Links
 
