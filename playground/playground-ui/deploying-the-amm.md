@@ -1,14 +1,14 @@
 # Deploying the AMM
 
-Next, we want to deploy the smart contract that we compiled in [compiling-the-contract.md](compiling-the-contract.md "mention") to the Pendulum chain. Therefore, navigate to [playground.pendulumchain.org](https://playground.pendulumchain.org/#/instantiate) and click on "Instantiate" in the sidebar.&#x20;
+Next, we want to deploy the smart contract that we compiled in [compiling-the-contract.md](compiling-the-contract.md "mention") to the Pendulum chain. Therefore, navigate to [playground.pendulumchain.org](https://playground.pendulumchain.org/#/instantiate) and check that "Pendulum Testnet" is selected. Now click on "Add New Contract" in the sidebar and click on the "Upload New Contract Code" button.&#x20;
 
-![Playground - 'Instantiate' view](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
-Click on the "Upload & Instantiate Contract" button and then on the "Upload Contract Bundle" field. Choose the `.contract` file you compiled in the previous step. Make sure that "ALICE" is selected as "instantiation account".
 
-![Playground - Smart contract instantiation](<../../.gitbook/assets/image (2).png>)
 
-Scroll down to the bottom of the page and click on the "> Constructor details" button.&#x20;
+Click on the "Upload Contract Bundle" field and choose the `.contract` file you compiled in the previous step. Make sure that "alice" is selected as "Account" and click on "Next".
+
+![](<../../.gitbook/assets/image (11).png>)
 
 Next, you have to fill in the constructor values of the smart contract. For the Pendulum AMM choose:
 
@@ -19,6 +19,8 @@ Next, you have to fill in the constructor values of the smart contract. For the 
 | `assetCode1` | USDC                                                     |
 | `issuer1`    | GAKNDFRRWA3RPWNLTI3G4EBSD3RGNZZOY5WKWYMQ6CQTG3KIEKPYWAYC |
 
-You can leave the rest of the values as-is. The "Endowment" is what you are willing to pay for the storage rent and determines how long your smart contract is going to "live" on Pendulum.&#x20;
+You can leave the rest of the values as-is. The "Value" is what you are willing to pay for the storage rent and determines how long your smart contract is going to "live" on Pendulum.&#x20;
 
-Once done, click on the "Instantiate" button, scroll down to the bottom and click on "Sign & Submit" to submit the transaction that deploys the smart contract.&#x20;
+Once done, click on the "Next" button once again. You now get the chance to review your operation. To submit the transaction that deploys the smart contract click on "Upload and Instantiate" and wait for the submission to finish.
+
+![](<../../.gitbook/assets/image (10).png>)

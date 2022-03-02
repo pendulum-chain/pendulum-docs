@@ -21,7 +21,7 @@ You can reveal your password to copy it for later use via the icon on the right 
 
 After connecting, the balances page will be updated, reflecting your balances on Pendulum.
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 ## Option 2: One-click account setup
 
@@ -34,7 +34,7 @@ The other way you can connect your account is meant for users that do not have a
 * Furthermore, your Stellar account will be funded with some of our testnet EUR and USDC.
 * On the Pendulum side, you will get some native PEN tokens to be able to use the different services of the network, courtesy of the Pendulum faucet.
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 After the creation the Stellar key is shown, so you can actually copy it right away and add it to your Stellar wallet of preference (we recommend [Solar](https://solarwallet.io)).
 
@@ -42,4 +42,4 @@ After the creation the Stellar key is shown, so you can actually copy it right a
 
 You will notice that your PEN balance is increased by 10000 but, you still don’t have any EUR or USDC tokens _**on the Pendulum side.**_
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
