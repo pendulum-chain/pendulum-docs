@@ -7,16 +7,16 @@
 * [Tokenomics](tokenomics.md)
 * [FAQ](faq.md)
 
-## Playground
+## Get Started
 
-* [Prototype UI](playground/prototype-ui/README.md)
-  * [Connect Account](playground/prototype-ui/connect-account.md)
-  * [Stellar-Pendulum Bridge](playground/prototype-ui/stellar-pendulum-bridge.md)
-  * [Interacting with the AMM](playground/prototype-ui/interacting-with-the-amm.md)
-* [Playground UI](playground/playground-ui/README.md)
-  * [Compiling the contract](playground/playground-ui/compiling-the-contract.md)
-  * [Deploying the AMM](playground/playground-ui/deploying-the-amm.md)
-  * [Interacting with the AMM](playground/playground-ui/interacting-with-the-amm.md)
+* [Prototype UI](get-started/prototype-ui/README.md)
+  * [Connect Account](get-started/prototype-ui/connect-account.md)
+  * [Stellar-Pendulum Bridge](get-started/prototype-ui/stellar-pendulum-bridge.md)
+  * [Interacting with the AMM](get-started/prototype-ui/interacting-with-the-amm.md)
+* [Playground UI](get-started/playground-ui/README.md)
+  * [Compiling the contract](get-started/playground-ui/compiling-the-contract.md)
+  * [Deploying the AMM](get-started/playground-ui/deploying-the-amm.md)
+  * [Interacting with the AMM](get-started/playground-ui/interacting-with-the-amm.md)
 
 ## Build
 

@@ -6,7 +6,7 @@ description: >-
 
 # export-genesis
 
-The follow command details how to export genesis data.  The path to your collator binary and raw chain spec must be passed.  The name option specifies the output file prefix and the outdir option specifies the directory to output genesis data.
+The following command details how to export genesis data.  The path to your collator binary and raw chain spec must be passed.  The name option specifies the output file prefix and the outdir option specifies the directory to output genesis data.
 
 {% hint style="info" %}
 `pendulum-launch help export-genesis`

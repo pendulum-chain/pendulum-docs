@@ -4,7 +4,7 @@ description: In this section we discuss using pendulum-launch to launch a parach
 
 # 🚀 Launch
 
-The follow command details how pendulum-launch is used.  The `--config` option can be used to set the path of a config file.  The `--log` option can be used to to set and alternate logging directory.
+The following command details how pendulum-launch is used.  The `--config` option can be used to set the path of a config file.  The `--log` option can be used to set an alternate logging directory.
 
 {% hint style="info" %}
 `pendulum-launch help`

@@ -78,8 +78,6 @@ The -`-bootnodes` parameter is used to make sure that the parachain collator fin
 [Relaychain] ✨ Imported #23 (0xe86a…a30f)
 ```
 
-
-
 ### Interacting with the parachain
 
-Head to the polkadot explorer, expand on the sidebar and enter `ws://localhost:8844` as "Custom Endpoint" below the "Development" area or use [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2Flocalhost%3A8844#/explorer) link.
+Head to the polkadot.js explorer, expand the sidebar and enter `ws://localhost:8844` as "Custom Endpoint" below the "Development" area or alternatively use [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2Flocalhost%3A8844#/explorer) link to directly access the page with the endpoint filled in for you.
