@@ -4,11 +4,9 @@ description: In this section we discuss writing a configuration file
 
 # ⚙ Configure
 
-
-
 pendulum-launch is configured with a JSON file, the default location for which being the root directory of your repository.  Paths in the config are relative to the current working directory, so configs in non-default directories will need to assume paths relative to where the launcher is being used, not where the config is.
 
-### example.json
+### example configuration
 
 ```json5
 {
@@ -19,6 +17,7 @@ pendulum-launch is configured with a JSON file, the default location for which b
       "name": "validator_node",
       "bin": "./bin/polkadot",
       "chain": "./specs/rococo-custom-2-raw.json",
+      "dockerfile": "./Dockerfile-validator",
       "args": [],
       "port": 30343,
       "ws_port": 9944,
@@ -31,6 +30,7 @@ pendulum-launch is configured with a JSON file, the default location for which b
         "name": "collator_node",
         "bin": "./bin/pendulum-collator",
         "chain": "./specs/rococo-local-parachain-raw.json",
+        "dockerfile": "./Dockerfile-collator",
         "args": ["--force-authoring", "--enable-offchain-indexing", "true"],
         "port": 30344,
         "ws_port": 8844,

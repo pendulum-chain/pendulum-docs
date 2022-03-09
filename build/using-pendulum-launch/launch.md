@@ -11,7 +11,7 @@ The following command details how pendulum-launch is used.  The `--config` optio
 {% endhint %}
 
 ```
-pendulum-launch 0.1.0
+pendulum-launch 0.2.0
 
 USAGE:
     pendulum-launch [FLAGS] [OPTIONS] [SUBCOMMAND]
@@ -23,13 +23,13 @@ FLAGS:
 
 OPTIONS:
     -c, --config <config>
-    -d, --debug <debug>
     -l, --log <log>
 
 SUBCOMMANDS:
-    export-genesis    Export genesis data
-    generate-specs    Generate specs
-    help              Prints this message or the help of the given subcommand(s)
+    export-genesis     Export genesis data
+    generate-docker    Generate docker-compose.yml
+    generate-specs     Generate specs
+    help               Prints this message or the help of the given subcommand(s)
 ```
 
 As an example, we might want to launch our parachain as follows `./bin/pendulum-launch --config ./launch-local.json --log ./tmp/local` in order to provide an alternate config and log directory.

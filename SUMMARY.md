@@ -29,8 +29,9 @@
   * [⚙ Configure](build/using-pendulum-launch/configure.md)
   * [🚀 Launch](build/using-pendulum-launch/launch.md)
   * [Sub-commands](build/using-pendulum-launch/sub-commands/README.md)
-    * [generate-specs](build/using-pendulum-launch/sub-commands/generate-specs.md)
     * [export-genesis](build/using-pendulum-launch/sub-commands/export-genesis.md)
+    * [generate-specs](build/using-pendulum-launch/sub-commands/generate-specs.md)
+    * [generate-docker](build/using-pendulum-launch/sub-commands/generate-docker.md)
 
 ## Links
 
