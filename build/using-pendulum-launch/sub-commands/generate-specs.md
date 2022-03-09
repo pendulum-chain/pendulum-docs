@@ -11,7 +11,7 @@ The following command details how to generate collator specs.  The path to your 
 {% endhint %}
 
 ```
-pendulum-launch-generate-specs 0.1.0
+pendulum-launch-generate-specs 0.2.0
 Generate specs
 
 USAGE:

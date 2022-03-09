@@ -13,7 +13,7 @@ The following command details how to export genesis data.  The path to your coll
 {% endhint %}
 
 ```
-pendulum-launch-export-genesis 0.1.0
+pendulum-launch-export-genesis 0.2.0
 Export genesis data
 
 USAGE:
