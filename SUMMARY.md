@@ -38,3 +38,8 @@
 * [Website](https://pendulumchain.org)
 * [Github](https://github.com/pendulum-chain)
 * [Social Media](links/social-media.md)
+
+## Miscellaneous&#x20;
+
+* [Google Cloud maintenance](miscellaneous/google-cloud-maintenance/README.md)
+  * [Extending compute engine storage ](miscellaneous/google-cloud-maintenance/extending-compute-engine-storage.md)
