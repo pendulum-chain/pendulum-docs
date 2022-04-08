@@ -3,7 +3,6 @@
 * [Welcome to Pendulum](README.md)
 * [Our Journey](our-journey.md)
 * [Roadmap](roadmap.md)
-* [Tokenomics](tokenomics.md)
 * [FAQ](faq.md)
 
 ## Get Started
