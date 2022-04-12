@@ -11,7 +11,6 @@
 
 * Parachain Prototype Launch&#x20;
 * Substrate Builders Program&#x20;
-* Web3 Foundation Grant&#x20;
 * Rococo Local Testnet Launch&#x20;
 * Developer Playground Launch&#x20;
 * Spacewalk – Multi-asset support
