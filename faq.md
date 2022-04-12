@@ -8,6 +8,10 @@ Pendulum is an open-source blockchain that aims to establish the missing link be
 
 No tokens have been released by Pendulum. Any existing tokens with the same or similar name have no affiliation with us.
 
+### When is the TGE (Token Generation Event)?
+
+We will generate PEN tokens when rolling out the Pendulum Blockchain in Q4, after winning a Polkadot parachain slot in Q3.
+
 ### **How can I purchase PEN tokens?**
 
 Currently there is no option to purchase PEN tokens.
@@ -35,6 +39,10 @@ Pendulum will support EVM as well as WASM smart contracts.
 ### **Can Pendulum bridge any Stellar asset and can they be used with any Ethereum/Polkadot contract?**
 
 Yes, that’s our plan! All Stellar assets will be mirrored on Pendulum and we aim to make them usable by every protocol on Ethereum and Polkadot.
+
+### What is Spacewalk?
+
+The Spacewalk bridge will enable Pendulum chain to utilize the multitude of fiat stable tokens on the Stellar blockchain and help build the fiat DeFi future. Based on XCLAIM and interBTC, it is implemented as a Substrate pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.
 
 ### **Is there a possibility to use XLM for gas fees on Pendulum?**
 
