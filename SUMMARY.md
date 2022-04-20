@@ -2,15 +2,16 @@
 
 * [Welcome to Pendulum](README.md)
 * [Our Journey](our-journey.md)
-* [Learn](learn/README.md)
-  * [Introduction](learn/introduction.md)
-  * [Highlights](learn/highlights.md)
-  * [Governance](learn/governance.md)
-  * [Initial Parachain Offering](learn/initial-parachain-offering.md)
-  * [Tokenomics](learn/tokenomics.md)
-  * [Roadmap](learn/roadmap.md)
-  * [Summary](learn/summary.md)
 * [FAQ](faq.md)
+
+## Learn
+
+* [Introduction](learn/introduction.md)
+* [Highlights](learn/highlights.md)
+* [Spacewalk](learn/spacewalk.md)
+* [Governance](learn/governance.md)
+* [Tokenomics](learn/tokenomics.md)
+* [Roadmap](learn/roadmap.md)
 
 ## Get Started
 

@@ -36,7 +36,7 @@ ChainBridge operates under a trusted federation model, where a trusted set of of
 
 SnowBridge is still under development, but when a stable version is released, it promises to offer both ERC-20  and ERC-721 (non-fungible tokens) transfers as well as general-purpose smart contract invocations.
 
-### Real chain integration (XCMP)
+### Relay chain integration (XCMP)
 
 The relay chain sits at the heart of the Polkadot and Kusama networks of networks; it provides both security and interoperability between the parachains. The cross-consensus message format (XCM) describes the methods for message transfer between different consensus systems. Cross-chain message passing (XCMP) is a protocol that builds on the XCM architecture. The XCMP protocol allows parachains to exchange messages with other parachains on the same relay chain and guarantees the delivery of these messages. The message delivery is not only guaranteed but also trustless, meaning that Polkadot's shared security ensures the correctness and ordering of the message delivery.
 
@@ -46,7 +46,7 @@ While it can be used in many ways, the most common use-case for inter-chain mess
 
 At the time of writing, XCMP is still in development. For the time being, the Horizontal Relay-routed Message Passing (HRMP) protocol is in place that has the same interface and functionality as XCMP but is more demanding on resources.
 
-## Fait token quality
+## Fiat token quality
 
 With any open-ended and permissionless system comes a relatively high level of noise compared to closed and censured systems. With the explosion in fiat stabletokens, it is natural that some have been more robust and trustworthy than others. As Pendulum plans to attract high-quality fiat tokens from around different ecosystems, there should be some mechanisms that encourage the best of tokens to be promoted and widely used on the network. This mechanism is part of the decentralized governance structure of Pendulum.
 
@@ -62,7 +62,7 @@ The often complex user journey when moving funds from traditional financial inst
 
 To further encourage ramp integrations, Pendulum will develop open source ramp standards — the technical and business rules by which a ramping service should act — which will be usable for any ramp in the entire DotSama ecosystem. By driving innovative ramping solutions to the network, Pendulum will foster more liquidity and closer cross-parachain interoperability.
 
-### Opt-in complaince data layer
+### Opt-in compliance data layer
 
 In order to make the TradFi integrations as seamless as possible, Pendulum includes a voluntary and trustless data layer for the transmission of compliance data. The layer governs the secure, end-to-end encrypted passing of information between two entities on the network, for example, in the context of an offramp transaction. The standard is currently being defined alongside experienced compliance service providers with the goal of minimizing the number of compliance checks that a given customer must undertake in the process of interacting with multiple regulated services. For example, a customer may onramp with credit card in one country, but eventually offramp with a neobank in another — the customer can in this case volunteer to let the two services securely share the compliance data, thereby avoiding multiple compliance processes.
 
