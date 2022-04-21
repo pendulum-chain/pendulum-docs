@@ -1,0 +1,5 @@
+# Fiat token quality
+
+With any open-ended and permissionless system comes a relatively high level of noise compared to closed and censured systems. With the explosion in fiat stabletokens, it is natural that some have been more robust and trustworthy than others. As Pendulum plans to attract high-quality fiat tokens from around different ecosystems, there should be some mechanisms that encourage the best of tokens to be promoted and widely used on the network. This mechanism is part of the decentralized governance structure of Pendulum.
+
+Overall, the Pendulum on-chain governance process is expected to be established similarly to the core[ Polkadot governance mechanism](https://polkadot.network/blog/polkadot-governance/), with one additional feature: a token committee. Much like the The Technical Committee on the Polkadot, the token committee has been granted the right to award a limited set of assets on the network favorable terms, such as lower transaction fees, if they fulfill certain standards. This structure incentivizes quality tokens and their use.

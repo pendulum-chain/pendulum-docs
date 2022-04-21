@@ -1,5 +1,5 @@
 ---
-description: 'Spacewalk: A Pendulum <> Stellar bridge'
+description: A Stellar <> Pendulum bridge
 ---
 
 # Spacewalk

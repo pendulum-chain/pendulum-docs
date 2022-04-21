@@ -1,0 +1,5 @@
+# Direct fiat on/off ramp
+
+The often complex user journey when moving funds from traditional financial institutions onto blockchain has been one of the major obstacles in the way to broad adoption of cryptocurrencies and blockchain technology as a whole. Pendulum reduces this barrier with a twofold approach: direct on/offramp partners and ramping standards. On/offramps (“ramps” or “anchors”) services are entities converting fiat currency to tokens on a blockchain and vice versa. By encouraging such fiat ramps to integrate directly into the Pendulum network, customers can on/offramp between Pendulum and their local banking networks in their native fiat currency.
+
+To further encourage ramp integrations, Pendulum will develop open source ramp standards — the technical and business rules by which a ramping service should act — which will be usable for any ramp in the entire DotSama ecosystem. By driving innovative ramping solutions to the network, Pendulum will foster more liquidity and closer cross-parachain interoperability.
