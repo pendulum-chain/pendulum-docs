@@ -1,3 +1,0 @@
-# Tokenomics
-
-Coming soon

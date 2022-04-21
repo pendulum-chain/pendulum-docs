@@ -1,3 +1,0 @@
-# MEV protection
-
-Coming soon

@@ -2,29 +2,8 @@
 
 * [Welcome to Pendulum](README.md)
 * [Our Journey](our-journey.md)
+* [Roadmap](roadmap.md)
 * [FAQ](faq.md)
-
-## Learn
-
-* [Introduction](learn/introduction.md)
-* [Cross-chain](learn/cross-chain/README.md)
-  * [Spacewalk](learn/cross-chain/spacewalk.md)
-  * [Cosmos bridge](learn/cross-chain/cosmos-bridge.md)
-  * [Ethereum bridge](learn/cross-chain/ethereum-bridge.md)
-  * [Relay chain integration (XCMP)](learn/cross-chain/relay-chain-integration-xcmp.md)
-* [Fiat token quality](learn/fiat-token-quality.md)
-* [Bank network integrations](learn/bank-network-integrations/README.md)
-  * [Direct fiat on/off ramp](learn/bank-network-integrations/direct-fiat-on-off-ramp.md)
-  * [Opt-in compliance data layer](learn/bank-network-integrations/opt-in-compliance-data-layer.md)
-* [Next generation smart contracts](learn/next-generation-smart-contracts/README.md)
-  * [WebAssembly](learn/next-generation-smart-contracts/webassembly.md)
-  * [EVM](learn/next-generation-smart-contracts/evm.md)
-* [Scalability](learn/scalability.md)
-* [Privacy and security](learn/privacy-and-security.md)
-* [MEV protection](learn/mev-protection.md)
-* [Governance](learn/governance.md)
-* [Tokenomics](learn/tokenomics.md)
-* [Roadmap](learn/roadmap.md)
 
 ## Get Started
 
