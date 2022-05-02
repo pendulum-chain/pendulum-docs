@@ -4,6 +4,7 @@
 * [Our Journey](our-journey.md)
 * [Roadmap](roadmap.md)
 * [FAQ](faq.md)
+* [Litepaper](litepaper.md)
 
 ## Get Started
 
