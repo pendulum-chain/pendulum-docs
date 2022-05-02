@@ -38,6 +38,15 @@
 * [Github](https://github.com/pendulum-chain)
 * [Social Media](links/social-media.md)
 
+## Spacewalk
+
+* [Introduction](spacewalk/introduction.md)
+* [Building the pallet](spacewalk/building-the-pallet.md)
+* [Creating test accounts](spacewalk/creating-test-accounts.md)
+* [Running the vault](spacewalk/running-the-vault.md)
+* [Issue assets](spacewalk/issue-assets.md)
+* [Redeem assets](spacewalk/redeem-assets.md)
+
 ## Miscellaneous&#x20;
 
 * [Google Cloud maintenance](miscellaneous/google-cloud-maintenance/README.md)
