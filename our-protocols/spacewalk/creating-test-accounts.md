@@ -20,7 +20,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 4. Click on the “Connect Account” button in the top right corner and then click on “One-Click Setup”. This process will take some time and will create your User Account and Target Account and will fund them with some initial tokens for testing.
 5. Wait until the process is finished and then save the shown Stellar secret key. You will need it in the next step.
 
-![](../.gitbook/assets/usermenu.png)
+![](../../.gitbook/assets/usermenu.png)
 
 #### Creating the Vault Account
 
