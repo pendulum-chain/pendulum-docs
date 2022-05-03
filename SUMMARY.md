@@ -8,7 +8,7 @@
 
 ## Get Started
 
-* [Prototype Demo](https://prototype.pendulumchain.org)
+* [Prototype Demo](https://www.youtube.com/watch?v=SOAVV0dEN10)
 * [Prototype UI](get-started/prototype-ui/README.md)
   * [Connect Account](get-started/prototype-ui/connect-account.md)
   * [Stellar-Pendulum Bridge](get-started/prototype-ui/stellar-pendulum-bridge.md)
