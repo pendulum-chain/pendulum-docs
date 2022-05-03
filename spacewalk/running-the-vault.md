@@ -11,6 +11,6 @@ cargo run --bin vault --features standalone-metadata -- --keyring alice --stella
 
 Wait until it finishes building, and ignore any warnings. If it builds and runs successfully, you should see logs like this:
 
-![](../../.gitbook/assets/vaultlogs)
+![](../.gitbook/assets/vaultlogs)
 
 At this point, you have the main blocks up and running, and you're ready to bridge some assets.

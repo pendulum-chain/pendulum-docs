@@ -1,8 +1,3 @@
----
-cover: .gitbook/assets/tagline.png
-coverY: 0
----
-
 # Welcome to Pendulum
 
 This is the documentation for Pendulum -- blockchain connecting fiat to the DeFi ecosystem. On this site, you'll find information on the project and network, as well as technical docs for developers, node operators, users, and other Pendulum communities.
