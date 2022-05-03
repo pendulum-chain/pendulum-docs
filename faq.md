@@ -1,51 +1,31 @@
 # FAQ
 
-### **What is Pendulum?**
+**What is Pendulum?** \
+Pendulum is an open-source blockchain that aims to establish the missing link between the fiat and the DeFi ecosystems through a fiat-optimized smart contract blockchain Pendulum is built with Substrate and will allow connecting DeFi applications to the foreign exchange market, building automated market makers (AMMs) to introduce scalable liquidity pools for fiat currencies, and create yield earning opportunities for fiat token holders.
 
-Pendulum is an open-source blockchain that aims to establish the missing link between the fiat and the DeFi ecosystems through a Polkadot parachain. Pendulum will be built with Substrate and will allow connecting DeFi to the foreign exchange market, building automated market makers (AMMs) to introduce scalable liquidity pools for fiat currencies, and create yield earning opportunities for fiat token holders.
-
-### **Are there any Pendulum tokens available?**
-
+**Are there any Pendulum tokens available?** \
 No tokens have been released by Pendulum. Any existing tokens with the same or similar name have no affiliation with us.
 
-### When is the TGE (Token Generation Event)?
+**How can I purchase PEN tokens?** \
+Currently there is no option to purchase PEN tokens. Participating in the upcoming crowdloans is the best way of obtaining tokens.
 
-We will generate PEN tokens when rolling out the Pendulum Blockchain in Q4, after winning a Polkadot parachain slot in Q3.
+**When is the TGE (Token Generation Event)?** \
+We will generate tokens when rolling out the Kusama and Polkadot Mainnet respectively.
 
-### **How can I purchase PEN tokens?**
+**Where can I use the Testnet?** \
+The Rococo Testnet is scheduled to launch in Q3 this year.
 
-Currently there is no option to purchase PEN tokens.
+**When is Pendulum going to launch?** \
+Pendulum Kusama Mainnet is projected to launch in Q3 this year. Pendulum Polkadot Mainnet is projected to launch in Q4 this year.
 
-### **Where can I use the testnet?**
+**When will Pendulum participate in a Kusama & Polkadot parachain auction?** \
+We are planning to participate in both parachain auctions. The Kusama crowdloan will likely start in Q3 this year. The Polkadot crowdloan is projected to start in Q4.
 
-Testnet is scheduled to launch in Q2 this year.
-
-### **When is Pendulum going to launch?**
-
-Pendulum Mainnet is projected to launch in Q3 this year.
-
-### **When will Pendulum participate in a Kusama & Polkadot parachain auction?**
-
-We are planning to participate in both parachain auctions.&#x20;
-
-The Kusama crowdloan will likely start in Q2 this year.&#x20;
-
-The Polkadot crowdloan is projected to start in Q3.
-
-### **What kind of smart contracts will the Pendulum VM support?**
-
+**What kind of smart contracts will the Pendulum VM support?** \
 Pendulum will support EVM as well as WASM smart contracts.
 
-### **Can Pendulum bridge any Stellar asset and can they be used with any Ethereum/Polkadot contract?**
-
-Yes, that’s our plan! All Stellar assets will be mirrored on Pendulum and we aim to make them usable by every protocol on Ethereum and Polkadot.
-
-### What is Spacewalk?
-
-The Spacewalk bridge will enable Pendulum chain to utilize the multitude of fiat stable tokens on the Stellar blockchain and help build the fiat DeFi future. Based on XCLAIM and interBTC, it is implemented as a Substrate pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.
-
-### **Is there a possibility to use XLM for gas fees on Pendulum?**
-
+**Is there a possibility to use XLM for gas fees on Pendulum?** \
 TX fees will be settled in Pendulum's native token PEN, however, we are exploring accepting other tokens to settle transaction fees as well.
 
-\
+**What is Spacewalk?** \
+The Spacewalk bridge will enable Pendulum chain to utilize the multitude of fiat stable tokens on the Stellar blockchain and help build the fiat DeFi future. Spacewalk is the first bridge between the Stellar network and the Polkadot/Kusama ecosystems, which opens up a flow of stable tokens from the Stellar network. Based on XCLAIM and interBTC, it is implemented as a Substrate pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.
