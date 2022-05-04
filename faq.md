@@ -9,14 +9,14 @@ No tokens have been released by Pendulum. Any existing tokens with the same or s
 **How can I purchase PEN tokens?** \
 Currently there is no option to purchase PEN tokens. Participating in the upcoming crowdloans is the best way of obtaining tokens.
 
-**When is the TGE (Token Generation Event)?** \
-We will generate tokens when rolling out the Kusama and Polkadot Mainnet respectively.
-
 **Where can I use the Testnet?** \
 The Rococo Testnet is scheduled to launch in Q3 this year.
 
 **When is Pendulum going to launch?** \
 Pendulum Kusama Mainnet is projected to launch in Q3 this year. Pendulum Polkadot Mainnet is projected to launch in Q4 this year.
+
+**When is the TGE (Token Generation Event)?** \
+We will generate tokens when rolling out the Kusama and Polkadot Mainnet respectively.
 
 **When will Pendulum participate in a Kusama & Polkadot parachain auction?** \
 We are planning to participate in both parachain auctions. The Kusama crowdloan will likely start in Q3 this year. The Polkadot crowdloan is projected to start in Q4.
