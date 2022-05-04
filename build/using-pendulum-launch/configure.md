@@ -6,7 +6,7 @@ description: In this section we discuss writing a configuration file
 
 pendulum-launch is configured with a JSON file, the default location for which being the root directory of your repository.  Paths in the config are relative to the current working directory, so configs in non-default directories will need to assume paths relative to where the launcher is being used, not where the config is.
 
-### example configuration
+### Example configuration
 
 ```json5
 {
