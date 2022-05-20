@@ -35,7 +35,7 @@
 
 ## Links
 
-* [Website](https://pendulumchain.org)
+* [Website](https://pendulumchain.org/)
 * [Github](https://github.com/pendulum-chain)
 * [Social Media](links/social-media.md)
 

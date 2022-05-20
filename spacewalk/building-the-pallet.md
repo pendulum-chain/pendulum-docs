@@ -13,6 +13,7 @@ We can start testing by running the following commands:
 ```
 git clone git@github.com:pendulum-chain/spacewalk.git
 cd spacewalk
+git checkout tags/web3-m1
 cargo run --release -- --dev
 ```
 
