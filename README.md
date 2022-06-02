@@ -1,11 +1,9 @@
 # Welcome to Pendulum
 
-Enter the internet of fiat, a blockchain offering composable fiat services to swing fintech companies into the DeFi future.
-
-On this site, you'll find information and documentation on the project and network, as well as technical docs for developers, node operators, users, and other Pendulum communities.
+This is the documentation for Pendulum -- blockchain connecting fiat to the DeFi ecosystem. On this site, you'll find information on the project and network, as well as technical docs for developers, node operators, users, and other Pendulum communities.
 
 {% hint style="info" %}
-**Help us help you:** As Pendulum evolves, so will our documentation. We welcome everybody to participate with recommendations for updates to these docs. Submit a pull request or an issue if you see something missing.
+**Help us help you:** As Pendulum evolves, this site will be updated. Sometimes we may miss something, so we invite everybody to participate with recommendations or updates to these docs. Submit a pull request or an issue if you see something missing.
 {% endhint %}
 
 ## What is Pendulum?
