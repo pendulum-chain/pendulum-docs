@@ -8,9 +8,9 @@ description: Common errors and how to solve them
 
 If you can't see the relay chain or parachain producing new blocks, check the logs of your commands.
 
-Make sure that both collator nodes are running because if only one is running no new blocks will be produced.
+Make sure that both validator nodes are running because if only one is running no new blocks will be produced.
 
-Also double-check that you changed the `<ALICE_NODE_ID>` in the `--boot-nodes` command when running Bob. Otherwise, the Bob collator might not find Alice.&#x20;
+Also double-check that you changed the `<ALICE_NODE_ID>` in the `--boot-nodes` command when running Bob. Otherwise, the Bob validator might not find Alice.&#x20;
 
 #### macOS users
 
