@@ -36,7 +36,7 @@ The other way you can connect your account is meant for users that do not have a
 
 ![](<../../.gitbook/assets/image (9) (1).png>)
 
-After the creation the Stellar key is shown, so you can actually copy it right away and add it to your Stellar wallet of preference (we recommend [Solar](https://solarwallet.io)).
+After the creation the Stellar key is shown, so you can actually copy it right away and add it to your Stellar wallet of preference (we recommend [Solar](https://solarwallet.io/)).
 
 ![](<../../.gitbook/assets/image (7).png>)
 

@@ -18,11 +18,6 @@
   * [Deploying the AMM](get-started/playground-ui/deploying-the-amm.md)
   * [Interacting with the AMM](get-started/playground-ui/interacting-with-the-amm.md)
 
-## Amplitude Crowdloan
-
-* [Amplitude Waitlist](amplitude-crowdloan/amplitude-waitlist.md)
-* [Amplitude FAQs](amplitude-crowdloan/amplitude-faqs.md)
-
 ## Build
 
 * [Running Pendulum locally](build/running-pendulum-locally/README.md)

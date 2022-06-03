@@ -14,7 +14,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 #### Creating the User Account&#x20;
 
-1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org)
+1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/)
 2. In the top left-hand corner, click on the drop-down labeled ‘Rococo’ to open the Node selection menu.
 3. Click on the select box and select “Custom node”. Change the input of “Custom Node Endpoint” to `ws://localhost:9944` and leave the “AMM Address” field as-is. Click on “Save”
 4. Click on the “Connect Account” button in the top right corner and then click on “One-Click Setup”. This process will take some time and will create your User Account and Target Account and will fund them with some initial tokens for testing.
@@ -24,7 +24,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 #### Creating the Vault Account
 
-1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org) and connect to your custom node `ws://localhost:9944` again
+1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/) and connect to your custom node `ws://localhost:9944` again
 2. In the same user menu from the last step, click on the button "Forget account"
 3. Click again on the "One click setup" to create a second account
 4. Wait until the process is finished and then save the secret key as well.
@@ -42,5 +42,5 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 7. Repeat steps 2-6 for the Vault Account
 
 {% hint style="success" %}
-It is also recommended that you import your recently created accounts into a Stellar Wallet (such as [Solar](https://solarwallet.io))
+It is also recommended that you import your recently created accounts into a Stellar Wallet (such as [Solar](https://solarwallet.io/))
 {% endhint %}

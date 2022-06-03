@@ -1,6 +1,6 @@
 # Introduction
 
-**Spacewalk** is a pallet meant to act as a bridge between parachains in the Polkadot ecosystem and other chains. In particular, the first iteration of Spacewalk will allow users to bridge assets from the [Stellar Network](https://www.stellar.org) to a standalone chain based on Substrate. In a next iteration, the pallet will be included in the Pendulum chain as a core part of it.
+**Spacewalk** is a pallet meant to act as a bridge between parachains in the Polkadot ecosystem and other chains. In particular, the first iteration of Spacewalk will allow users to bridge assets from the [Stellar Network](https://www.stellar.org/) to a standalone chain based on Substrate. In a next iteration, the pallet will be included in the Pendulum chain as a core part of it.
 
 You can read more about the bridge concept and how it works in our [blog post](https://pendulum-chain.medium.com/introducing-spacewalk-the-trust-minimized-bridge-between-stellar-and-pendulum-68ddbe7349a0), here we will focus on how to build & test it.&#x20;
 
