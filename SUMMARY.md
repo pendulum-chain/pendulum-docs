@@ -33,6 +33,11 @@
     * [generate-specs](build/using-pendulum-launch/sub-commands/generate-specs.md)
     * [generate-docker](build/using-pendulum-launch/sub-commands/generate-docker.md)
 
+## Amplitude Crowdloan
+
+* [Amplitude Waitlist](amplitude-crowdloan/amplitude-waitlist.md)
+* [FAQs](amplitude-crowdloan/faqs.md)
+
 ## Links
 
 * [Website](https://pendulumchain.org/)
@@ -47,6 +52,11 @@
 * [Running the vault](spacewalk/running-the-vault.md)
 * [Issue assets](spacewalk/issue-assets.md)
 * [Redeem assets](spacewalk/redeem-assets.md)
+
+## Grants
+
+* [Stellar](grants/stellar.md)
+* [Berkeley Xcelerator](grants/berkeley-xcelerator.md)
 
 ## Miscellaneous&#x20;
 
