@@ -42,7 +42,7 @@ KYC is not required.
 **What is the easiest and most user-friendly way of contributing?**\
 ****Probably our website UI. We’ve designed our contributions page to be as intuitive and as easy to use as possible. Try it out!
 
-**Can I contribute through 3rd Party crowdloan services like Parallel, Bifrost, Equilibrium etc?** \
+**Can I contribute through 3rd Party crowdloan services like Parallel & Bifrost?** \
 Check out our partners and their bonus conditions and consider contributing through their services if you like their offer. But please note that we do not take any responsibility for any losses or delays that may occur through using third party services. Please research them carefully.
 
 **Where to get KSM?** \
