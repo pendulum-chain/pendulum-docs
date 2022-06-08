@@ -36,7 +36,7 @@
 ## Amplitude Crowdloan
 
 * [Amplitude Waitlist](amplitude-crowdloan/amplitude-waitlist.md)
-* [FAQs](amplitude-crowdloan/faqs.md)
+* [FAQ](amplitude-crowdloan/faq.md)
 
 ## Links
 

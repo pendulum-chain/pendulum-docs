@@ -1,4 +1,4 @@
-# FAQs
+# FAQ
 
 **Amplitude Crowdloan FAQs What is Amplitude?** \
 Amplitude is going to launch as a canary network of its sister blockchain, Pendulum. It will act as a testing ground for applications and network parameters for Pendulum. Unlike a traditional testnet, users can interact on the Amplitude chain with real financial consequences. We’re expecting lots of novel concepts to be trialled on Amplitude, giving rise to many exciting opportunities for anyone using the chain.
@@ -39,7 +39,8 @@ If Amplitude does not win the auction, the KSM tokens will be automatically retu
 **Does contributing to the crowdloan require KYC?** \
 KYC is not required.
 
-**What is the easiest and most user-friendly way of contributing?** Probably our website UI. We’ve designed our contributions page to be as intuitive and as easy to use as possible. Try it out!
+**What is the easiest and most user-friendly way of contributing?**\
+****Probably our website UI. We’ve designed our contributions page to be as intuitive and as easy to use as possible. Try it out!
 
 **Can I contribute through 3rd Party crowdloan services like Parallel, Bifrost, Equilibrium etc?** \
 Check out our partners and their bonus conditions and consider contributing through their services if you like their offer. But please note that we do not take any responsibility for any losses or delays that may occur through using third party services. Please research them carefully.
