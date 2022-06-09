@@ -5,10 +5,12 @@ The Pendulum journey began with SatoshiPay connecting the world through instant 
 **Pendulum achievements so far include:**
 
 1. Received Stellar R\&D grant to build Pendulum chain prototype&#x20;
-2. [Raised $5 Million in a private sale round](https://medium.com/pendulum-chain/pendulum-completes-5m-private-sale-to-connect-fiat-to-defi-56092a0506e9)
+2. [Raised $5 million in a private sale round](https://medium.com/pendulum-chain/pendulum-completes-5m-private-sale-to-connect-fiat-to-defi-56092a0506e9)
 3. Started development of the [Spacewalk bridge](https://medium.com/pendulum-chain/introducing-spacewalk-the-trust-minimized-bridge-between-stellar-and-pendulum-68ddbe7349a0)&#x20;
 4. Rocco testnet parachain deployment&#x20;
 5. First milestone of the Substrate Builders Program completed
+6. [Berkeley Xcelerator](https://medium.com/pendulum-chain/berkeley-blockchain-xcelerator-welcomes-pendulum-60fecf8ea41f)&#x20;
+7. [Web3 Foundation grant](https://pendulum-chain.medium.com/pendulums-spacewalk-receives-a-web3-foundation-grant-to-bridge-stellar-and-polkadot-c8dcc4354ac9) for Spacewalk development
 
-The next leg of the journey is to win a Kusama parachain slot for Amplitude and then a Polkadot parachain slot for Pendulum. Crowdloan participants will have the opportunity to earn AMPE (Kusama) and PEN (Polkadot) token rewards.
+The next leg of the journey is to win a Kusama parachain slot for Amplitude and then a Polkadot parachain slot for Pendulum. Crowdloan participants will have the opportunity to earn AMPE (Kusama) and PEN (Polkadot) token rewards. Learn more about the crowdloan and sign up to the waitlist [here](https://medium.com/pendulum-chain/claim-your-amplitude-kusama-crowdloan-waitlist-spot-today-d0070c32e415?source=user\_profile---------0----------------------------).&#x20;
 

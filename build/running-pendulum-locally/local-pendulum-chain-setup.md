@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-First, you need to clone the pendulum repository.&#x20;
+First, you need to clone the Pendulum repository.&#x20;
 
 ```
 git clone https://github.com/pendulum-chain/pendulum.git

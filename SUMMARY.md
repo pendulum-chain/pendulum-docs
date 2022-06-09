@@ -53,10 +53,11 @@
 * [Issue assets](spacewalk/issue-assets.md)
 * [Redeem assets](spacewalk/redeem-assets.md)
 
-## Grants
+## Grants & Programs
 
-* [Stellar](grants/stellar.md)
-* [Berkeley Xcelerator](grants/berkeley-xcelerator.md)
+* [Web3](grants-and-programs/web3.md)
+* [Stellar](grants-and-programs/stellar.md)
+* [Berkeley Xcelerator](grants-and-programs/berkeley-xcelerator.md)
 
 ## Miscellaneous&#x20;
 

@@ -46,4 +46,4 @@ TX fees will be settled in Pendulums and Amplitudes native token PEN & AMPE, how
 
 **What is Spacewalk?**&#x20;
 
-The Spacewalk bridge will enable Pendulum chain to utilize the multitude of fiat stable tokens on the Stellar blockchain and help build the fiat DeFi future. Spacewalk is the first bridge between the Stellar network and the Polkadot/Kusama ecosystems, which opens up a flow of stable tokens from the Stellar network. Based on XCLAIM and interBTC, it is implemented as a Substrate pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.
+Spacewalk is a framework for trust-minimized and decentralized bridges. It enables Polkadot parachains to connect to various blockchains in a unified manner. Spacewalk solves multiple challenges that bridge builders encounter, such as connecting to chains that don’t support smart contracts or SPV. As an example we present a bridge to Stellar that supports multiple assets and stable coins and share our concept for bridging to other ecosystems like Celo or Solana.

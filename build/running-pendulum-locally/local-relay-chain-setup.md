@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-Clone the polkadot repository
+Clone the Polkadot repository
 
 ```
 git clone
@@ -49,8 +49,3 @@ From inside the cloned `polkadot` repository
 --port 30334 \
 --ws-port 9945
 ```
-
-
-
-
-
