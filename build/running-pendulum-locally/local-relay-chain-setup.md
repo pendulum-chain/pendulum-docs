@@ -2,17 +2,26 @@
 
 ### Prerequisites
 
-Clone the Polkadot repository
+First, clone the [polkadot repository](https://github.com/paritytech/polkadot):
 
 ```
-git clone
+git clone https://github.com/paritytech/polkadot.git
 ```
 
-and download the raw `rococo-custom-2-raw.json` chain-spec file [here](https://docs.substrate.io/assets/tutorials/cumulus/chain-specs/rococo-custom-2-raw.json) and put in in the root of the cloned `polkadot` repository.
+Then, download the raw `rococo-custom-2-raw.json` chain-spec file [here](https://docs.substrate.io/assets/tutorials/cumulus/chain-specs/rococo-custom-2-raw.json) and put it in the root of the cloned `polkadot` repository.
+
+At the time of writing this, the Pendulum parachain is using Polkadot dependencies of version `v0.9.18`. So for compatibility purposes, you need to check out the respective branch before building the node.
+
+```
+# Checkout correct branch
+git checkout v0.9.18
+# Build polkadot node
+cargo build --release
+```
 
 ### Running the relay chain validators
 
-From inside the cloned `polkadot` repository
+From inside the cloned `polkadot` repository (after building the node):
 
 **Run relay-chain validator 1**
 
@@ -26,18 +35,18 @@ From inside the cloned `polkadot` repository
 --ws-port 9944
 ```
 
-**Check the logs for the node identity of alice (see line 4)**
+**Check the logs for the node identity of Alice (see line 4) and copy it to your clipboard**
 
 ```
 ...
 ⏱ Loaded block-time = 6s from block 0x7035c844a493bb0324763d592fa3dec2ca68ee0d88ad0513e322e02a209e625e
 👶 Creating empty BABE epoch changes on what appears to be first startup.
-🏷 Local node identity is: 12D3KooWMXKd3SybDBuDC8zLbSxzjy7dSNz9gvumFbkxoUEJY4H3
+🏷 Local node identity is: 12D3KooWMXKd3SybDBuDC8zLbSxzjy7dSNz9gvumFbkxoUEJY4H3 # COPY THIS ID
 📦 Highest known block at #0Run relay-chain validator 2
 ...
 ```
 
-**Run relay-chain validator 2**
+**Run relay-chain validator 2 (with copied node ID)**
 
 ```
 ./target/release/polkadot \
@@ -45,7 +54,7 @@ From inside the cloned `polkadot` repository
 --validator \
 --base-path /tmp/relay/bob \
 --chain ./rococo-custom-2-raw.json \
---bootnodes /ip4/127.0.0.1/tcp/30333/p2p/<Alice_NODE_ID> \
+--bootnodes /ip4/127.0.0.1/tcp/30333/p2p/<Alice_NODE_ID> \ # REPLACE ME WITH COPIED ID
 --port 30334 \
 --ws-port 9945
 ```
