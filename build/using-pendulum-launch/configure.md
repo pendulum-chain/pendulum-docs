@@ -10,39 +10,62 @@ pendulum-launch is configured with a JSON file, the default location for which b
 
 ```json5
 {
-  "name": "Pendulum",
-  "author": "xiuxiu",
-  "validators": [
-    {
-      "name": "validator_node",
-      "bin": "./bin/polkadot",
-      "chain": "./specs/rococo-custom-2-raw.json",
-      "dockerfile": "./Dockerfile-validator",
-      "args": [],
-      "port": 30343,
-      "ws_port": 9944,
-      "rpc_port": 10000
+    "name": "Pendulum",
+    "author": "xiuxiu",
+    "mode": "local",
+    "validator": {
+        "bin": "./bin/polkadot",
+        "dockerfile": "./tmp/Dockerfile",
+        "nodes": [
+            {
+                "name": "validator_node",
+                "chain": "./examples/specs/rococo-custom-2-raw.json",
+                "args": ["--alice", "--base-path=/tmp/relay/alice"],
+                "port": 30343,
+                "ws_port": 9945,
+                "rpc_port": null
+            },
+            {
+                "name": "validator_node2",
+                "chain": "./examples/specs/rococo-custom-2-raw.json",
+                "args": ["--bob", "--base-path=/tmp/relay/bob"],
+                "port": 30353,
+                "ws_port": 9946,
+                "rpc_port": null
+            }
+        ]
+    },
+    "collator": {
+        "bin": "./bin/parachain-collator",
+        "dockerfile": "./tmp/Dockerfile",
+        "nodes": [
+            {
+                "name": "glitch-princess-1",
+                "chain": "./examples/specs/local-chain-raw.json",
+                "args": [
+                    "--rpc-cors",
+                    "all",
+                    "--force-authoring",
+                    "--enable-offchain-indexing",
+                    "true"
+                ],
+                "port": 30344,
+                "ws_port": 8844,
+                "rpc_port": null,
+                "relay": {
+                    "chain": "./examples/specs/rococo-custom-2-raw.json",
+                    "args": [
+                        "--rpc-cors",
+                        "all",
+                        "--force-authoring"
+                    ],
+                    "port": 30345,
+                    "ws_port": 9944,
+                    "rpc_port": null
+                }
+            }
+        ]
     }
-  ],
-  "collators": [
-    {
-      "inner": {
-        "name": "collator_node",
-        "bin": "./bin/pendulum-collator",
-        "chain": "./specs/rococo-local-parachain-raw.json",
-        "dockerfile": "./Dockerfile-collator",
-        "args": ["--force-authoring", "--enable-offchain-indexing", "true"],
-        "port": 30344,
-        "ws_port": 8844,
-      },
-      "relay": {
-        "chain": "./specs/rococo-custom-2-raw.json",
-        "args": ["--force-authoring"],
-        "port": 30345,
-        "ws_port": 9955,
-      }
-    }
-  ]
 }
 ```
 
