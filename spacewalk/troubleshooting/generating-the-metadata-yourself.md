@@ -4,13 +4,14 @@ description: >-
   parachain in order to execute the Vault properly.
 ---
 
-# Generating metadata
+# Generating the metadata yourself
 
 The metadata file is used by the Vault client in order to interact with the Substrate Chain, \
-since it contains all the extrinsics and events that are used by it.\
-There are many tools that can be used to fetch this file, namely [subxt](https://github.com/paritytech/subxt) from Parity among others, but here we will focus on how to do it without them. \
+since it contains all the extrinsics and events that are used by it. In the vault client, the metadata files that you need for running Spacewalk in a testchain or pendulum, are included.
+
+But if for some reason, you're experiencing troubles with the types or the extrinsic calls, you may want to obtain this file yourself. There are many tools that can be used to fetch this file, namely [subxt](https://github.com/paritytech/subxt) from Parity among others, but here we will focus on how to do it without them. \
 \
-First of all, it is really important that we get this file from the chain we are connecting to. If your adding the pallet to a Parachain, then make sure you extract the metadata from the collator node.
+First of all, it is really important that we get this file from the chain we are connecting to. If you're adding the pallet to a Parachain, then make sure you extract the metadata from the collator node.
 
 {% hint style="danger" %}
 When connecting to a parachain, make sure to write down the ws port in which the collator node listening to.
@@ -44,7 +45,7 @@ If successful, this would give you a result similar to this one:
 
 Copy the resulting hex to a file and save it.&#x20;
 
-Now, we need to process that file i.e. convert it into bytes representation and save it as `metadata-standalone.scale`.\
+Now, we need to process that file i.e. convert it into bytes representation and save it as `metadata-parachain.scale`.\
 \
 Here is a piece of Rust code that will do it for you. Replace the filename in the code to match your file and run it.
 
@@ -60,6 +61,6 @@ fn main() {
 ```
 
 Now with this, run the project and pipe the output to a file\
-`cargo run --release > metadata-standalone.scale`\
+`cargo run --release > metadata-parachain.scale`\
 \
-Now that we have the scale file, you need to copy it to `clients/runtime/metadata-standalone.scale` , since it will be used later when running the vault.
+Now that we have the scale file, you need to copy it to `clients/runtime/metadata-parachain.scale`, since it will be used later when running the vault.

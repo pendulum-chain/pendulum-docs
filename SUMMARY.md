@@ -47,13 +47,17 @@
 ## Spacewalk
 
 * [Introduction](spacewalk/introduction.md)
-* [Building the pallet](spacewalk/building-the-pallet.md)
-* [Creating test accounts](spacewalk/creating-test-accounts.md)
-* [Generating metadata](spacewalk/generating-metadata.md)
-* [Running the vault](spacewalk/running-the-vault.md)
-* [Connecting through pendulum](spacewalk/connecting-through-pendulum.md)
-* [Issue assets](spacewalk/issue-assets.md)
-* [Redeem assets](spacewalk/redeem-assets.md)
+* [Connecting to the testchain](spacewalk/connecting-to-the-testchain/README.md)
+  * [Building the pallet](spacewalk/connecting-to-the-testchain/building-the-pallet.md)
+  * [Creating test accounts](spacewalk/connecting-to-the-testchain/creating-test-accounts.md)
+  * [Running the vault](spacewalk/connecting-to-the-testchain/running-the-vault.md)
+  * [Issue assets](spacewalk/connecting-to-the-testchain/issue-assets.md)
+  * [Redeem assets](spacewalk/connecting-to-the-testchain/redeem-assets.md)
+* [Connecting to Pendulum](spacewalk/connecting-to-pendulum/README.md)
+  * [Running the vault](spacewalk/connecting-to-pendulum/running-the-vault.md)
+  * [Issue and redeem assets](spacewalk/connecting-to-pendulum/issue-and-redeem-assets.md)
+* [Troubleshooting](spacewalk/troubleshooting/README.md)
+  * [Generating the metadata yourself](spacewalk/troubleshooting/generating-the-metadata-yourself.md)
 
 ## Grants & Programs
 

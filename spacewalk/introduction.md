@@ -6,10 +6,6 @@ You can read more about the bridge concept and how it works in our [blog post](h
 
 The project is in a Work in Progress state, so even though the pallet could be potentially plugged into any Substrate-based chain, for now we highly recommend that you follow this guide in order to properly test it.
 
-{% hint style="success" %}
-This guide will cover how to build the parts needed for the bridge to work, and a simple testing scenario in which we will bridge assets from the Stellar network to a _testchain_, and then redeem the funds, bridging them back to Stellar.
-{% endhint %}
-
 {% hint style="info" %}
-While this guide uses the provided testchain for illustration purposes you can also follow these steps with other substrate chains that integrate spacewalk (e.g. Pendulum). You just have to adjust the ports accordingly.&#x20;
+The following guide uses the provided testchain for convenience. The idea is to illustrate how to connect Spacewalk to a standalone chain. Connecting to the Pendulum chain show some differences that we address in [connecting-to-pendulum](connecting-to-pendulum/ "mention").
 {% endhint %}
