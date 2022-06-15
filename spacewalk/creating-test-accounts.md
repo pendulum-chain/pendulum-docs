@@ -16,7 +16,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/)
 2. In the top left-hand corner, click on the drop-down labeled ‘Rococo’ to open the Node selection menu.
-3. Click on the select box and select “Custom node”. Change the input of “Custom Node Endpoint” to `ws://localhost:9944` and leave the “AMM Address” field as-is. Click on “Save”
+3. Click on the select box and select “Custom node”. Change the input of “Custom Node Endpoint” to `ws://localhost:{spacewalk_chain_port}` and leave the “AMM Address” field as-is. Click on “Save”
 4. Click on the “Connect Account” button in the top right corner and then click on “One-Click Setup”. This process will take some time and will create your User Account and Target Account and will fund them with some initial tokens for testing.
 5. Wait until the process is finished and then save the shown Stellar secret key. You will need it in the next step.
 
@@ -24,7 +24,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 #### Creating the Vault Account
 
-1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/) and connect to your custom node `ws://localhost:9944` again
+1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/) and connect to your custom node `ws://localhost:{spacewalk_chain_port}` again
 2. In the same user menu from the last step, click on the button "Forget account"
 3. Click again on the "One click setup" to create a second account
 4. Wait until the process is finished and then save the secret key as well.
@@ -33,7 +33,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 #### Importing your accounts
 
-1. Go to [https://prototype-ui.pendulumchain.org/?rpc=ws://127.0.0.1:9944#/accounts](https://prototype-ui.pendulumchain.org/?rpc=ws://127.0.0.1:9944#/accounts). This is a modified version of the polkadot.js explorer that supports importing accounts from a Stellar secret key and shows the `USDC` and `EUR` assets. Wait for the webapp to connect to your _testchain_
+1. Go to [https://prototype-ui.pendulumchain.org/](https://prototype-ui.pendulumchain.org/#/explorer), connect to your node, and open the accounts page. This is a modified version of the polkadot.js explorer that supports importing accounts from a Stellar secret key and shows the `USDC` and `EUR` assets.
 2. Click on the “Add account” button above the accounts list
 3. Paste the Stellar secret key of your User Account into the text field
 4. Click on the “I have saved my Stellar secret key safely” checkbox and proceed

@@ -9,3 +9,7 @@ The project is in a Work in Progress state, so even though the pallet could be p
 {% hint style="success" %}
 This guide will cover how to build the parts needed for the bridge to work, and a simple testing scenario in which we will bridge assets from the Stellar network to a _testchain_, and then redeem the funds, bridging them back to Stellar.
 {% endhint %}
+
+{% hint style="info" %}
+While this guide uses the provided testchain for illustration purposes you can also follow these steps with other substrate chains that integrate spacewalk (e.g. Pendulum). You just have to adjust the ports accordingly.&#x20;
+{% endhint %}

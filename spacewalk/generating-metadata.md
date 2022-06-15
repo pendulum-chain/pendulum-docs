@@ -10,12 +10,12 @@ The metadata file is used by the Vault client in order to interact with the Subs
 since it contains all the extrinsics and events that are used by it.\
 There are many tools that can be used to fetch this file, namely [subxt](https://github.com/paritytech/subxt) from Parity among others, but here we will focus on how to do it without them. \
 \
-First of all, it is really important that we get this file from the chain we are connecting to. If your adding the pallet to a Parachain, then make sure you extract the metadate from the collator node.
+First of all, it is really important that we get this file from the chain we are connecting to. If your adding the pallet to a Parachain, then make sure you extract the metadata from the collator node.
 
 {% hint style="danger" %}
 When connecting to a parachain, make sure to write down the ws port in which the collator node listening to.
 
-Even though you might have specified the port with `--ws-port`, if it conflicts with a port already in use, a random one would be used instead.
+Even though you might have specified the port with `--ws-port`when launching the collator node, if it conflicts with a port already in use, a random one would be used instead.
 {% endhint %}
 
 Once the node is running, we need to send a `jsonrpc` call to it and execute the \
@@ -42,9 +42,9 @@ If successful, this would give you a result similar to this one:
 }
 ```
 
-Copy the result hex to a file and save it.&#x20;
+Copy the resulting hex to a file and save it.&#x20;
 
-Now, we need to process that file. Basiclly convert it into bytes representation and save it as `metadata-standalone.scale`.\
+Now, we need to process that file i.e. convert it into bytes representation and save it as `metadata-standalone.scale`.\
 \
 Here is a piece of Rust code that will do it for you. Replace the filename in the code to match your file and run it.
 

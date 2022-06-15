@@ -7,7 +7,7 @@ Once you have a running parachain, the same steps of creating test accounts and 
 Since the url of our parachain's exposed websocket may differ from the default used in the testchain, it is necessary to pass the correct url using the `--spacewalk-parachain-url` flag,  where the url is the address of the exposed websocket on your pendulum collator node.
 
 {% hint style="info" %}
-ex: `--spacewalk-parachain-url ws://localhost:8844`
+ex: `--spacewalk-parachain-url ws://localhost:{spacewalk_chain_port}`
 {% endhint %}
 
 We'll additionally need to enable the `parachain-metadata-testnet` feature, in place of the `standalone-metadata` feature.  The updated command for running the vault client against your local pendulum chain would look as follows.

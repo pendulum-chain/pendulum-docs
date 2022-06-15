@@ -4,14 +4,14 @@ description: Move tokens from testchain to Stellar
 
 # Redeem assets
 
-Finally you can redeem your assets back to Stellar. To do so:
+Finally, you can redeem your assets back to Stellar. To do so:
 
-1. Go to [https://prototype-ui.pendulumchain.org/?rpc=ws://127.0.0.1:9944#/extrinsics](https://prototype-ui.pendulumchain.org/?rpc=ws://127.0.0.1:9944#/extrinsics)
+1. Go to [https://prototype-ui.pendulumchain.org/](https://prototype-ui.pendulumchain.org/) and open the extrinsics page.
 2. Select your User Account, and then select `spacewalk` from the first dropdown.
 3. From the second dropdown, select the `redeem(assetCode, assetIssuer, amount, stellarVaultPubkey)` extrinsic
 4. Set the `assetCode` to **`USDC`**, `assetIssuer` to **`GAKNDFRRWA3RPWNLTI3G4EBSD3RGNZZOY5WKWYMQ6CQTG3KIEKPYWAYC`**, `amount` to **`1000000000000`** (since this is a Balance field, we need to provide the actual number including the decimal places, this number is equivalent to 1 Unit).
-5. For `stellarVaultPubkey` you will need to provide the binary version of your Vault Account's public key – that means that you can't use the string encoding starting with `GDR....` No worries, to obtain the hex encoded representation of your public key, you can use our converter. Just go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/), and click on `Tools` In the topbar. In the modal that appears paste your Stellar pubkey and you'll see the different address formats. Below the `Raw bytes` section you should get something like`0x3d91b2350cce8449f51ff31156fe9d8770b8fa993a500069be7bac2f861151c3`. That's the value you need.
-6. Submit the transaction
+5. For `stellarVaultPubkey` you should use the public key of the Stellar account that you used for running the vault client i.e. the corresponding public key of the `vault-secret` you used in  [running-the-vault.md](running-the-vault.md "mention").
+6. Next, submit the transaction.
 7. Check that the redeem was successfully executed:\
    \- Check the balances of your imported test stellar account. It should have received `1 USDC`.\
    ``- The Vault logs should print something similar to this
