@@ -49,6 +49,7 @@
 * [Introduction](spacewalk/introduction.md)
 * [Building the pallet](spacewalk/building-the-pallet.md)
 * [Creating test accounts](spacewalk/creating-test-accounts.md)
+* [Generating metadata](spacewalk/generating-metadata.md)
 * [Running the vault](spacewalk/running-the-vault.md)
 * [Connecting through pendulum](spacewalk/connecting-through-pendulum.md)
 * [Issue assets](spacewalk/issue-assets.md)
