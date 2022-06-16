@@ -11,7 +11,7 @@
 * [Prototype Demo](https://www.youtube.com/watch?v=SOAVV0dEN10)
 * [Prototype UI](get-started/prototype-ui/README.md)
   * [Connect Account](get-started/prototype-ui/connect-account.md)
-  * [Stellar-Pendulum Bridge](get-started/prototype-ui/stellar-pendulum-bridge.md)
+  * [Spacewalk Bridge](get-started/prototype-ui/spacewalk-bridge.md)
   * [Interacting with the AMM](get-started/prototype-ui/interacting-with-the-amm.md)
 * [Playground UI](get-started/playground-ui/README.md)
   * [Compiling the contract](get-started/playground-ui/compiling-the-contract.md)

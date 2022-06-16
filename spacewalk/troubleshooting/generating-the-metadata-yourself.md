@@ -14,7 +14,7 @@ But if for some reason, you're experiencing troubles with the types or the extri
 First of all, it is really important that we get this file from the chain we are connecting to. If you're adding the pallet to a Parachain, then make sure you extract the metadata from the collator node.
 
 {% hint style="danger" %}
-When connecting to a parachain, make sure to write down the ws port in which the collator node listening to.
+When connecting to a parachain, make sure to write down the ws port in which the collator node is listening to.
 
 Even though you might have specified the port with `--ws-port`when launching the collator node, if it conflicts with a port already in use, a random one would be used instead.
 {% endhint %}
