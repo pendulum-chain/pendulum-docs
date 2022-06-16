@@ -14,7 +14,7 @@ At the time of writing this, the Pendulum parachain is using Polkadot dependenci
 
 ```
 # Checkout correct branch
-git checkout v0.9.18
+git checkout release-v0.9.18
 # Build polkadot node
 cargo build --release
 ```
@@ -34,6 +34,8 @@ From inside the cloned `polkadot` repository (after building the node):
 --port 30333 \
 --ws-port 9944
 ```
+
+If you ran this validator before and you would like to start afresh from genesis, then you would need to remove the folder `/tmp/relay` first (and similarly for the following validator and collator nodes in this tutorial).
 
 **Check the logs for the node identity of Alice (see line 4) and copy it to your clipboard**
 

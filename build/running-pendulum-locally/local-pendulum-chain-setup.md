@@ -8,9 +8,15 @@ First, you need to clone the Pendulum repository.&#x20;
 git clone https://github.com/pendulum-chain/pendulum.git
 ```
 
+Then compile the project executing
+
+```
+cargo build --release
+```
+
 ### Reserving a para ID
 
-Connect to the relay chain using [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/parachains/parathreads) link. Reserve a parachain slot for ID 2000.&#x20;
+Connect to the relay chain using [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/parachains/parathreads) link. Reserve a parachain slot for ID 2000 by clicking on the button "+ ParaId".
 
 ### Leasing a slot for the parachain on the relay chain
 
@@ -35,7 +41,7 @@ By default, the para ID in the generated `rococo-local-parachain-plain.json` is 
   // --snip--
 ```
 
-Afterward, you can generate the other necessary files with the following commands:
+Afterwards, you can generate the other necessary files with the following commands:
 
 ```
 # Generate a raw chain spec derived from the plain chain spec
@@ -61,6 +67,8 @@ Once the process has finished, you should be able to see your parachain in the [
 
 ### **Run parachain collator**
 
+Copy your `rococo-custom-2-raw.json` file that you downloaded in the previous step to the root of the `pendulum` project.
+
 Run the following command but replace `<ALICE_NODE_ID>` with the node Identity of one of the validators that you started in the previous chapter. It doesn't matter if you use Alice's or Bob's ID.
 
 ```
@@ -84,7 +92,7 @@ Run the following command but replace `<ALICE_NODE_ID>` with the node Identity o
 ```
 
 {% hint style="info" %}
-The -`-bootnodes` parameter is used to make sure that the parachain collator finds the peers of the relay chain. You can see if the relay chain peers are found in the logs. It should say something like`[Relaychain] Idle (2 peers)...`
+The `--bootnodes` parameter is used to make sure that the parachain collator finds the peers of the relay chain. You can see if the relay chain peers are found in the logs. It should read something like`[Relaychain] Idle (2 peers)...`
 {% endhint %}
 
 ```
@@ -95,4 +103,6 @@ The -`-bootnodes` parameter is used to make sure that the parachain collator fin
 
 ### Interacting with the parachain
 
-Head to the polkadot.js explorer, expand the sidebar and enter `ws://localhost:8844` as "Custom Endpoint" below the "Development" area or alternatively use [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2Flocalhost%3A8844#/explorer) link to directly access the page with the endpoint filled in for you.
+After some minutes the collator node of the parachain will start to produce blocks. This is easiest to identify on the polkadot.js explorer. First identify the websocket port of the collator node. This is `8844` by default but can deviate occasionally. For this purpose check the line `Listening for new connections on 127.0.0.1:<ws-port>` in the console output.
+
+Expand the sidebar of the polkadot.js explorer and enter `ws://localhost:<ws-port>` as "Custom Endpoint" below the "Development" area or alternatively use [this](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2Flocalhost%3A8844#/explorer) link to directly access the page with the endpoint filled in for you. After that head to "Network -> Explorer" and you should be able to see that the parachain is producing blocks.

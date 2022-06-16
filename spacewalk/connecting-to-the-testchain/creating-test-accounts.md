@@ -1,6 +1,6 @@
 # Creating test accounts
 
-In order to execute the entire example, we will need to create two different accounts on the Stellar testnet – we will refer to them as **User Account** and **`Vault Account`** for the rest of this tutorial. Additionally this tutorial will use a **Target Account** on _testchain_.
+In order to execute the entire example, we will need to create two different accounts on the Stellar testnet – we will refer to them as **User Account** and **Vault Account** for the rest of this tutorial. Additionally this tutorial will use a **Target Account** on _testchain_.
 
 The User Account will be used to send funds from Stellar testnet to the Target Account on _testchain_, through the Vault Account. The latter account will lock the funds on Stellar while they are in use in _testchain_.
 
@@ -16,7 +16,7 @@ The the asset codes are **`EUR` ** and **`USDC`**.
 
 1. Go to [https://prototype.pendulumchain.org/](https://prototype.pendulumchain.org/)
 2. In the top left-hand corner, click on the drop-down labeled ‘Rococo’ to open the Node selection menu.
-3. Click on the select box and select “Custom node”. Change the input of “Custom Node Endpoint” to `ws://localhost:{spacewalk_chain_port}` and leave the “AMM Address” field as-is. Click on “Save”
+3. Click on the select box and select “Custom node”. Change the input of “Custom Node Endpoint” to `ws://localhost:{spacewalk_chain_port}` and leave the “AMM Address” field as-is. Click on “Save”.
 4. Click on the “Connect Account” button in the top right corner and then click on “One-Click Setup”. This process will take some time and will create your User Account and Target Account and will fund them with some initial tokens for testing.
 5. Wait until the process is finished and then save the shown Stellar secret key. You will need it in the next step.
 
