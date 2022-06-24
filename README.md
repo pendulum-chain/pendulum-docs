@@ -15,3 +15,10 @@ Pendulum Chain is a smart contract blockchain network connecting fiat rails to t
 ## Built on Substrate
 
 Substrate is a blockchain framework developed by Parity Technologies. The framework was used to build Polkadot. The advantages of Substrate are many: in addition to having native compatibility with the Polkadot chain, Substrate has cross-coding language support, forkless upgrades with built-in upgrade coordination, deterministic finality (for fast consensus reaching), and a suite of pre-built but customizable components (“pallets”).
+
+## What is the Big Picture?&#x20;
+
+The tools of money have changed to be evermore inclusive and accessible in an increasingly globalized and borderless world. Humans have evolved from trading metal coins to investing in stocks and sending online bank transactions. However, the centralized traditional financial systems, which historically provided these tools, tend to be unable to deliver flexible and composable services. Global fiat transfers and interactions in traditional finance suffer from high fees, slow speeds and limited optionality. In contrast, the explosive growth in the world of DeFi has brought about tools for building innovative financial products for future generations. But to date, bridging compliant fiat fintech services over to DeFi ecosystems has not been easy. Pendulum was created to be this bridge.
+
+##
+
