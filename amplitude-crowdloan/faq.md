@@ -42,8 +42,7 @@ KYC is not required.
 **What is the easiest and most user-friendly way of contributing?**\
 ****Probably our website UI. We’ve designed our contributions page to be as intuitive and as easy to use as possible. Try it out!
 
-**Can I contribute through 3rd Party crowdloan services like Parallel & Bifrost?** \
-Check out our partners and their bonus conditions and consider contributing through their services if you like their offer. But please note that we do not take any responsibility for any losses or delays that may occur through using third party services. Please research them carefully.
+**Can I contribute through 3rd Party crowdloan services like Bifrost?** Bifrost is offering to contribute to our crowdloan via their SALP system. Contributors will have their liquidity unlocked this way, without having to wait a year to gain it back. You can access the Bifrost SALP [here](https://bifrost.app/vcrowdloan?tab=ksm).
 
 **Where to get KSM?** \
 See a list of exchanges offering KSM [here](https://dropstab.com/kusama/exchanges).
