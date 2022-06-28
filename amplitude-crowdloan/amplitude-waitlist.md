@@ -18,8 +18,8 @@ The Kusama crowdloan for Amplitude will begin on or around June 29th. The waitli
 AMPE token features include:
 
 * Native token of Amplitude
-* Initial supply of 200 million tokens
-* Utilities such as powering transactions, staking to secure the network & earning rewards and governing the protocol
+* Max supply of 200 million tokens
+* Utilities include powering transactions, staking to secure the network & earning rewards and governing the protocol
 
 
 
