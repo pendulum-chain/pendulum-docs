@@ -17,7 +17,7 @@
 * ✔️ Spacewalk Pallet Release&#x20;
 * ✔️ Ecosystem Grants Program&#x20;
 * ✔️ Kusama Waitlist
-* Kusama Auction Launch
+* ✔️ Kusama Auction Launch
 
 **2022 Q3**&#x20;
 
