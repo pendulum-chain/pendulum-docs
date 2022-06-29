@@ -13,15 +13,16 @@
 
 * ✔️ Pendulum Litepaper&#x20;
 * ✔️ Berkeley Blockchain Xcelerator Program&#x20;
-* Forex AMM Whitepaper&#x20;
-* Spacewalk Pallet Release&#x20;
-* Ecosystem Grants Program&#x20;
-* Forex AMM Prototype
+* ✔️ Forex AMM Whitepaper&#x20;
+* ✔️ Spacewalk Pallet Release&#x20;
+* ✔️ Ecosystem Grants Program&#x20;
+* ✔️ Kusama Waitlist
+* Kusama Auction Launch
 
 **2022 Q3**&#x20;
 
+* Forex AMM Prototype
 * Fiat on/off ramp interface standard&#x20;
-* Kusama Auction&#x20;
 * XCMP integration (cross-parachain protocol)&#x20;
 * General Liquidity AMM Testnet Launch&#x20;
 * Kusama Mainnet Launch&#x20;
