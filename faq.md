@@ -26,7 +26,7 @@ We will generate tokens when rolling out the Pendulum and Amplitude mainnet resp
 
 **What is the tokenomics for the PEN & AMPE tokens?**&#x20;
 
-The tokenomics for the AMPE token will be published on our Medium page shortly. PEN tokenomics will be decided and published closer to the PEN token launch.&#x20;
+The AMPE tokenomics are published on our [Medium blog](https://pendulum-chain.medium.com/amplitude-ampe-tokenomics-2063d3bafde0). PEN tokenomics will be decided and published closer to the PEN token launch.&#x20;
 
 **Where can I use the Testnet?**&#x20;
 
