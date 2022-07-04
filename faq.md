@@ -42,7 +42,7 @@ The Pendulum crowdloan is projected to start in Q4.
 
 **When will Amplitude participate in a Kusama parachain auction?**&#x20;
 
-The Amplitude crowdloan [is live](https://pendulumchain.org/amplitude)!
+Amplitude has won Kusama slot auction #42!
 
 **What kind of smart contracts will the Pendulum & Amplitude VM support?**&#x20;
 
