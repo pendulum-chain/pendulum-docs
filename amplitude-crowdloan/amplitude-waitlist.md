@@ -1,6 +1,8 @@
 # Amplitude Waitlist
 
-The Kusama crowdloan for Amplitude will begin on or around June 29th. The waitlist is now live and early adopters have until the 29th to sign up to receive up to 13% in bonuses.
+**The Amplitude Waitlist has concluded! Thanks everyone for joining in!**\
+****\
+****The Kusama crowdloan for Amplitude will begin on or around June 29th. The waitlist is now live and early adopters have until the 29th to sign up to receive up to 13% in bonuses.
 
 **Waitlist benefits include:**
 
