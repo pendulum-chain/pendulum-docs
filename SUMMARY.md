@@ -35,8 +35,8 @@
 
 ## Amplitude Parachain
 
-* [Amplitude & AMPE](amplitude-parachain/amplitude-and-ampe.md)
-* [FAQ](amplitude-parachain/faq.md)
+* [Amplitude & AMPE](amplitude-crowdloan/amplitude-waitlist.md)
+* [FAQ](amplitude-crowdloan/faq.md)
 
 ## Links
 
