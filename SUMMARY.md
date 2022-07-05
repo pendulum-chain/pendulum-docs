@@ -33,10 +33,10 @@
     * [generate-specs](build/using-pendulum-launch/sub-commands/generate-specs.md)
     * [generate-docker](build/using-pendulum-launch/sub-commands/generate-docker.md)
 
-## Amplitude Crowdloan
+## Amplitude Parachain
 
-* [Amplitude Waitlist](amplitude-crowdloan/amplitude-waitlist.md)
-* [FAQ](amplitude-crowdloan/faq.md)
+* [Amplitude & AMPE](amplitude-parachain/amplitude-and-ampe.md)
+* [FAQ](amplitude-parachain/faq.md)
 
 ## Links
 
