@@ -11,8 +11,11 @@ So Pendulum aims to become the missing link between fiat and DeFi. Pendulum inte
 3. Started development of the [Spacewalk bridge](https://medium.com/pendulum-chain/introducing-spacewalk-the-trust-minimized-bridge-between-stellar-and-pendulum-68ddbe7349a0)&#x20;
 4. Rocco testnet parachain deployment&#x20;
 5. First milestone of the Substrate Builders Program completed
-6. [Berkeley Xcelerator](https://medium.com/pendulum-chain/berkeley-blockchain-xcelerator-welcomes-pendulum-60fecf8ea41f)&#x20;
+6. [Berkeley Xcelerator](https://medium.com/pendulum-chain/berkeley-blockchain-xcelerator-welcomes-pendulum-60fecf8ea41f) Program
 7. [Web3 Foundation grant](https://pendulum-chain.medium.com/pendulums-spacewalk-receives-a-web3-foundation-grant-to-bridge-stellar-and-polkadot-c8dcc4354ac9) for Spacewalk development
+8. Amber Forex AMM whitepaper&#x20;
+9. Ecosystem [Grants Program](https://medium.com/pendulum-chain/pendulum-launches-ecosystem-grant-program-c193237305ce)
+10. Amplitude Kusama [parachain auction](https://medium.com/pendulum-chain/pendulum-launches-ecosystem-grant-program-c193237305ce) win
 
-The next leg of the journey is to win a Kusama parachain slot for Amplitude and then a Polkadot parachain slot for Pendulum. Crowdloan participants will have the opportunity to earn AMPE (Kusama) and PEN (Polkadot) token rewards. Learn more about the crowdloan and sign up to the waitlist [here](https://medium.com/pendulum-chain/claim-your-amplitude-kusama-crowdloan-waitlist-spot-today-d0070c32e415?source=user\_profile---------0----------------------------).&#x20;
+Now that Amplitude (Pendulum's sister network) have won the Kusama parachain auction, the next leg of the journey is to win a Polkadot parachain slot for Pendulum. Polkadot crowdloan participants will have the opportunity to earn PEN token rewards, similar to how the Amplitude participants are being rewarded with native AMPE tokens. &#x20;
 

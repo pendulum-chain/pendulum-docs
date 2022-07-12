@@ -1,5 +1,7 @@
 # Roadmap
 
+The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2022 Q4.&#x20;
+
 **2022 Q1**
 
 * ✔️ Completed $5M private presale&#x20;
