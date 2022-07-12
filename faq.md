@@ -19,7 +19,7 @@ No tokens have been released by Pendulum or Amplitude yet. Any existing tokens w
 
 **How can I purchase PEN & AMPE tokens?**&#x20;
 
-Currently there is no option to purchase PEN or AMPE tokens. Participating in the our crowdloans is the best way of obtaining tokens. [Sign up to the Amplitude waitlist](https://pendulumchain.org/amplitude?utm\_source=medium\&utm\_medium=social\&utm\_campaign=waitlist\_announce\&utm\_term=08-06-2022) and contribute to the crowdloan to to access AMPE tokens.
+Currently there is no option to purchase PEN or AMPE tokens. Participating in the our crowdloans is the best way of obtaining tokens.&#x20;
 
 **When is the TGE (Token Generation Event)?**&#x20;
 
