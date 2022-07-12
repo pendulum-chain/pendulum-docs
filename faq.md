@@ -6,15 +6,16 @@ Pendulum is an open-source blockchain that aims to establish the missing link be
 
 **What is Amplitude?**&#x20;
 
-Amplitude is going to launch as a canary network of its sister blockchain, Pendulum. It will act as a testing ground for applications and network parameters for Pendulum. Unlike a traditional testnet, users can interact on the Amplitude chain with real financial consequences. We’re expecting lots of novel concepts to be trialed on Amplitude, giving rise to many exciting opportunities for anyone using the chain. Imagination is the only limitation.
+[Amplitude ](https://pendulumchain.org/amplitude)is the canary network on Kusama of its sister blockchain, Pendulum. Amplitude & Pendulum aim to build the missing link between fiat and DeFi through a fiat-optimized smart contract blockchain. Amplitude will act as a testing ground for applications & network parameters for Pendulum and be powered by the native AMPE token. The successful parachain auction raised more than 24,080 KSM (approximately $1,172,930) means Amplitude now has a live Kusama parachain slot.
 
+\
 **Who are SatoshiPay?**
 
 [SatoshiPay ](https://satoshipay.io/)are the developers of Pendulum. They were founded in 2014 with the mission of connecting the world through instant payments. Learn more about [our journey here](https://medium.com/pendulum-chain/why-launch-pendulum-on-polkadot-7663d576591d).&#x20;
 
 **Are there any Pendulum & Amplitude tokens available?**&#x20;
 
-No tokens have been released by Pendulum. Any existing tokens with the same or similar name have no affiliation with us.
+No tokens have been released by Pendulum or Amplitude yet. Any existing tokens with the same or similar name have no affiliation with us. Contributors to the Amplitude crowdloan can follow our [socials ](https://linktr.ee/Pendulum\_Chain)for official announcements regarding the AMPE token release schedule.
 
 **How can I purchase PEN & AMPE tokens?**&#x20;
 
