@@ -1,6 +1,6 @@
 # Welcome to Pendulum
 
-Enter the internet of fiat, a blockchain offering composable fiat services to swing fintech companies into the DeFi future.
+Pioneering the internet of fiat. Pendulum blockchain will offer composable fiat services to fintech companies and build the future of forex on DeFi.
 
 On this site, you'll find information and documentation on the project and network, as well as technical docs for developers, node operators, users, and other Pendulum communities.
 

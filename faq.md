@@ -35,7 +35,7 @@ The Rococo Testnet is scheduled to launch in Q3 this year.
 
 **When are Pendulum & Amplitude going to launch?**&#x20;
 
-Amplitude Kusama mainnet is projected to launch in Q3 this year. Pendulum Polkadot mainnet is projected to launch in Q4 this year.
+Amplitude Kusama Mainnet is projected to launch in Q3 this year. Pendulum Polkadot Mainnet is projected to launch in Q4 this year.
 
 **When will Pendulum participate in a Polkadot parachain auction?**&#x20;
 
@@ -44,10 +44,6 @@ The Pendulum crowdloan is projected to start in Q4.
 **When will Amplitude participate in a Kusama parachain auction?**&#x20;
 
 Amplitude has won [Kusama slot auction #42](https://pendulum-chain.medium.com/amplitude-wins-kusama-parachain-slot-80e07781ddbd)!
-
-#### What is a Polkadot parachain slot crowdloan and how can I participate?
-
-To participate in a crowdloan, users lock up a portion of DOT for the duration of the parachain slot lease period. After the lease period ends the DOT tokens are returned. Learn more about [Dotsama auctions and crowdloans here](https://medium.com/pendulum-chain/parachain-auctions-and-crowdloans-on-polkadot-kusama-a-quick-overview-2e4892a0ec90). Remember, to participate in a crowdloan your DOT tokens must be unstaked and the unbonding process currently takes 28 days.&#x20;
 
 **What kind of smart contracts will the Pendulum & Amplitude VM support?**&#x20;
 
@@ -65,11 +61,7 @@ TX fees will be settled in Pendulums and Amplitudes native token PEN & AMPE, how
 
 Polkadot is a layer zero network of connected blockchains that we call parachains. Polkadot offers parachains security and interoperability between each other and the many different blockchains in the cryptoverse. Polkadot hosts [crowdloans and auctions](https://medium.com/pendulum-chain/parachain-auctions-and-crowdloans-on-polkadot-kusama-a-quick-overview-2e4892a0ec90) for new parachains to join the network.&#x20;
 
-**How to setup a Talisman wallet?**&#x20;
-
-Follow our[ step-by-step guide](https://medium.com/pendulum-chain/how-to-setup-a-talisman-wallet-in-minutes-1feeda58bf74) to setup a user-friendly Talisman wallet in a few minutes.&#x20;
-
-**How to setup a Polkadot.js wallet?**&#x20;
+**How to setup a Polkadot wallet?**&#x20;
 
 Here is a [5 step guide](https://medium.com/pendulum-chain/how-to-setup-a-polkadot-wallet-a-5-step-guide-7f87536837d5) on how to set up a [Polkadot.js](https://polkadot.js.org/) wallet. Alternative wallets include [imtoken](https://token.im/), [trustwallet](https://trustwallet.com/), [tokenpocket](https://www.tokenpocket.pro/en), [coolwallet](https://www.coolwallet.io/coolwallet\_pro/), [safepal](https://safepal.io/), [Ledger Nano X](https://www.ledger.com/), [atomic wallet](https://atomicwallet.io/) and more.
 
