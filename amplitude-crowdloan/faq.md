@@ -18,9 +18,9 @@ Waitlist referral bonus: 10% additional AMPE, split equally between referrer and
 
 Amplifier Campaign: 3% bonus AMPE credited to the referral link after completion.
 
-Early Bird Bonus: 20% early bird bonus in AMPE tokens by contributing within the first 10,000 KSM that was raised.
+Early Bird Bonus: 20% early bird bonus in AMPE tokens for contributing within the first 10,000 KSM that was raised.
 
-Early Bird Bonus: 10% early bird bonus in AMPE tokens by contributing between 10,001–20,000 KSM being raised.
+Early Bird Bonus: 10% early bird bonus in AMPE tokens for contributing between 10,001–20,000 KSM being raised.
 
 **How to receive rewards?** \
 Rewards will automatically be sent to your Amplitude address, which will be derived from the Kusama address you contributed with according to our release schedule. You may access them as soon as Talisman integrates Amplitude. If you want to access your AMPE earlier, you may import your private keys into a polkadot.js wallet.
