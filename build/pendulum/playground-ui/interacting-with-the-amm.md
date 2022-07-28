@@ -2,13 +2,13 @@
 
 To interact with your deployed smart contract click on "All Contracts" in the sidebar and select your contract from the list of instantiated contracts.
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
 ## Querying data
 
 You can query metadata from the AMM. These include the total supply of minted LP tokens, the issuer and code of the pooled assets, the minimum liquidity of a liquidity pool, and the reserves/balances of the liquidity pool.&#x20;
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 To do so, click on the "Message to Send" field and select one of the messages that don't specify arguments in the brackets. Since these calls only read data from the smart contract they can be sent as an RPC call so you don't have to create and sign a transaction for each query.&#x20;
 
@@ -42,6 +42,6 @@ You can tell the difference between a successful smart contract call and a faili
 
 For example, as you can see here in the "Call Results" one of these calls has lots of events and a `system:ExtrinsicSuccess` so this was a successful call whereas the other one has fewer events and a `system:ExtrinsicFailed` among them.
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18).png>)
 
 ## &#x20;
