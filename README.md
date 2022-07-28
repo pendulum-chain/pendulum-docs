@@ -10,7 +10,7 @@ On this site, you'll find information and documentation on the project and netwo
 
 ## What is Pendulum?
 
-Pendulum Chain is a smart contract blockchain network connecting fiat rails to the decentralized finance ecosystem. By bridging robust and compliant fiat-pegged tokens from the most prominent blockchain networks into the vibrant DeFi ecosystems, Pendulum addresses the ever-growing demand for fiat liquidity in DeFi. Behind the development of the open Pendulum protocol is [SatoshiPay](https://satoshipay.io), a company which has developed blockchain products since 2014.
+Pendulum Chain is a smart contract blockchain network connecting fiat rails to the decentralized finance ecosystem. By bridging robust and compliant fiat-pegged tokens from the most prominent blockchain networks into the vibrant DeFi ecosystems, Pendulum addresses the ever-growing demand for fiat liquidity in DeFi. Behind the development of the open Pendulum protocol is [SatoshiPay](https://satoshipay.io), a fintech company which has developed blockchain products since 2014.
 
 ## Built on Substrate
 
