@@ -1,6 +1,6 @@
 # Token Economics
 
-PEN will be the native token on our Pendulum Polkadot parachain, while AMPE is the native token of the Amplitude parachain coming soon to Kusama. In order to ensure Amplitude is a community-first project, the Pendulum team decided to take no allocation of AMPE tokens for themselves or advisors and held no token private sales.
+PEN will be the native token on our Pendulum Polkadot parachain. AMPE is the native token of Amplitude following the [successful parachain auction](https://medium.com/pendulum-chain/amplitude-ampe-tokenomics-2063d3bafde0) on Kusama. In order to ensure Amplitude is a community-first project, the Pendulum team decided to take no allocation of AMPE tokens for themselves or advisors and held no token private sales.
 
 ### **AMPE Tokenomics Overview** <a href="#74ef" id="74ef"></a>
 
