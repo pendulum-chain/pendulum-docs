@@ -9,10 +9,10 @@ A crowdloan serves to trustlessly crowdsource KSM to bid on a parachain slot in 
 **Will I get my KSM back?** \
 Yes. Your KSM tokens will be automatically returned to you when the parachain lease ends after 48 weeks, when Amplitude wins the auction. Remember, we never have custody over your KSM. All KSM staked for Kusama crowdloans are secured by the Kusama Relay Chain.
 
-**How do I know how much AMPE bonuses I will get?** You can check your rewards and their breakdown here on the [Amplitude Crowdloan Dashboard. ](https://pendulumchain.org/amplitude/rewards)****
+**How do I know how much AMPE bonuses I will get?** \
+****The bonus breakdown is as follows:&#x20;
 
-**What is the breakdown of the AMPE bonuses?** \
-****Base reward: 600 AMPE for every 1 KSM contributed
+Base reward: 600 AMPE for every 1 KSM contributed
 
 Waitlist referral bonus: 10% additional AMPE, split equally between referrer and referral
 
