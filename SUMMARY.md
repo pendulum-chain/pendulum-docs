@@ -65,7 +65,7 @@
   * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
   * [Pendulum](community/crowdloan/pendulum.md)
   * [FAQ](community/crowdloan/faq.md)
-* [Pendulum grant program](community/pendulum-grant-program.md)
+* [Pendulum Grant Program](community/pendulum-grant-program.md)
 * [Ambassador Program](community/ambassador-program.md)
 
 ## Resources
