@@ -23,11 +23,14 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 
 **2022 Q3**&#x20;
 
+* ✔️ Kusama Mainnet Launch&#x20;
 * Forex AMM Prototype
 * Fiat on/off ramp interface standard&#x20;
 * XCMP integration (cross-parachain protocol)&#x20;
 * General Liquidity AMM Testnet Launch&#x20;
-* ✔️ Kusama Mainnet Launch&#x20;
+
+
+
 * Spacewalk Bridge Launch
 
 **2022 Q4**&#x20;
