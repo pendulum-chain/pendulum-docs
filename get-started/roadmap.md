@@ -1,6 +1,6 @@
 # Roadmap
 
-The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2022 Q4.&#x20;
+The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2024 Q4.&#x20;
 
 **2022 Q1**
 
@@ -21,22 +21,67 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 * ✔️ Kusama Waitlist
 * ✔️ Kusama Auction Launch
 
-**2022 Q3**&#x20;
+**2022 Q3**
 
-* ✔️ Kusama Mainnet Launch&#x20;
-* Forex AMM Prototype
-* Fiat on/off ramp interface standard&#x20;
-* XCMP integration (cross-parachain protocol)&#x20;
-* General Liquidity AMM Testnet Launch&#x20;
+* ✔️ Amplitude launch&#x20;
+* Rococo launch (public testnet)
+* Uniswap-style AMM (testnet)
 
+**2022 Q4**
 
+* Portal launch — gateway hub to AMM, bridge, staking with wallet integration
+* Wallet integrations
+* Polkadot auction
+* Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
 
-* Spacewalk Bridge Launch
+**2023 Q1**
 
-**2022 Q4**&#x20;
+* Pendulum chain launch
+* $PEN listing
+* Spacewalk launch
+* Forex AMM (Amber)
+* Uniswap-style AMM (Kusama/Pendulum)
+* Hardware wallet integration ($PEN)
+* Subsquid integration — largescale data access for developers
 
-* Polkadot Auction&#x20;
-* Cosmos Bridge&#x20;
-* Key Fiat Anchors Integrations&#x20;
-* Polkadot Mainnet Launch&#x20;
-* Forex AMM v1.0: Polkadot Launch
+**2023 Q2**
+
+* Direct fiat onramp — onramp for $PEN
+* DotSama compliance standard&#x20;
+* dApp staking — easy way to stake in multiple community dApps
+
+**2023 Q3**
+
+* Cosmos bridge — connect to eMoney
+* Fiat on/offramp interface standard — defining the anchor standard&#x20;
+* Next-gen fiat price oracle — price feed that works out of forex market hours
+
+**2023 Q4**
+
+* SDK for Wasm dApp developers — Ethereum-equivalent tool chain for improved Developer Experience
+* Connect compliance layer — layer for secure transmission of KYC/AML data
+* Multi-currency txn fee&#x20;
+* Direct fiat anchors — direct on/offramps on network
+
+**2024 Q1**
+
+* Optional tx privacy layer — zk-style privacy with ability to reveal
+* MEV protection — protection against frontrunning
+* Native fiat tokens (Pendulum) — over-collateralised fiat stable (Dai/MakerDAO-inspired)
+
+**2024 Q2**
+
+* Accounting data API — easy access to tax-event data
+* Forex lending pool — lending optimised for fiat stables
+* Token governance — decentralised method for ensuring quality tokens
+
+**2022 Q3**
+
+* Decentralized custodianship/Account abstractions
+* Cross-chain anchors — onramp in one network (e.g. Stellar) and offramp in another (e.g. Pendulum)
+* Automated smart contract validation — automatic security review of smart contracts
+
+**2022 Q4**
+
+* Insurance layer — protection against loss/adverse events for premium
+* Institutional-grade AMM&#x20;
