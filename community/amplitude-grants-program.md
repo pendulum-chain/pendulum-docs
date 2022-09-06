@@ -34,8 +34,6 @@ For example (but not limited to):
 
 All code must be open source and available on GitHub. Code should either be written in WebAssembly (”Wasm”) or compiled to Wasm (e.g. Solang) and can be implemented either as a pallet or as a smart contract. Individuals, universities, companies etc. are welcome to apply. The payout will be in both USDC and AMPE. AMPE is Amplitude’s native token, you can [click here](https://medium.com/pendulum-chain/amplitude-ampe-tokenomics-2063d3bafde0) for the tokenomics breakdown.
 
-We are excited to welcome new developers to the Pendulum and Dotsama ecosystems! Everybody is welcome to join the [Pendulum socials](https://t.co/ocARibwsJx) to stay in touch. Please note, that there is an exclusive channel in our [Discord](https://discord.gg/KJybDMtfXt) for developers. Thank you for being a part of the Pendulum & Amplitude journey to connect fiat to DeFi!
-
 ## Application <a href="#caef" id="caef"></a>
 
 Please fill in [this form.](https://pendulumchain.org/ecosystem-grants/amplitude/requirements#apply-now) You can keep it short and simple at this stage. Share anything that you find relevant, and we will get back to you quickly with our feedback. We look forward to hearing from you! Feel free to reach out to us with any questions via our [socials](https://linktr.ee/Pendulum\_Chain).
