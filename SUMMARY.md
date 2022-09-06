@@ -66,6 +66,7 @@
   * [Pendulum](community/crowdloan/pendulum.md)
   * [FAQ](community/crowdloan/faq.md)
 * [Pendulum Grant Program](community/pendulum-grant-program.md)
+* [Amplitude Grants Program](community/amplitude-grants-program.md)
 * [Ambassador Program](community/ambassador-program.md)
 * [Ambassador Bounties](community/ambassador-bounties.md)
 
