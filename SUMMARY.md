@@ -12,7 +12,8 @@
 ## Explore
 
 * [Introduction](explore/introduction.md)
-* [Network](explore/network.md)
+* [Network](explore/network/README.md)
+  * [Amplitude](explore/network/amplitude.md)
 * [Bridges](explore/bridges.md)
 * [dApps](explore/dapps/README.md)
   * [Amber](explore/dapps/amber.md)
