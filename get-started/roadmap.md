@@ -75,13 +75,13 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 * Forex lending pool — lending optimised for fiat stables
 * Token governance — decentralised method for ensuring quality tokens
 
-**2024 Q3**
+**2022 Q3**
 
 * Decentralized custodianship/Account abstractions
 * Cross-chain anchors — onramp in one network (e.g. Stellar) and offramp in another (e.g. Pendulum)
 * Automated smart contract validation — automatic security review of smart contracts
 
-**2024 Q4**
+**2022 Q4**
 
 * Insurance layer — protection against loss/adverse events for premium
 * Institutional-grade AMM&#x20;

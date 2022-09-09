@@ -35,6 +35,9 @@ This applies to any actions that promote Pendulum or Amplitude and incurs a cost
 **Example**: You're organizing a meetup and want to offer beverages, we would like to cover your cost.\
 \
 **Template:**\
+****\
 **What:** Please explain in Detail what you're doing to promote Pendulum & Amplitude\
+\
 **How much:** How much $ will you spend?\
+\
 **What constitutes success:** How many attendees do you aim to attract / How many listeners do you wish to attract / How many telegram members are you looking to generate?\
