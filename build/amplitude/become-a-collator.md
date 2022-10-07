@@ -13,9 +13,7 @@ In order to be able to run a collator node you will need at least a machine with
 * 250 GB of Disk space
 * Ubuntu 20.04.5 LTS
 
-\<aside> ⚠️ Other operating systems apart from Debian and Ubuntu based distributions were not tested yet, but you can always try at your own risk.
-
-\</aside>
+:warning: Other operating systems apart from Debian and Ubuntu based distributions were not tested yet, but you can always try at your own risk.
 
 ### Step-by-step installation
 
@@ -101,6 +99,4 @@ When the node is syncing, you can see the block it is trying to sync up to. The 
 
 As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
 
-\<aside> 💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
-
-\</aside>
+:bulb: Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude

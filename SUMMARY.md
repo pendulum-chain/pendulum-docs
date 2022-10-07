@@ -49,7 +49,7 @@
     * [Issue and redeem assets](build/spacewalk-pallet/connecting-to-pendulum/issue-and-redeem-assets.md)
   * [Troubleshooting](build/spacewalk-pallet/troubleshooting/README.md)
     * [Generating the metadata yourself](build/spacewalk-pallet/troubleshooting/generating-the-metadata-yourself.md)
-* [Amplitude](build/amplitude/README.md)
+* [Amplitude](build/amplitude.md)
   * [Become a collator](build/amplitude/become-a-collator.md)
 * [Pendulum-launch](build/pendulum-launch/README.md)
   * [🐛 Install](build/pendulum-launch/install.md)
