@@ -8,13 +8,13 @@ First, clone the [polkadot repository](https://github.com/paritytech/polkadot):
 git clone https://github.com/paritytech/polkadot.git
 ```
 
-Then, download the raw `rococo-custom-2-raw.json` chain-spec file [here](https://docs.substrate.io/assets/tutorials/cumulus/chain-specs/rococo-custom-2-raw.json) and put it in the root of the cloned `polkadot` repository.
+Then, download the raw `raw-local-chainspec.json` chain-spec file [here](https://docs.substrate.io/assets/tutorials/relay-chain-specs/raw-local-chainspec.json/) and put it in the root of the cloned `polkadot` repository.
 
-At the time of writing this, the Pendulum parachain is using Polkadot dependencies of version `v0.9.18`. So for compatibility purposes, you need to check out the respective branch before building the node.
+At the time of writing this, the Pendulum parachain is using Polkadot dependencies of version `v0.9.29`. So for compatibility purposes, you need to check out the respective branch before building the node.
 
 ```
 # Checkout correct branch
-git checkout release-v0.9.18
+git checkout release-v0.9.29
 # Build polkadot node
 cargo build --release
 ```
@@ -30,7 +30,7 @@ From inside the cloned `polkadot` repository (after building the node):
 --alice \
 --validator \
 --base-path /tmp/relay/alice \
---chain ./rococo-custom-2-raw.json \
+--chain ./raw-local-chainspec.json \
 --port 30333 \
 --ws-port 9944
 ```
@@ -55,7 +55,7 @@ If you ran this validator before and you would like to start afresh from genesis
 --bob \
 --validator \
 --base-path /tmp/relay/bob \
---chain ./rococo-custom-2-raw.json \
+--chain ./raw-local-chainspec.json \
 --bootnodes /ip4/127.0.0.1/tcp/30333/p2p/<Alice_NODE_ID> \ # REPLACE ME WITH COPIED ID
 --port 30334 \
 --ws-port 9945
