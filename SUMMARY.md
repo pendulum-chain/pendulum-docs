@@ -39,7 +39,7 @@
 * [Spacewalk Pallet](build/spacewalk-pallet/README.md)
   * [Introduction](build/spacewalk-pallet/introduction.md)
   * [Connecting to the testchain](build/spacewalk-pallet/connecting-to-the-testchain/README.md)
-    * [Building the pallet](build/spacewalk-pallet/connecting-to-the-testchain/building-the-pallet.md)
+    * [Building the pallet](spacewalk/building-the-pallet.md)
     * [Creating test accounts](build/spacewalk-pallet/connecting-to-the-testchain/creating-test-accounts.md)
     * [Running the vault](build/spacewalk-pallet/connecting-to-the-testchain/running-the-vault.md)
     * [Issue assets](build/spacewalk-pallet/connecting-to-the-testchain/issue-assets.md)

@@ -6,14 +6,14 @@ This guide will describe how to install and run an Amplitude Collator node on do
 
 ### Hardware and Software requirements
 
-In order to be able to run a collator node you will need at least a machine with the following specs:
+In order to be able to run a collator node, you will need at least a machine with the following specs:
 
 * 4 CPU cores
 * 16 GB of RAM
 * 250 GB of Disk space
 * Ubuntu 20.04.5 LTS
 
-:warning: Other operating systems apart from Debian and Ubuntu based distributions were not tested yet, but you can always try at your own risk.
+:warning: Even though other Ubuntu and Debian versions may work, they were not tested, and we only provide support for the Ubuntu version mentioned above.
 
 ### Step-by-step installation
 
@@ -26,7 +26,7 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-Follow the steps below to install docker on your ubuntu server:
+Follow the steps below to install docker on your Ubuntu server:
 
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common git binutils -y
@@ -36,6 +36,9 @@ sudo apt update
 sudo apt-cache policy docker-ce 
 sudo apt install docker-ce -y
 sudo systemctl status docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+su -s ${USER}
 ```
 
 Configure your local firewall to allow communication for the required ports
@@ -99,4 +102,4 @@ When the node is syncing, you can see the block it is trying to sync up to. The 
 
 As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
 
-:bulb: Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
+💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
