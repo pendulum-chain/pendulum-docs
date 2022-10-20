@@ -98,6 +98,12 @@ Now your collator will start syncing both **Kusama** and **Amplitude** chains. K
 
 When the node is syncing, you can see the block it is trying to sync up to. The “**best**” section will tell you what block the sync actually is at, and the “**target**” where it needs to get to.
 
+#### How to speed up the Kusama chain syncing process?
+
+As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
+
+💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
+
 ### Insert your Aura keys
 
 While waiting for the node to finish syncing, you can already proceed with the next required step. This is about inserting an authority key pair to your node, i.e. a pair of private and public keys that will allow you to have control on the node, and it's required for the next step, where we will guide you through the staking and rewards configuration.
@@ -138,16 +144,22 @@ Assuming that your node is running and accessible through DNS, connect to it via
 3. Complete the fields:
    1. keyType: **aura**
    2. suri: your secret phrase or secret seed (both are accepted)
-   3. publicKey: your public key either in SS58 format or hexa.
+   3. publicKey: your public key either in SS58 format or hexadecimal.
 
 As an example, with the above generated keys it would look like this:&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
-Submit the RPC call, and you are good to go now!&#x20;
+Submit the RPC call, and you are good to go now!
 
-### How to speed up the Kusama chain syncing process?
+### Staking and becoming a collator
 
-As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
+Your node is now ready to collate but will not yet be selected for collating. Our pallet parachain-staking will select collator candidate nodes to become actually collating nodes on a regular basis. In order to be selected, your node first needs to stake some amount of native AMPE tokens with this pallet. The minimum staking amount is 5000 AMPE tokens. Follow these steps:
 
-💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
+1. Go to [polkadot.js](https://polkadot.js.org/apps) and select Amplitude from the _Kusama & Parachains_ folder
+2. Go to Accounts -> Accounts and add the account belonging to your Aura key assigned to your collator node in the previous step: click "+ Add Account", enter the secret phrase or secret seed of your Aura session key and enter a password and a name.
+3. Go to Developer -> Extrinsics and choose the account for your Aura key. Select the extrinsic **parachainStaking** -> **joinCandidates** and select a staking amount. The staking amount is the amount of AMPE tokens times 1 trillion (an additional 12 zeros). The minimum staking amount is 5000 AMPE tokens, so that the minimum value to enter is 5,000,000,000,000,000.
+4. Submit the transaction.
+5. Go to Developer -> Chain state and select parachainStaking -> topCandidates. Press the "+" button and check that your aura key occurs in the list of top candidates. If it does not, then you would need to increase your staking amount in order to become a top candidate. Whether your collator is a top candidate depends on your staking amount and on the total staking amount of your delegators. In order to increase your staking amount, proceed as in step 3 but choose the extrinsic **candidateStakeMore**.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-10-20 at 14.06.01.png" alt=""><figcaption></figcaption></figure>
