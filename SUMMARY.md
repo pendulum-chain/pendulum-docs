@@ -59,6 +59,7 @@
     * [export-genesis](build/pendulum-launch/sub-commands/export-genesis.md)
     * [generate-specs](build/pendulum-launch/sub-commands/generate-specs.md)
     * [generate-docker](build/pendulum-launch/sub-commands/generate-docker.md)
+* [Knowledge Base](build/knowledge-base.md)
 
 ## Community
 
