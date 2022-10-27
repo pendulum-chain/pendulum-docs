@@ -61,6 +61,7 @@
     * [generate-docker](build/pendulum-launch/sub-commands/generate-docker.md)
 * [Knowledge Base](build/knowledge-base/README.md)
   * [22-10-11 Foucoco stopped after runtime upgrade](build/knowledge-base/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
+  * [Troubleshooting - Chain compilation](build/knowledge-base/troubleshooting-chain-compilation.md)
 
 ## Community
 
