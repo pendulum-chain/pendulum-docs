@@ -67,9 +67,9 @@
 
 * [Introduction](community/introduction.md)
 * [Crowdloan](community/crowdloan/README.md)
-  * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
   * [Pendulum & PEN](community/crowdloan/pendulum-and-pen.md)
   * [FAQ](community/crowdloan/faq.md)
+  * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
 * [Pendulum Grant Program](community/pendulum-grant-program.md)
 * [Amplitude Grants Program](community/amplitude-grants-program.md)
 * [Ambassador Program](community/ambassador-program.md)
