@@ -54,7 +54,7 @@ A user can see a list of their delegations under
 1. Navigate to the tab chainstate under Developers/Chainstate
 2. There query for: parachainStaking and select the delegatorState() action
 
-### Claiming
+### Claiming rewards
 
 The respective method for checking a User’s rewards are under the ChainState tab
 
