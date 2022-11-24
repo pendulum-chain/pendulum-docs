@@ -66,7 +66,8 @@ The respective method for checking a User’s rewards are under the ChainState t
 The rewards can be claimed by:
 
 1. Navigating to extrinsics tab
-2. Query parachainStaking and select the claimRewards action
+2. Query parachainStaking and select the increment\_collator\_rewards action
+3. Query parachainStaking and select the claimRewards action
 
 ### Increasing and decreasing stakes
 
