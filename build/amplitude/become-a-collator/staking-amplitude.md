@@ -63,10 +63,18 @@ The respective method for checking a User’s rewards are under the ChainState t
 
 <figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.51.34.png" alt=""><figcaption></figcaption></figure>
 
-The rewards can be claimed by:
+Collator rewards can be claimed by:
 
 1. Navigating to extrinsics tab
 2. Query parachainStaking and select the increment\_collator\_rewards action
+3. Query parachainStaking and select the claimRewards action
+
+
+
+Delegator rewards can be claimed by:
+
+1. Navigating to extrinsics tab
+2. Query parachainStaking and select the increment\_delegator\_rewards action
 3. Query parachainStaking and select the claimRewards action
 
 ### Increasing and decreasing stakes
