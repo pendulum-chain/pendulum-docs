@@ -70,6 +70,7 @@
 * [Introduction](community/introduction.md)
 * [Crowdloan](community/crowdloan/README.md)
   * [Pendulum & PEN](community/crowdloan/pendulum-and-pen.md)
+  * [Waitlist & Crowdloan Process](community/crowdloan/waitlist-and-crowdloan-process.md)
   * [PEN Tokenomics](community/crowdloan/pen-tokenomics.md)
   * [FAQ](community/crowdloan/faq.md)
   * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
