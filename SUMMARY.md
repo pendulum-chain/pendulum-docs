@@ -70,6 +70,7 @@
 * [Introduction](community/introduction.md)
 * [Crowdloan](community/crowdloan/README.md)
   * [Pendulum & PEN](community/crowdloan/pendulum-and-pen.md)
+  * [PEN Tokenomics](community/crowdloan/pen-tokenomics.md)
   * [FAQ](community/crowdloan/faq.md)
   * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
 * [Pendulum Grant Program](community/pendulum-grant-program.md)
