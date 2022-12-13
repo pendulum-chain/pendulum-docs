@@ -69,8 +69,6 @@ Collator rewards can be claimed by:
 2. Query parachainStaking and select the increment\_collator\_rewards action
 3. Query parachainStaking and select the claimRewards action
 
-
-
 Delegator rewards can be claimed by:
 
 1. Navigating to extrinsics tab
@@ -96,6 +94,12 @@ The new stake will be PreviousStake **± amount**
 
        <figure><img src="../../../.gitbook/assets/Screenshot_2022-11-17_at_12.00.09.png" alt=""><figcaption></figcaption></figure>
    2. By verifying via the topCandidates action that their stake has been removed from the collator
+4. Before you can unlock your previously staked tokens, you have to wait 7 days (in block time).
+   1. Navigate to the extrinsics tab
+   2. Select the appropriate extrinsic: `parachainStaking -> unlockUnstaked(target)`
+   3. Select the `Id` option (the _MultiAddress field_)
+   4. Select the AMPE address you delegated from (_Id: AccountId_ field)
+   5. Sign and submit the extrinsic (_Submit Transaction_ button)
 
 Before:&#x20;
 
