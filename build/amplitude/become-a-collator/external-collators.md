@@ -1,6 +1,6 @@
 # Collators List
 
-An important step of decentralising a network is when the infrastructure is run by the community members. The Amplitude Collator Program aims to get high performing, diverse, and experienced node operators to join the Amplitude network.
+The Amplitude Collator Program aims to get high performing, diverse, and experienced node operators to join the Amplitude network.
 
 On successfully running the nodes for Amplitude, these operators will also get a chance to become the first set of collators for Pendulum.
 

@@ -52,7 +52,7 @@
 * [Amplitude](build/amplitude.md)
   * [Become a collator](build/amplitude/become-a-collator/README.md)
     * [Staking Amplitude](build/amplitude/become-a-collator/staking-amplitude.md)
-    * [Collators List](build/amplitude/become-a-collator/collators-list.md)
+    * [Collators List](build/amplitude/become-a-collator/external-collators.md)
 * [Pendulum-launch](build/pendulum-launch/README.md)
   * [🐛 Install](build/pendulum-launch/install.md)
   * [⚙ Configure](build/pendulum-launch/configure.md)
