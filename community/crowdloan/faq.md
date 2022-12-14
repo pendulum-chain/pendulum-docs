@@ -16,12 +16,15 @@ Yes. Your DOT tokens will be automatically returned to you when the parachain le
 **How do I know how much PEN bonuses I will get?** \
 You can check your rewards and their breakdown here on the Pendulum Crowdloan Dashboard.&#x20;
 
-**What is the breakdown of the AMPE bonuses?** \
-Waitlist bonus: 5% bonus for joining the waitlist
+**What is the breakdown of the PEN bonuses?**&#x20;
 
-Waitlist referral bonus: 5% bonus on the base amount of PEN tokens of your referrals
-
-Amplifier Campaign: 5% bonus for completing the Amplifier campaign
+* 5% for signing up on the waitlist
+* 5% for participating in the amplifier campaign
+* 5% of every contribution from your friends that contribute via your referral link
+* 3% for contributors of the Amplitude Kusama crowdloan
+* 15% bonus if your contribution is in the 100,000 DOT
+* 10% if your contribution is in the 100,001–200,000 DOT
+* 5% if your contribution is in 200,001–300,000 DOT
 
 **How to receive rewards?** \
 Rewards will automatically be sent to your Pendulum address, which will be derived from the Polkadot address you contributed with according to our release schedule. You may access them as soon as Talisman, or other wallet providers, integrate Pendulum. If you want to access your PEN earlier, you may import your private keys into a polkadot.js wallet.
