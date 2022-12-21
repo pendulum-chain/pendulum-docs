@@ -36,7 +36,7 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 ****\
 ****The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). The Polkadot crowdloan [waitlist is now open](https://medium.com/pendulum-chain/claim-your-pendulum-polkadot-crowdloan-waitlist-spot-now-e2df97ff06a9) where you can earn bonus rewards for signing up early. Note that the crowdloan reserve allocates tokens to support funding of future parachain slots
 
-<img src="../.gitbook/assets/image (3).png" alt="" data-size="original">
+<figure><img src="../.gitbook/assets/Pen_Tokenomics charts and graphic_Token Allocation – Community (%) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Backers Distribution** <a href="#3ec6" id="3ec6"></a>
 
