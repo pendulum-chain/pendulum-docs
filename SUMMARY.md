@@ -5,7 +5,8 @@
 * [Welcome to Pendulum](README.md)
 * [Our Journey](get-started/our-journey.md)
 * [Litepaper](get-started/litepaper.md)
-* [Token Economics](get-started/token-economics.md)
+* [Token Economics](get-started/token-economics/README.md)
+  * [Pendulum Token](get-started/token-economics/pendulum-token.md)
 * [Roadmap](get-started/roadmap.md)
 * [Grants Recieved](get-started/grants-recieved.md)
 
