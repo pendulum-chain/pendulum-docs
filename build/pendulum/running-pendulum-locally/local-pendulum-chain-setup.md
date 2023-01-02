@@ -1,3 +1,7 @@
+---
+description: Before running the test chain locally you need to be run the relay chain!
+---
+
 # Local Pendulum chain setup
 
 ### Prerequisites
@@ -26,7 +30,7 @@ First generate a plain chain spec of your parachain:
 
 ```
 # Generate a plain chain spec of your parachain
-./target/release/parachain-collator build-spec --disable-default-bootnode > rococo-local-parachain-plain.json
+./target/release/pendulum-collator build-spec --disable-default-bootnode > rococo-local-parachain-plain.json
 ```
 
 By default, the para ID in the generated `rococo-local-parachain-plain.json` is set to `1000`. But in the step earlier, we reserved a parachain slot for ID `2000`. That's why you will have to manually change the contents of the generated JSON file to match the setup of your leased parachain ID. For more information, see the [Substrate docs](https://docs.substrate.io/tutorials/v3/cumulus/connect-parachain/#configure-a-parachain-for-a-specific-relay-chain-and-para-id).  You have to modify two fields, similar to this snippet:
@@ -45,13 +49,13 @@ Afterwards, you can generate the other necessary files with the following comman
 
 ```
 # Generate a raw chain spec derived from the plain chain spec
-./target/release/parachain-collator build-spec --chain rococo-local-parachain-plain.json --raw --disable-default-bootnode > rococo-local-parachain-2000-raw.json
+./target/release/pendulum-collator build-spec --chain rococo-local-parachain-plain.json --raw --disable-default-bootnode > rococo-local-parachain-2000-raw.json
 
 # Generate the WASM runtime validation function
-./target/release/parachain-collator export-genesis-wasm --chain rococo-local-parachain-2000-raw.json > para-2000-wasm
+./target/release/pendulum-collator export-genesis-wasm --chain rococo-local-parachain-2000-raw.json > para-2000-wasm
 
 # Generate a parachain genesis state
-./target/release/parachain-collator export-genesis-state --chain rococo-local-parachain-2000-raw.json > para-2000-genesis
+./target/release/pendulum-collator export-genesis-state --chain rococo-local-parachain-2000-raw.json > para-2000-genesis
 ```
 
 These commands generate the following files:&#x20;
@@ -72,7 +76,7 @@ Copy your `rococo-custom-2-raw.json` file that you downloaded in the previous st
 Run the following command but replace `<ALICE_NODE_ID>` with the node Identity of one of the validators that you started in the previous chapter. It doesn't matter if you use Alice's or Bob's ID.
 
 ```
-./target/release/parachain-collator \
+./target/release/pendulum-collator \
 --alice \
 --rpc-cors=all \
 --collator \
