@@ -12,3 +12,7 @@ The below list contains the initial set of collators that were chosen by the pro
 4. **bwarelabs-collator-a:** `6i4XDKsnW523HBQZygNswAMaBtSN6bgB5jFL47nnWuiJ3kRb`
 5. **Hetavalidation**: `6gtEsSq3HEhk4xi1FKYvttB14gxw11yq5zs356YCdAy4hs1u`
 6. **Sik** | **Crifferent (dot) de:** `6ixX5DVN6vEMjjPN5sY3g3xphG8cD5yySVggDfKBPAVNUcGv`
+
+
+
+You can have an overview of [telemetry](https://telemetry.polkadot.io/#/0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf)[ data here](https://telemetry.polkadot.io/#/0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf)
