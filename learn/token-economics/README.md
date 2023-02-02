@@ -34,7 +34,7 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
 ****\
-****The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). The Polkadot crowdloan [waitlist is now open](https://medium.com/pendulum-chain/claim-your-pendulum-polkadot-crowdloan-waitlist-spot-now-e2df97ff06a9) where you can earn bonus rewards for signing up early. Note that the crowdloan reserve allocates tokens to support funding of future parachain slots
+****The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). [The Crowdloan](https://parachains.info/details/pendulum) #35 was won by Pendulum
 
 <figure><img src="../../.gitbook/assets/Pen_Tokenomics charts and graphic_Token Allocation – Community (%) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -43,7 +43,7 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 ****\
 ****The below chart shows the distribution of tokens to Pendulum’s early backers that have supported the building of Pendulum and Amplitude for over 1 year now.
 
-![](<../../.gitbook/assets/image (1).png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 _Note: The percentages in the Community and Backers charts should be halved to find the percentage of the overall tokenomics. For example, Staking Rewards is 14% of the overall tokenomics and 28% of the Community bucket._
 
@@ -86,12 +86,12 @@ AMPE token utilities will initially include transaction fees, staking and on-cha
 
 On-chain governance will follow a quadratic voting mechanism to ensure more votes for smaller holders and to disincentivize a single holder casting multiple votes on a single proposal. Proposals in the following categories can be voted on by the community of token holders:
 
-1\. **Asset Listings** — Listing and delisting the token on DEXes and CEXes.
+1\. **Asset Usage** — Proposals to use the Asset, such as listing and delisting the token on DEXes and CEXes.
 
 2\. **Reward Distributions** — The mechanism and amount of rewards distributed to different players of the network.
 
 3\. **Parameter Modifications** — Technical upgrades, smart contract configuration changes, transaction fees, etc.
 
-4\. **Community Suggestions** — Other suggestions / recommendations from the community.
+4\. **Community Proposals** — Other suggestions / recommendations from the community.
 
 The objective of these tokenomics is to set up a fertile ground for a community-driven chain where experimentation can blossom. For more details on the Amplitude crowdloan participation and bonuses please visit our [FAQs page](https://pendulum.gitbook.io/pendulum-docs/amplitude-crowdloan/faqs).

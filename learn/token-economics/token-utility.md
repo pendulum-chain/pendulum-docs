@@ -1,8 +1,8 @@
 ---
-description: The $PEN token is the native token for Pendulum
+description: The $AMPE and $PEN token are the native token for Pendulum
 ---
 
-# Pendulum Token
+# Token Utility
 
 ## Transaction Fees
 
@@ -19,4 +19,5 @@ Governance for pendulum is managed **on-chain**, he community can vote, discuss 
 * **Asset Listing** for adding and removing tokens from the DEX
 * **Rewards** and their distribution
 * **Parameters** related to technical, software configurations, fees, etc.
-* **Suggestions** about anything else!
+
+****
