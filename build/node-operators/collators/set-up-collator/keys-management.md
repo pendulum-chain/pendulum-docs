@@ -1,12 +1,12 @@
 # Keys Management
 
-### Insert your Aura keys
+## Insert your Aura keys
 
 While waiting for the node to finish syncing, you can already proceed with the next required step. This is about inserting an authority key pair to your node, i.e. a pair of private and public keys that will allow you to have control on the node, and it's required for the next step, where we will guide you through the staking and rewards configuration.
 
 So, if you already own an account that you want to use, you can skip the next section. But if you still don't have a key pair already generated, let's first do that.
 
-#### Generating Aura keys
+### Generating Aura keys
 
 There are many ways of generating a new account or pair of keys. To stay secure, the best is to generate them offline using a tool called [subkey](https://docs.substrate.io/reference/command-line-tools/subkey/). You can follow the steps there in order to install it in your system.
 
@@ -44,6 +44,6 @@ Assuming that your node is running and accessible through DNS, connect to it via
 
 As an example, with the above generated keys it would look like this:&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
 Submit the RPC call, and you are good to go now!
