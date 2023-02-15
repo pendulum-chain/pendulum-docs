@@ -44,6 +44,6 @@ Assuming that your node is running and accessible through DNS, connect to it via
 
 As an example, with the above generated keys it would look like this:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
 Submit the RPC call, and you are good to go now!

@@ -4,7 +4,7 @@ The Pendulum blockchain is based on the Substrate framework and offers, as of th
 
 * [Pendulum: Polkadot parachain. The "mainnet".](broken-reference)
 * [Amplitude: Kusama parachain. The "canary" network.](broken-reference)
-* [Foucoco: Rococo parachain. The testnet. ](build-environment/foucoco-testnet.md)
+* [Foucoco: Rococo parachain. The testnet. ](networks/foucoco-testnet.md)
 
 ## Substrate
 

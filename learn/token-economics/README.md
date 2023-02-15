@@ -2,7 +2,7 @@
 description: The Pendulum/Amplitude tokenomics in a nutshell
 ---
 
-# Token Economics
+# Tokenomics
 
 PEN will be the native token on Pendulum (Polkadot parachain). AMPE is the native token of Amplitude (Kusama parachain).
 

@@ -21,7 +21,7 @@ In order to join as a delegator a user has to:
 2. select the `joinDelegator` action
 3. Lookup a collator address in order to find them
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-16_at_15.15.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.15.47.png" alt=""><figcaption></figcaption></figure>
 
 To find the collators a user can either:
 
@@ -32,7 +32,7 @@ To find the collators a user can either:
 2. There query for: parachainStaking and select the topCandidates() function
 3. Select an owner-id as a collator to delegate to
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-16_at_15.22.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.22.22.png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 Do note that due to the current UI implementation staking X 
@@ -42,7 +42,7 @@ Staking 10 → 10 0000 0000 0000
 
 A user can appropriately delegate by filling the previous form with one or more of these ids
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-16_at_15.37.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.37.23.png" alt=""><figcaption></figcaption></figure>
 
 The transaction can now be submitted to perform the join delegators action
 
@@ -58,7 +58,7 @@ The respective method for checking a User’s rewards are under the ChainState t
 1. Navigate to the tab chainstate
 2. Query parachainStaking and select the rewards() action
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-16_at_15.51.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.51.34.png" alt=""><figcaption></figcaption></figure>
 
 Collator rewards can be claimed by:
 
@@ -77,7 +77,7 @@ Delegator rewards can be claimed by:
 1. Navigate to the extrinsics tab and select the respective action
 2. Insert the delegator-id to which a user has already delegated and the amount to change
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-16_at_15.45.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-16_at_15.45.48.png" alt=""><figcaption></figcaption></figure>
 
 The new stake will be PreviousStake **± amount**
 
@@ -89,7 +89,7 @@ The new stake will be PreviousStake **± amount**
    1.  The upper right success operation providing feedback\
 
 
-       <figure><img src="../../.gitbook/assets/Screenshot_2022-11-17_at_12.00.09.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/Screenshot_2022-11-17_at_12.00.09.png" alt=""><figcaption></figcaption></figure>
    2. By verifying via the topCandidates action that their stake has been removed from the collator
 4. Before you can unlock your previously staked tokens, you have to wait 7 days (in block time).
    1. Navigate to the extrinsics tab
@@ -100,8 +100,8 @@ The new stake will be PreviousStake **± amount**
 
 Before:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-17_at_11.59.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-17_at_11.59.37.png" alt=""><figcaption></figcaption></figure>
 
 After:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot_2022-11-17_at_12.00.41 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2022-11-17_at_12.00.41 (1).png" alt=""><figcaption></figcaption></figure>

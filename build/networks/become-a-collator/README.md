@@ -1,4 +1,4 @@
-# Running a collator
+# Set up Collator
 
 This guide will describe how to install and run an Amplitude Collator node on docker. The following link will contain the location of the Docker images:
 
@@ -148,7 +148,7 @@ Assuming that your node is running and accessible through DNS, connect to it via
 
 As an example, with the above generated keys it would look like this:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
 Submit the RPC call, and you are good to go now!
 
@@ -162,7 +162,7 @@ Your node is now ready to collate but will not yet be selected for collating. Ou
 4. Submit the transaction.
 5. Go to Developer -> Chain state and select parachainStaking -> topCandidates. Press the "+" button and check that your aura key occurs in the list of top candidates. If it does not, then you would need to increase your staking amount in order to become a top candidate. Whether your collator is a top candidate depends on your staking amount and on the total staking amount of your delegators. In order to increase your staking amount, proceed as in step 3 but choose the extrinsic **candidateStakeMore**.
 
-<figure><img src="../../../../.gitbook/assets/Screen Shot 2022-10-20 at 14.06.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screen Shot 2022-10-20 at 14.06.01.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Please, be aware that after you stake, your collator will be part of the collator set, meaning it is selectable by the algorithm to produce blocks :ok\_hand:

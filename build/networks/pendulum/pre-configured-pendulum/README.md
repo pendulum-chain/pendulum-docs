@@ -4,6 +4,6 @@ description: >-
   parachain, generate specs, and export genesis data.
 ---
 
-# Using pendulum-launch
+# Pre-Configured Pendulum
 
 [pendulum-launch](https://github.com/pendulum-chain/pendulum-launch) is a tool for launching your parachain from a static configuration.  It additionally provides sub-commands for exporting genesis data and generating specs from a given collator binary.
