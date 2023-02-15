@@ -8,15 +8,15 @@ A vault can only bridge through one particular collateral. If an owner wants to 
 
 We define some parameters to help define what elements make up the Collateral&#x20;
 
-| Type                      | Role                                                                       | Formula                                              |
-| ------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------- |
-| **Used Collateral**       | Currently used collateral                                                  | Backed Tokens \* Secure Threshold                    |
-| **Backed Tokens**         |                                                                            | Issued Tokens + Tokens to be issued                  |
-| **Maximum Collateral**    | Maximal amount of stable-coin that can be collateralized                   | Total Collateral / Secure Threshold \* Exchange Rate |
-| **Minimum Collateral**    | Minimal deposit                                                            | See table                                            |
-| **Security Threshold**    | Amount of collateral that enables a vault to store up to X amount of asset | See table                                            |
-| **Liquidation Threshold** | Amount of collateral after which the vault will start getting liquidated   | See table                                            |
-| **Premium Redeem Factor** | Grants users redeeming at this level a premium on the collateralized asset | See table                                            |
+| Type                      | Role                                                                       | Formula                                       |
+| ------------------------- | -------------------------------------------------------------------------- | --------------------------------------------- |
+| **Used Collateral**       | Currently used collateral                                                  | Backed Tokens \* Secure Threshold             |
+| **Backed Tokens**         |                                                                            | Issued Tokens + Tokens to be issued           |
+| **Maximum Collateral**    | Maximal amount of stable-coin that can be collateralized                   | Defined on Asset pairs                        |
+| **Minimum Collateral**    | Minimal deposit                                                            | <p>30 DOT (Pendulum)<br>3 KSM (Amplitude)</p> |
+| **Security Threshold**    | Amount of collateral that enables a vault to store up to X amount of asset | See table                                     |
+| **Liquidation Threshold** | Amount of collateral after which the vault will start getting liquidated   | See table                                     |
+| **Premium Redeem Factor** | Grants users redeeming at this level a premium on the collateralized asset | See table                                     |
 
 #### Collateral Data for Pendulum
 
