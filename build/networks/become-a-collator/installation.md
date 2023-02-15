@@ -51,9 +51,9 @@ Install the application using docker. This will name the docker container the sa
 
 {% code overflow="wrap" %}
 ```bash
-sudo docker pull pendulumchain/pendulum-collator:v0.9.29
+sudo docker pull pendulumchain/pendulum-collator:v0.9.37
 #docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 9955:9955 -p 30334:30334 -p 8844:8844 pendulumchain/pendulum-collator:v0.9.24 --collator --allow-private-ipv4 --unsafe-ws-external --rpc-cors all --rpc-external --rpc-methods Unsafe --force-authoring --enable-offchain-indexing=TRUE --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data --unsafe-pruning --pruning=256
-docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.29 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=TRUE --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
+docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=TRUE --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
 ```
 {% endcode %}
 
@@ -64,7 +64,7 @@ Run **`docker ps`** command to verify if the collator is running properly. You s
 ```bash
 # docker ps
 CONTAINER ID   IMAGE                                     COMMAND                  CREATED          STATUS          PORTS                                                                                                                                                                   NAMES
-3212d72e1291   pendulumchain/pendulum-collator:v0.9.29   "tini -- /usr/local/…"   10 minutes ago   Up 10 minutes   0.0.0.0:8844->8844/tcp, :::8844->8844/tcp, 0.0.0.0:9935->9935/tcp, :::9935->9935/tcp, 0.0.0.0:30334-30335->30334-30335/tcp, :::30334-30335->30334-30335/tcp, 9945/tcp   yourhostname
+3212d72e1291   pendulumchain/pendulum-collator:v0.9.37   "tini -- /usr/local/…"   10 minutes ago   Up 10 minutes   0.0.0.0:8844->8844/tcp, :::8844->8844/tcp, 0.0.0.0:9935->9935/tcp, :::9935->9935/tcp, 0.0.0.0:30334-30335->30334-30335/tcp, :::30334-30335->30334-30335/tcp, 9945/tcp   yourhostname
 ```
 
 The **/data** directory should start to get populated with data and should have a structure:
