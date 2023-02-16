@@ -6,8 +6,8 @@ Wallets are tools to safeguard, manage and operate with assets, allowing yyou to
 
 Currently, Pendulum/Amplitude is supported by:
 
-* Talisman
-* SubWallet
-* Nova Wallet
-* Polkadot.js
+* [Talisman](https://www.talisman.xyz/)
+* [SubWallet](https://subwallet.app/)
+* [Nova Wallet](https://novawallet.io/)
+* [Polkadot.js](https://polkadot.js.org/)
 

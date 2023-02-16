@@ -16,20 +16,24 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 
 **Relay Chain:** Polkadot
 
-**Supply Structure:** Inflationary
+**Supply Structure:** Inflationary, through staking and vault operator rewards
 
-**Total Supply:** 200,000,000
+**Total Supply:** 210,000,000
 
-**Initial Circulating Supply:** 15,200,000
+**Initial Circulating Supply:** 10,000,000
 
 **Supply at Genesis:** 160,000,000
+
+**Consensus:** Limited Delegator Proof of Stake
+
+**Token Usage:** Gas,Staking and Governance
 
 ### **Distribution** <a href="#98b0" id="98b0"></a>
 
 ****\
 ****The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
 
-****![](<../../.gitbook/assets/image (2).png>)****
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
@@ -50,7 +54,7 @@ _Note: The percentages in the Community and Backers charts should be halved to f
 **Vesting Schedule**\
 ****Below is the vesting schedule for all community and backer tokens. Most of the tokens include a vesting schedule that unlocks linearly over 2 to 3 years to ensure all participants are incentivized to work towards Pendulum’s long-term growth.
 
-![](../../.gitbook/assets/image.png)****
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **AMPE Tokenomics Overview** <a href="#74ef" id="74ef"></a>
 
@@ -72,11 +76,11 @@ In order to ensure Amplitude is a community-first project, the Pendulum team dec
 
 The distribution is reflective of the intended nature of the project that truly gives Amplitude to the community.
 
-![](https://miro.medium.com/max/1400/0\*hJI7ggJ5cHjotvGX)
+<figure><img src="https://miro.medium.com/max/1400/0*hJI7ggJ5cHjotvGX" alt=""><figcaption></figcaption></figure>
 
 Protocol & Ecosystem Breakdown:
 
-![](https://miro.medium.com/max/1400/0\*WiDQTAPYhLsMNg2P)
+<figure><img src="https://miro.medium.com/max/1400/0*WiDQTAPYhLsMNg2P" alt=""><figcaption></figcaption></figure>
 
 ### **AMPE Token Utility** <a href="#3483" id="3483"></a>
 
