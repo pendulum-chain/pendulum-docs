@@ -72,7 +72,6 @@
 * [Governance](community/governance.md)
 * [Crowdloan](community/crowdloan/README.md)
   * [Pendulum & PEN](community/crowdloan/pendulum-and-pen.md)
-  * [Waitlist & Crowdloan Process](community/crowdloan/waitlist-and-crowdloan-process.md)
   * [FAQ](community/crowdloan/faq.md)
   * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
 * [Pendulum Grant Program](community/pendulum-grant-program.md)

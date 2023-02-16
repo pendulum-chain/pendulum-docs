@@ -6,7 +6,7 @@ A Polkadot crowdloan serves to trustlessly crowdsource DOT to bid on a parachain
 
 This crowdloan allowed Pendulum to raise the required DOT to secure a parachain slot on Polkadot and to distribute PEN tokens to the early supporters in the community.&#x20;
 
-**Crowdloan details include:**
+**Pendulum Crowdloan details include:**
 
 Lease period: 96 weeks
 
@@ -22,7 +22,7 @@ Token Received: PEN
 
 Redeeming DOT: Your DOT will be unlocked and returned to you without any input required
 
-The PEN listing is projected for late February 2023. PEN will be the native token of Pendulum. PEN utilities include powering transactions as the Pendulum gas token, governance, and staking.
+Exchange listings for PEN are projected for late February 2023. PEN will be the native token of Pendulum. PEN utilities include powering transactions as the Pendulum gas token, governance, and staking.
 
 **Ticker:** PEN
 
