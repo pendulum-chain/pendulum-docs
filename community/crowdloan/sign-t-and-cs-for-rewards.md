@@ -24,7 +24,7 @@ Go to the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLScAwRI1hqz
 3. Copy-paste the text in the bottom of this page into the field `sign the following data.` Make sure it’s exactly the text below and nothing else (you can use the Copy in the text box corner)
 4. Click `Sign Message`
 5. Approve the request from the wallet (no gas fees required)
-6. Copy the string in `signature of supplied data` field and paste it in the signature field
+6. Copy the string in `signature of supplied data` field and paste it in the signature field in the Google form
 7. Submit the Google form.
 
 ### Message to sign
