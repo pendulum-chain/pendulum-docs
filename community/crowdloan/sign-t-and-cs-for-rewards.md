@@ -31,9 +31,15 @@ Go to the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLScAwRI1hqz
 
 Copy-paste the below message to sign:
 
+{% code overflow="wrap" %}
 ```
+{% raw %}
+{% code overflow="wrap" %}
 I hereby accept and declare to comply to the Pendulum terms and conditions to be found at pendulumchain.org/legal/crowdloan-terms-and-conditions published on Feb 13, 2023 (SHA256 hash: aded339deea400cae6f2b96c818321945e983079562bc37ecf01ec358004fc07)
+{% endcode %}
+{% endraw %}
 ```
+{% endcode %}
 
 {% hint style="info" %}
 Note: once the process is completed, it may take up to **48 hours for distribution** to be scheduled.
