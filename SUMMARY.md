@@ -64,16 +64,17 @@
 
 ## Community
 
-* [Introduction](community/introduction.md)
 * [Staking](community/staking/README.md)
   * [Delegation](community/staking/delegation.md)
   * [Rewards](community/staking/rewards.md)
   * [Further Operations on Delegators](community/staking/further-operations-on-delegators.md)
 * [Governance](community/governance.md)
 * [Crowdloan](community/crowdloan/README.md)
+  * [Introduction](community/crowdloan/introduction.md)
   * [Pendulum & PEN](community/crowdloan/pendulum-and-pen.md)
   * [FAQ](community/crowdloan/faq.md)
   * [Amplitude & AMPE](community/crowdloan/amplitude-and-ampe.md)
+  * [Sign T\&Cs for rewards](community/crowdloan/sign-t-and-cs-for-rewards.md)
 * [Pendulum Grant Program](community/pendulum-grant-program.md)
 * [Amplitude Grants Program](community/amplitude-grants-program.md)
 * [Ambassador Program](community/ambassador-program.md)
