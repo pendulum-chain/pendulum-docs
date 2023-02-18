@@ -38,5 +38,5 @@ I hereby accept and declare to comply to the Pendulum terms and conditions to be
 {% endcode %}
 
 {% hint style="info" %}
-Note: once the process is completed, it may take up to **48 hours for distribution** to be scheduled.
+Note: once the process is completed, it may take up to **7 days** to be scheduled.
 {% endhint %}
