@@ -1,6 +1,6 @@
 # Roadmap
 
-The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2024 Q4.&#x20;
+The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum is now live on Polkadot mainnet after winning a record-breaking crowdloan and Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2024 Q4.&#x20;
 
 **2022 Q1**
 
@@ -24,24 +24,23 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 **2022 Q3**
 
 * ✔️ Amplitude launch&#x20;
-* Rococo launch (public testnet)
-* Uniswap-style AMM (testnet)
+* ✔️Rococo launch (public testnet)
+* ✔️Uniswap-style AMM (testnet)
 
 **2022 Q4**
 
-* Portal launch — gateway hub to AMM, bridge, staking with wallet integration
-* Wallet integrations
-* Polkadot auction
-* Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
+* ✔️Portal launch — gateway hub to AMM, bridge, staking with wallet integration
+* ✔️Wallet integrations
+* ✔️Polkadot auction
 
 **2023 Q1**
 
-* Pendulum chain launch
+* ✔️Pendulum chain launch
+* Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
 * $PEN listing
 * Spacewalk launch
-* Forex AMM (Amber)
-* Uniswap-style AMM (Kusama/Pendulum)
-* Hardware wallet integration ($PEN)
+* Forex AMM (Amber) launch
+* Ledger integration ($PEN)
 * Subsquid integration — largescale data access for developers
 
 **2023 Q2**
