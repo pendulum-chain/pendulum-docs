@@ -1,6 +1,6 @@
 # Amplitude rollout
 
-Amplitude the canary network of its sister blockchain Pendulum.
+Amplitude is the canary network of its sister blockchain Pendulum.
 
 It will act as a testing ground for applications and network parameters for Pendulum. Unlike a traditional testnet, users can interact on the Amplitude chain with real financial consequences. Lots of novel ways of utilizing fiat on DeFi can be experimented with. Amplitude chain will be powered by its native AMPE token.
 
