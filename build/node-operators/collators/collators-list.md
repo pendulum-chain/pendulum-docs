@@ -1,19 +1,13 @@
 # Collators List
 
-## Internal Collator List
+## Internal RPC Collator List
 
-| Name                  | Full Domain                                  | Type     |
-| --------------------- | -------------------------------------------- | -------- |
-| penawsuse-collator-00 | penawsuse-collator-00.prd.pendulumchain.tech | Collator |
-| penawsuse-collator-01 | penawsuse-collator-01.prd.pendulumchain.tech | Collator |
-| penawsuse-collator-02 | penawsuse-collator-02.prd.pendulumchain.tech | Collator |
-| penawsuse-collator-03 | penawsuse-collator-03.prd.pendulumchain.tech | Collator |
-| penawsuse-rpcnode-00  | penawsuse-rpcnode-00.prd.pendulumchain.tech  | RPC      |
-| penawsuse-rpcnode-01  | penawsuse-rpcnode-01.prd.pendulumchain.tech  | RPC      |
-| penctbsyd-collator-00 | penctbsyd-collator-00.prd.pendulumchain.tech | Collator |
-| penctbsin-collator-00 | penctbsin-collator-00.prd.pendulumchain.tech | Collator |
-| penctbusw-collator-00 | penctbusw-collator-00.prd.pendulumchain.tech | Collator |
-| penctbeur-collator-00 | penctbeur-collator-00.prd.pendulumchain.tech | Collator |
+You can connect to these collators on Polkadot.js
+
+| Name                 | Full Domain                                                                                      | Type |
+| -------------------- | ------------------------------------------------------------------------------------------------ | ---- |
+| penawsuse-rpcnode-00 | [penawsuse-rpcnode-00.prd.pendulumchain.tech](wss://penawsuse-rpcnode-00.prd.pendulumchain.tech) | RPC  |
+| penawsuse-rpcnode-01 | [penawsuse-rpcnode-01.prd.pendulumchain.tech](wss://penawsuse-rpcnode-01.prd.pendulumchain.tech) | RPC  |
 
 ### Initial Collators
 
