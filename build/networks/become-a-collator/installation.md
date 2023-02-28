@@ -61,7 +61,7 @@ docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:303
 
 <summary>Set up an RPC Node instead</summary>
 
-You may want to only run an RPC Node instead. That is, a reachable node, that connects to the network and that can be used from other apps, but that doesn't produce any blocks. If you need this, expand the next section, if not, ignore it.
+You may want to only run an RPC Node instead. That is, a reachable node, that connects to the network and that can be used from other apps, but that doesn't produce any blocks. If you need this, you can run the following command instead of the one above.
 
 {% code overflow="wrap" %}
 ```bash
