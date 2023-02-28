@@ -57,6 +57,22 @@ docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:303
 ```
 {% endcode %}
 
+<details>
+
+<summary>Set up an RPC Node instead</summary>
+
+You may want to only run an RPC Node instead. That is, a reachable node, that connects to the network and that can be used from other apps, but that doesn't produce any blocks. If you need this, expand the next section, if not, ignore it.
+
+{% code overflow="wrap" %}
+```bash
+docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --no-private-ipv4 --rpc-cors all --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
+```
+{% endcode %}
+
+After you have run this, you can continue with the next verification steps, taking into account that your node **will not produce blocks if you executed the command above.**&#x20;
+
+</details>
+
 ### Verify your installation
 
 Run **`docker ps`** command to verify if the collator is running properly. You should see the following output:
