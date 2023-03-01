@@ -1,6 +1,6 @@
 # Roadmap
 
-The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum is now live on Polkadot mainnet after winning a record-breaking crowdloan and Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2024 Q4.&#x20;
+The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. Since then development has begun and 2022 has seen significant support from the Stellar and Dotsama ecosystems. Pendulum is now live on Polkadot mainnet after winning a record-breaking crowdloan and Pendulum's sister network, Amplitude, also had a successful Kusama parachain auction. See below for the roadmap until 2023 Q4.&#x20;
 
 **2022 Q1**
 
@@ -38,49 +38,29 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 * ✔️Pendulum chain launch
 * Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
 * $PEN listing
-* Spacewalk launch
-* Forex AMM (Amber) launch
 * Ledger integration ($PEN)
-* Subsquid integration — largescale data access for developers
+* Spacewalk bridge launch
+* Forex AMM (0xAmber) launch
 
 **2023 Q2**
 
-* Direct fiat onramp — onramp for $PEN
-* DotSama compliance standard&#x20;
-* dApp staking — easy way to stake in multiple community dApps
+* Real-time price oracle&#x20;
+* Direct fiat on/off ramp
+* Fiat on/off ramp interface standard
+* Accounting API
+* Portal V2
 
 **2023 Q3**
 
-* Cosmos bridge — connect to eMoney
-* Fiat on/offramp interface standard — defining the anchor standard&#x20;
-* Next-gen fiat price oracle — price feed that works out of forex market hours
+* Multi-user account management&#x20;
+* Lending dApp launch
+* Decentralized identity/KYC prototype&#x20;
+* SDK for ink! developers
 
 **2023 Q4**
 
-* SDK for Wasm dApp developers — Ethereum-equivalent tool chain for improved Developer Experience
-* Connect compliance layer — layer for secure transmission of KYC/AML data
-* Multi-currency txn fee&#x20;
-* Direct fiat anchors — direct on/offramps on network
+* Optional tx privacy&#x20;
+* Compliance layer for secure transmission of KYC/AML data
+* Multi-currency gas fees
 
-**2024 Q1**
-
-* Optional tx privacy layer — zk-style privacy with ability to reveal
-* MEV protection — protection against frontrunning
-* Native fiat tokens (Pendulum) — over-collateralised fiat stable (Dai/MakerDAO-inspired)
-
-**2024 Q2**
-
-* Accounting data API — easy access to tax-event data
-* Forex lending pool — lending optimised for fiat stables
-* Token governance — decentralised method for ensuring quality tokens
-
-**2024 Q3**
-
-* Decentralized custodianship/Account abstractions
-* Cross-chain anchors — onramp in one network (e.g. Stellar) and offramp in another (e.g. Pendulum)
-* Automated smart contract validation — automatic security review of smart contracts
-
-**2024 Q4**
-
-* Insurance layer — protection against loss/adverse events for premium
-* Institutional-grade AMM&#x20;
+****

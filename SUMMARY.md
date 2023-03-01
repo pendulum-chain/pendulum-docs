@@ -59,8 +59,8 @@
     * [Issue and redeem assets](build/spacewalk-stellar-bridge/connecting-to-pendulum/issue-and-redeem-assets.md)
   * [Troubleshooting](build/spacewalk-stellar-bridge/troubleshooting/README.md)
     * [Generating metadata](build/spacewalk-stellar-bridge/troubleshooting/generating-metadata.md)
-* [Status Reports](build/status-reports/README.md)
-  * [22-10-11 Foucoco stopped after runtime upgrade](build/status-reports/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
+* [Known issues and FAQ](build/known-issues-and-faq/README.md)
+  * [22-10-11 Foucoco stopped after runtime upgrade](build/known-issues-and-faq/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
 
 ## Community
 
