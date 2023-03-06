@@ -14,6 +14,7 @@
 ## Build
 
 * [Introduction](build/introduction.md)
+* [Network Parameters](build/network-parameters.md)
 * [Build Environment](build/networks/README.md)
   * [Local relay chain setup](build/networks/pendulum/running-pendulum-locally/local-relay-chain-setup.md)
   * [Local Pendulum chain setup](build/networks/pendulum/running-pendulum-locally/local-pendulum-chain-setup.md)
@@ -59,8 +60,9 @@
     * [Issue and redeem assets](build/spacewalk-stellar-bridge/connecting-to-pendulum/issue-and-redeem-assets.md)
   * [Troubleshooting](build/spacewalk-stellar-bridge/troubleshooting/README.md)
     * [Generating metadata](build/spacewalk-stellar-bridge/troubleshooting/generating-metadata.md)
-* [Known issues and FAQ](build/known-issues-and-faq/README.md)
-  * [22-10-11 Foucoco stopped after runtime upgrade](build/known-issues-and-faq/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
+* [Techincal FAQ](build/techincal-faq.md)
+* [Status reports](build/status-reports/README.md)
+  * [22-10-11 Foucoco stopped after runtime upgrade](build/status-reports/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
 
 ## Community
 
