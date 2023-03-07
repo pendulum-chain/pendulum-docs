@@ -54,7 +54,18 @@ _Note: The percentages in the Community and Backers charts should be halved to f
 **Vesting Schedule**\
 ****Below is the vesting schedule for all community and backer tokens. Most of the tokens include a vesting schedule that unlocks linearly over 2 to 3 years to ensure all participants are incentivized to work towards Pendulum’s long-term growth.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+| Allocation                   | Distribution (%) | TGE Unlock (%) | Vesting (months) | Cliff (months) |
+| ---------------------------- | ---------------- | -------------- | ---------------- | -------------- |
+| Private Presale              | 20               | 2.0            | 24               | -              |
+| Polkadot Parachain Crowdloan | 3                | 0.3            | 22               | -              |
+| Strategic Presale            | 10               | 10             | 24               | -              |
+| Exchange Listing             | -                | -              | -                | -              |
+| Treasury                     | 13               | 3.9            | 60               | -              |
+| Marketing                    | 5                | 0.5            | 36               | -              |
+| Rewards                      | 20               |                | Perpetual        | -              |
+| Crowdloan Reserve            | 5                | 0              | 22               | -              |
+| Liquidity                    | 4                | 0              | 24               | -              |
+| Team/Advisors                | 20               | 0              | 18-36            | 6-12           |
 
 ## **AMPE Tokenomics Overview** <a href="#74ef" id="74ef"></a>
 
