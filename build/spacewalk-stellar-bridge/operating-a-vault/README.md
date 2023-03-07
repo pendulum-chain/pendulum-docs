@@ -1,12 +1,14 @@
-# Operating and Using a Vault
+---
+description: Everything you need to know to set-up and run a Spacewalk bridge vault
+---
+
+# Operating a Vault
 
 ## Overview
 
 A vault is an entity which provides bridging utilities to users. It achieves this, by provisioning the underlying infrastructure for bridging tokens. In a few words, it’s a safe,secure and trustless enabler
 
 A user can safely bridge their assets through a vault in the Stellar chain, and receive an equivalent amount of wrapped tokens on the Pendulum network. In order for the vault to be able to provide their services, the vault locks up an amount of $DOT tokens. As an example, if they were to bridge $USDC, they’d receive a wrapped $USDC on the Pendulum network.
-
-
 
 ## Roles
 

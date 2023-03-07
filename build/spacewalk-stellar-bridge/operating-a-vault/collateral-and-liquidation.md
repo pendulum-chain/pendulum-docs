@@ -6,7 +6,7 @@ A vault can only bridge through one particular collateral. If an owner wants to 
 
 ## Collateral division
 
-We define some parameters to help define what elements make up the Collateral&#x20;
+Below we define some parameters to help define what elements make up the collateral:
 
 | Type                      | Role                                                                       | Formula                                       |
 | ------------------------- | -------------------------------------------------------------------------- | --------------------------------------------- |

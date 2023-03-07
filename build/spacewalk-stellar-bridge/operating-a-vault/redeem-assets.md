@@ -10,7 +10,7 @@ Finally, you can redeem your assets back to Stellar. To do so:
 2. Select your User Account, and then select `spacewalk` from the first dropdown.
 3. From the second dropdown, select the `redeem(assetCode, assetIssuer, amount, stellarVaultPubkey)` extrinsic
 4. Set the `assetCode` to **`USDC`**, `assetIssuer` to **`GAKNDFRRWA3RPWNLTI3G4EBSD3RGNZZOY5WKWYMQ6CQTG3KIEKPYWAYC`**, `amount` to **`1000000000000`** (since this is a Balance field, we need to provide the actual number including the decimal places, this number is equivalent to 1 Unit).
-5. For `stellarVaultPubkey` you should use the public key of the Stellar account that you used for running the vault client i.e. the corresponding public key of the `vault-secret` you used in  [running-the-vault.md](running-the-vault.md "mention").
+5. For `stellarVaultPubkey` you should use the public key of the Stellar account that you used for running the vault client i.e. the corresponding public key of the `vault-secret` you used in  [running-the-vault.md](../connecting-to-the-testchain/running-the-vault.md "mention").
 6. Next, submit the transaction.
 7. Check that the redeem was successfully executed:\
    \- Check the balances of your imported test stellar account. It should have received `1 USDC`.\

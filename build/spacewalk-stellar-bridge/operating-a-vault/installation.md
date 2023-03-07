@@ -2,9 +2,9 @@
 
 ## Operating a Vault
 
-The Vault client intermediates between Stellar and the Spacewalk Parachain.
+The Spacewalk vault client intermediates between Stellar and the Pendulum parachain.
 
-Prerequisites
+### Prerequisites
 
 * A recent version of Linux or MacOS. Windows support is not tested.
 * At least 2 GB of RAM and a good CPU - exact requirements not yet benchmarked.
@@ -29,8 +29,6 @@ Then change the file permission to make it executable.
 {% hint style="danger" %}
 Building from source requires \`clang 11\`. Make sure to check this via \`clang -v\`.
 {% endhint %}
-
-
 
 #### Install Rust
 
