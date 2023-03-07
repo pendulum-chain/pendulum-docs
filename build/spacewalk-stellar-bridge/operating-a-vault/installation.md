@@ -9,12 +9,10 @@ The Spacewalk vault client intermediates between Stellar and the Pendulum parach
 * A recent version of Linux or MacOS. Windows support is not tested.
 * At least 2 GB of RAM and a good CPU - exact requirements not yet benchmarked.
 * Free disk space (ideally SSD):
-  * at least **40 GB** for the Stellar testnet, _or_
-  * at least **500 GB** for the Stellar mainnet, _or_
-  * approximately **1GB** for either, if using a pruned Bitcoin node.
+  * at least **30 GB** if you build the vault client binary from sources
+  * at least **10 GB** if you use a pre-built binary
 * A stable internet connection.
 * At least 1 PEN/AMPE to pay for initial transaction fees.
-* A minimum amount of collateral assets, see [requirements](https://docs.interlay.io/#/vault/overview?id=minimum).
 
 ## Installation
 
