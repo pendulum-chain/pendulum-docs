@@ -47,3 +47,32 @@ As an example, with the above generated keys it would look like this:&#x20;
 <figure><img src="../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
 Submit the RPC call, and you are good to go now!
+
+
+
+### Key management from the CLI
+
+If you do not have a web interface enabled you can insert the keys running the following command on the node.
+
+```bash
+curl --location --request POST 'localhost:9955' \\
+    --header 'Content-Type: application/json' \\
+    --data-raw "{
+        "jsonrpc": "2.0",
+        "method": "author_insertKey",
+        "params": ["aura","$privatekey","$publickey"],
+        "id": 1
+    }"
+```
+
+Where the **$privatekey** is equivalent with the **“Secret Seed”** and the **$publickey** equal to **“Account ID”** ( see the example below ).
+
+```bash
+Secret phrase:       rubber begin sail spider green hope two fetch immune nation connect swarm
+  Network ID:        substrate
+  Secret seed:       0xe691a1a17f124bc41ce59b4a4ae1343ac975dc98d5edb4fd68460cdbc2f1ef42
+  Public key (hex):  0x422cf4ec55a544d31e6a1ecf21afe005f94373214b87be66c613d97e9db8ea18
+  Account ID:        0x422cf4ec55a544d31e6a1ecf21afe005f94373214b87be66c613d97e9db8ea18
+  Public key (SS58): 5DZUNZJr6nfMwgbx1MNijoEojkARa6mvS5nbnZHJ9EHWnhAq
+  SS58 Address:      5DZUNZJr6nfMwgbx1MNijoEojkARa6mvS5nbnZHJ9EHWnhAq
+```

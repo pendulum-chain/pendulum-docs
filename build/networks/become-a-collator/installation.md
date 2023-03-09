@@ -31,9 +31,7 @@ su -s ${USER}
 Configure your local firewall to allow communication for the required ports
 
 ```bash
-sudo ufw allow 8844/tcp
 sudo ufw allow 30335/tcp
-sudo ufw allow 9955/tcp
 sudo ufw allow 30334/tcp
 sudo ufw allow https
 sudo ufw enable
@@ -41,21 +39,41 @@ sudo ufw enable
 
 Download chain specifications
 
-```bash
+{% tabs %}
+{% tab title="Amplitude" %}
+```
 sudo mkdir -p /data/
 sudo wget -P /data <https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/kusama.json>
 sudo wget -P /data <https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/amplitude-spec-raw.json>
 ```
+{% endtab %}
+
+{% tab title="Pendulum" %}
+```
+sudo mkdir -p /data/
+sudo wget -P /data https://github.com/paritytech/polkadot/blob/master/node/service/chain-specs/polkadot.json?raw=true
+sudo wget -P /data https://github.com/pendulum-chain/pendulum/blob/main/res/pendulum-spec-raw.json?raw=true
+```
+{% endtab %}
+{% endtabs %}
 
 Install the application using docker. This will name the docker container the same as the hostname of the Ubuntu server. If you wish to change that, replace the **$(hostname)** parameter with a name of your choice.
 
-{% code overflow="wrap" %}
-```bash
-sudo docker pull pendulumchain/pendulum-collator:v0.9.37
-#docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 9955:9955 -p 30334:30334 -p 8844:8844 pendulumchain/pendulum-collator:v0.9.24 --collator --allow-private-ipv4 --unsafe-ws-external --rpc-cors all --rpc-external --rpc-methods Unsafe --force-authoring --enable-offchain-indexing=TRUE --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data --unsafe-pruning --pruning=256
-docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=TRUE --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
+{% tabs %}
+{% tab title="Amplitude" %}
 ```
-{% endcode %}
+sudo docker pull pendulumchain/pendulum-collator:v0.9.37
+docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/kusama.json --execution=wasm -d /data
+```
+{% endtab %}
+
+{% tab title="Pendulum" %}
+```
+sudo docker pull pendulumchain/pendulum-collator:v0.9.37
+docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/pendulum-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/polkadot.json --execution=wasm -d /data
+```
+{% endtab %}
+{% endtabs %}
 
 <details>
 
@@ -83,7 +101,7 @@ CONTAINER ID   IMAGE                                     COMMAND                
 3212d72e1291   pendulumchain/pendulum-collator:v0.9.37   "tini -- /usr/local/…"   10 minutes ago   Up 10 minutes   0.0.0.0:8844->8844/tcp, :::8844->8844/tcp, 0.0.0.0:9935->9935/tcp, :::9935->9935/tcp, 0.0.0.0:30334-30335->30334-30335/tcp, :::30334-30335->30334-30335/tcp, 9945/tcp   yourhostname
 ```
 
-The **/data** directory should start to get populated with data and should have a structure:
+The **/data** directory should start to get populated with data and should have a structure similar to:
 
 ```bash
 drwxr-xr-x 3 root root    6144 Sep 28 11:09 chains
@@ -94,7 +112,7 @@ drwxr-xr-x 3 root root    6144 Sep 28 11:09 chains
 
 ### What happens next?
 
-Now your collator will start syncing both **Kusama** and **Amplitude** chains. Kusama syncing may take several days to complete due to the size of the Kusama database, this is normal and expected. You can follow the progress in the log files using the **docker logs -f $(hostname)** command.
+Now your collator will start syncing both the Relaychain(Kusama/Polkadot) and the Parachain (Amplitude/Pendulum). Relaychain syncing may take several days to complete due to the size of the Relaychain database, this is normal and expected. You can follow the progress in the log files using the **docker logs -f $(hostname)** command.
 
 ```bash
 2022-09-28 19:02:26 assembling new collators for new session 45 at #52800
@@ -105,7 +123,7 @@ Now your collator will start syncing both **Kusama** and **Amplitude** chains. K
 
 When the node is syncing, you can see the block it is trying to sync up to. The “**best**” section will tell you what block the sync actually is at, and the “**target**” where it needs to get to.
 
-#### How to speed up the Kusama chain syncing process?
+#### How to speed up the chain syncing process?
 
 As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
 
