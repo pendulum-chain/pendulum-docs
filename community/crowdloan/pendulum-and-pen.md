@@ -37,3 +37,11 @@ Exchange listings for PEN are projected for late February 2023. PEN will be the 
 **Supply at Genesis:** 160,000,000
 
 Read the full [PEN tokenomics here](https://medium.com/pendulum-chain/what-is-the-utility-of-pen-b278f84e8b0d) and a detailed summary of [PEN utilities here](https://medium.com/pendulum-chain/what-is-the-utility-of-pen-b278f84e8b0d).&#x20;
+
+
+
+### PEN crowdloan rewards
+
+Check here -> [https://satoshipay.notion.site/Pendulum-Crowdloan-Rewards-c08e959d5c024417a28357b5aa6772a6](https://satoshipay.notion.site/Pendulum-Crowdloan-Rewards-c08e959d5c024417a28357b5aa6772a6)&#x20;
+
+Note: If you are eligible for the rewards and havent received them yet, please reach out us on any of these [handles](https://linktr.ee/pendulum\_chain).

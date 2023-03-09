@@ -53,8 +53,8 @@
   * [Operating a Vault](build/spacewalk-stellar-bridge/operating-a-vault/README.md)
     * [Installation](build/spacewalk-stellar-bridge/operating-a-vault/installation.md)
     * [Collateral and Liquidation](build/spacewalk-stellar-bridge/operating-a-vault/collateral-and-liquidation.md)
-    * [Fees, Costs and Incentives](build/spacewalk-stellar-bridge/operating-a-vault/fees-costs-and-incentives.md)
-    * [Redeem assets](build/spacewalk-stellar-bridge/operating-a-vault/redeem-assets.md)
+    * [Fees, Costs and Incentives](build/spacewalk-stellar-bridge/operating-and-using-a-vault/fees-costs-and-incentives.md)
+    * [Redeem assets](build/spacewalk-stellar-bridge/connecting-to-the-testchain/redeem-assets.md)
   * [Connecting to Pendulum](build/spacewalk-stellar-bridge/connecting-to-pendulum/README.md)
     * [Running the vault](build/spacewalk-stellar-bridge/connecting-to-pendulum/running-the-vault.md)
     * [Issue and redeem assets](build/spacewalk-stellar-bridge/connecting-to-pendulum/issue-and-redeem-assets.md)
@@ -62,7 +62,7 @@
     * [Generating metadata](build/spacewalk-stellar-bridge/troubleshooting/generating-metadata.md)
 * [Techincal FAQ](build/techincal-faq.md)
 * [Status reports](build/status-reports/README.md)
-  * [22-10-11 Foucoco stopped after runtime upgrade](build/status-reports/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
+  * [22-10-11 Foucoco stopped after runtime upgrade](build/known-issues-and-faq/22-10-11-foucoco-stopped-after-runtime-upgrade.md)
 
 ## Community
 
