@@ -1,8 +1,10 @@
 # Become a Collator
 
-###
+## Staking and becoming a collator
 
-### Staking and becoming a collator
+{% hint style="warning" %}
+Before you stake, be sure your node can [run](installation.md) properly!
+{% endhint %}
 
 Your node is now ready to collate but will not yet be selected for collating. Our pallet parachain-staking will select collator candidate nodes to become actually collating nodes on a regular basis. In order to be selected, your node first needs to stake some amount of native AMPE/PEN tokens with this pallet. The minimum staking amount is 5000 AMPE/PEN tokens. Follow these steps:
 
