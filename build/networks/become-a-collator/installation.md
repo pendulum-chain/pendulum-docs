@@ -125,6 +125,14 @@ When the node is syncing, you can see the block it is trying to sync up to. The 
 
 #### How to speed up the chain syncing process?
 
-As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
+As we previously pointed out, syncing the **Kusama**/**Polkadot** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure in one of the following links to try and speed up your sync procedure:
+
+| Chain | Link |
+|---|---|
+| Kusama | [https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) |
+| Polkadot | [https://dot-rocksdb.polkashots.io/](https://dot-rocksdb.polkashots.io/) |
+
+
+{% hint style="info" %}
 
 💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
