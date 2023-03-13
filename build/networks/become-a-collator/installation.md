@@ -17,8 +17,8 @@ Follow the steps below to install docker on your Ubuntu server:
 
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common git binutils -y
-curl -fsSL <https://download.docker.com/linux/ubuntu/gpg> | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] <https://download.docker.com/linux/ubuntu> `lsb_release -cs` stable"
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` stable"
 sudo apt update
 sudo apt-cache policy docker-ce 
 sudo apt install docker-ce -y
@@ -43,8 +43,8 @@ Download chain specifications
 {% tab title="Amplitude" %}
 ```
 sudo mkdir -p /data/
-sudo wget -P /data <https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/kusama.json>
-sudo wget -P /data <https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/amplitude-spec-raw.json>
+sudo wget -P /data https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/kusama.json
+sudo wget -P /data https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/amplitude-spec-raw.json
 ```
 {% endtab %}
 
