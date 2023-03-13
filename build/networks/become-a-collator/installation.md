@@ -51,8 +51,8 @@ sudo wget -P /data <https://raw.githubusercontent.com/pendulum-chain/pendulum/ma
 {% tab title="Pendulum" %}
 ```
 sudo mkdir -p /data/
-sudo wget -P /data https://github.com/paritytech/polkadot/blob/master/node/service/chain-specs/polkadot.json?raw=true
-sudo wget -P /data https://github.com/pendulum-chain/pendulum/blob/main/res/pendulum-spec-raw.json?raw=true
+sudo wget -P /data https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/polkadot.json
+sudo wget -P /data https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/pendulum-spec-raw.json
 ```
 {% endtab %}
 {% endtabs %}
