@@ -8,7 +8,7 @@ Your node is now ready to collate but will not yet be selected for collating. Ou
 
 1. Go to [polkadot.js](https://polkadot.js.org/apps) and select Amplitude(Pendulum) from the _Kusama(Polkadot) & Parachains_ folder
 2. Go to Accounts -> Accounts and add the account belonging to your Aura key assigned to your collator node in the previous step: click "+ Add Account", enter the secret phrase or secret seed of your Aura session key and enter a password and a name.
-3. Go to Developer -> Extrinsics and choose the account for your Aura key. Select the extrinsic **parachainStaking** -> **joinCandidates** and select a staking amount. The staking amount is the amount of AMPE tokens times 1 trillion (an additional 12 zeros). The minimum staking amount is 5000 AMPE/PEN tokens, so that the minimum value to enter is 5,000,000,000,000,000.
+3. Go to Developer -> Extrinsics and choose the account for your Aura key. Select the extrinsic **parachainStaking** -> **joinCandidates** and select a staking amount. The staking amount is the amount of AMPE/PEN tokens times 1 trillion (an additional 12 zeros). The minimum staking amount is 5000 AMPE/PEN tokens, so that the minimum value to enter is 5,000,000,000,000,000.
 4. Submit the transaction.
 5. Go to Developer -> Chain state and select parachainStaking -> topCandidates. Press the "+" button and check that your aura key occurs in the list of top candidates. If it does not, then you would need to increase your staking amount in order to become a top candidate. Whether your collator is a top candidate depends on your staking amount and on the total staking amount of your delegators. In order to increase your staking amount, proceed as in step 3 but choose the extrinsic **candidateStakeMore**.
 
