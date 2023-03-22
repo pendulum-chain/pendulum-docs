@@ -2,12 +2,11 @@
 
 ## Internal RPC Collator List
 
-You can connect to these collators on Polkadot.js
+You can connect to this collator on Polkadot.js:
 
-| Name                 | Full Domain                                                                                      | Type |
-| -------------------- | ------------------------------------------------------------------------------------------------ | ---- |
-| penawsuse-rpcnode-00 | [penawsuse-rpcnode-00.prd.pendulumchain.tech](wss://penawsuse-rpcnode-00.prd.pendulumchain.tech) | RPC  |
-| penawsuse-rpcnode-01 | [penawsuse-rpcnode-01.prd.pendulumchain.tech](wss://penawsuse-rpcnode-01.prd.pendulumchain.tech) | RPC  |
+```
+rpc-pendulum.prd.pendulumchain-tech
+```
 
 ### Initial Collators
 
