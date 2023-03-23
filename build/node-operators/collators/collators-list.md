@@ -5,7 +5,7 @@
 You can connect to this collator on Polkadot.js:
 
 ```
-rpc-pendulum.prd.pendulumchain-tech
+rpc-pendulum.prd.pendulumchain.tech
 ```
 
 ### Initial Collators
