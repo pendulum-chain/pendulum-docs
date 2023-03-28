@@ -20,7 +20,7 @@ Follow the steps below to install docker on your Ubuntu server:
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common git binutils -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] <https://download.docker.com/linux/ubuntu> `lsb_release -cs` stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` stable"
 sudo apt update
 sudo apt-cache policy docker-ce 
 sudo apt install docker-ce -y
@@ -49,16 +49,16 @@ Download chain specifications
 {% tab title="Amplitude" %}
 ```
 sudo mkdir -p /data/
-sudo wget -P /data <https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/kusama.json>
-sudo wget -P /data <https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/amplitude-spec-raw.json>
+sudo wget -P /data https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/kusama.json
+sudo wget -P /data https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/amplitude-spec-raw.json
 ```
 {% endtab %}
 
 {% tab title="Pendulum" %}
 ```
 sudo mkdir -p /data/
-sudo wget -P /data https://github.com/paritytech/polkadot/blob/master/node/service/chain-specs/polkadot.json?raw=true
-sudo wget -P /data https://github.com/pendulum-chain/pendulum/blob/main/res/pendulum-spec-raw.json?raw=true
+sudo wget -P /data https://raw.githubusercontent.com/paritytech/polkadot/master/node/service/chain-specs/polkadot.json
+sudo wget -P /data https://raw.githubusercontent.com/pendulum-chain/pendulum/main/res/pendulum-spec-raw.json
 ```
 {% endtab %}
 {% endtabs %}
@@ -131,6 +131,14 @@ When the node is syncing, you can see the block it is trying to sync up to. The 
 
 #### How to speed up the chain syncing process?
 
-As we previously pointed out, syncing the **Kusama** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure here:[https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) to try and speed up your sync procedure.
+As we previously pointed out, syncing the **Kusama**/**Polkadot** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure in one of the following links to try and speed up your sync procedure:
+
+| Chain | Link |
+|---|---|
+| Kusama | [https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) |
+| Polkadot | [https://dot-rocksdb.polkashots.io/](https://dot-rocksdb.polkashots.io/) |
+
+
+{% hint style="info" %}
 
 💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
