@@ -13,14 +13,14 @@ description: All parameters for the different Pendulum networks
 
 ## Pendulum (Polkadot parachain)
 
-| Parameter          | Value                                                                                                                                                                                                    |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ParaId             | `2094`                                                                                                                                                                                                   |
-| Lease start block  | [#14227200](https://polkadot.subscan.io/block/14227200)                                                                                                                                                  |
-| Lease end block    | [#23904000](https://polkadot.subscan.io/block/23904000)                                                                                                                                                  |
-| Explorer           | [polkaholic.io/blocks/pendulum](https://polkaholic.io/blocks/pendulum)                                                                                                                                   |
-| Genesis hash       | `0x00000000000000000000000000000000000000000000000000000000000000000081f7716029f03ee0bbc13213c77da9fad18273dd737031a6ddc90cd4161a123003170a2e7597b7b7e3d84c05391d139a62b157e78786d8c082f29dcf4c11131400` |
-| RPC & archive node | `wss://rpc-pendulum.prd.pendulumchain.tech:443`                                                                                                                                                          |
+| Parameter          | Value                                                                  |
+| ------------------ | ---------------------------------------------------------------------- |
+| ParaId             | `2094`                                                                 |
+| Lease start block  | [#14227200](https://polkadot.subscan.io/block/14227200)                |
+| Lease end block    | [#23904000](https://polkadot.subscan.io/block/23904000)                |
+| Explorer           | [polkaholic.io/blocks/pendulum](https://polkaholic.io/blocks/pendulum) |
+| Genesis hash       | 0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86     |
+| RPC & archive node | `wss://rpc-pendulum.prd.pendulumchain.tech:443`                        |
 
 ## Amplitude (Kusama parachain)
 

@@ -7,6 +7,6 @@ In order to be able to run a collator node, you will need at least a machine wit
 * 4 CPU cores
 * 16 GB of RAM
 * 250 GB of Disk space
-* Ubuntu 20.04.5 LTS
+* Ubuntu 20.04.5 LTS or Ubuntu 22.04.2 LTS
 
 :warning: Even though other Ubuntu and Debian versions may work, they were not tested, and we only provide support for the Ubuntu version mentioned above.

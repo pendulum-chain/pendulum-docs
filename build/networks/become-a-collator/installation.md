@@ -1,6 +1,8 @@
-# Installation
+# Docker Installation
 
+The following link contains the location of all the Docker images:
 
+{% embed url="https://hub.docker.com/repository/docker/pendulumchain/pendulum-collator" %}
 
 ### Step-by-step installation
 
@@ -28,6 +30,8 @@ sudo usermod -aG docker $USER
 su -s ${USER}
 ```
 
+### Firewall Config
+
 Configure your local firewall to allow communication for the required ports
 
 ```bash
@@ -36,6 +40,8 @@ sudo ufw allow 30334/tcp
 sudo ufw allow https
 sudo ufw enable
 ```
+
+### Chain Specs
 
 Download chain specifications
 
@@ -62,8 +68,8 @@ Install the application using docker. This will name the docker container the sa
 {% tabs %}
 {% tab title="Amplitude" %}
 ```
-sudo docker pull pendulumchain/pendulum-collator:v0.9.37
-docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/kusama.json --execution=wasm -d /data
+sudo docker pull pendulumchain/amplitude-collator:v0.9.37
+docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/amplitude-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/kusama.json --execution=wasm -d /data
 ```
 {% endtab %}
 

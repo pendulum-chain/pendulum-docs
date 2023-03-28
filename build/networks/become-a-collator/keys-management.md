@@ -46,10 +46,6 @@ As an example, with the above generated keys it would look like this:&#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot from 2022-10-20 12-40-28.png" alt=""><figcaption><p>Insert Aura session keys for collator node.</p></figcaption></figure>
 
-Submit the RPC call, and you are good to go now!
-
-
-
 ### Key management from the CLI
 
 If you do not have a web interface enabled you can insert the keys running the following command on the node.
@@ -76,3 +72,15 @@ Secret phrase:       rubber begin sail spider green hope two fetch immune nation
   Public key (SS58): 5DZUNZJr6nfMwgbx1MNijoEojkARa6mvS5nbnZHJ9EHWnhAq
   SS58 Address:      5DZUNZJr6nfMwgbx1MNijoEojkARa6mvS5nbnZHJ9EHWnhAq
 ```
+
+### Setting your keys&#x20;
+
+After having added your keys to Aura you need to set them on Polkadot.js.
+
+1. Select the Extrinsic method `session` -> `setKeys(keys,proof)`
+2. In the keys parameter insert your key hex value
+3. In the proof parameter you can leave `0x00` &#x20;
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-03-28 at 11.11.36.png" alt=""><figcaption></figcaption></figure>
+
+Submit the Extrinsic call, and you are good to go now!
