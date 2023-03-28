@@ -16,7 +16,7 @@ To look up a list of available collators:
 ```bash
 Do note that due to the current UI implementation on Polkadot.js staking X 
 amount requires the addition of 12 0s 
-Staking 10 → 10 0000 0000 0000
+Staking 10 → 10 000 000 000 000
 ```
 
 You can correctly delegate by filling the previous form with one or more of these `ids`
