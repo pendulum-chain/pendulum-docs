@@ -1,7 +1,17 @@
 # Ubuntu Installation
 
-This guide will describe how to install and run a Collator node on an Ubuntu machine.\
+This guide will describe how to install and run a Collator node on an Ubuntu machine.
 
+### Firewall Config
+
+Configure your local firewall to allow communication for the required ports
+
+```bash
+sudo ufw allow 30335/tcp
+sudo ufw allow 30334/tcp
+sudo ufw allow https
+sudo ufw enable
+```
 
 ## Install Collator node using the Ubuntu deb package installer.
 
@@ -21,17 +31,6 @@ sudo dpkg -i pendululum(version)_amd64.deb
 sudo dpkg -i ampitude(version)_amd64.deb
 ```
 
-### Firewall Config
-
-Configure your local firewall to allow communication for the required ports
-
-```bash
-sudo ufw allow 30335/tcp
-sudo ufw allow 30334/tcp
-sudo ufw allow https
-sudo ufw enable
-```
-
 This installs the Pendulum collator. Once the installer is finished check if the **pendulum** service is running:
 
 {% tabs %}
@@ -47,6 +46,8 @@ This installs the Pendulum collator. Once the installer is finished check if the
      CGroup: /system.slice/amplitude.service
              └─1072 /usr/local/bin/amplitude-collator --collator --base-path /var/lib/amplitude --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /var/lib/amplitude/amplitude-spec-raw.json --execution=wasm --state-cache-size 0 --prometheus-external -- --port 30334 --chain /var/lib/amplitude/kusama.json --execution=wasm -d /var/lib/amplitude/ --prometheus-external
 ```
+
+The service will use the **/var/lib/amplitude** directory as the database location and the log files are located in **/var/log/amplitude** directory.
 {% endtab %}
 
 {% tab title="Pendulum" %}
@@ -64,9 +65,9 @@ sudo service pendulum status
 Mar 09 11:36:20 pencol-kus-03 systemd[1]: Starting pendulum...
 Mar 09 11:36:20 pencol-kus-03 systemd[1]: Started pendulum.
 ```
-{% endtab %}
-{% endtabs %}
 
 The service will use the **/var/lib/pendulum** directory as the database location and the log files are located in **/var/log/pendulum** directory.
+{% endtab %}
+{% endtabs %}
 
 ###
