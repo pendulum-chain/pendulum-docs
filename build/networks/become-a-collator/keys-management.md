@@ -77,10 +77,10 @@ Secret phrase:       rubber begin sail spider green hope two fetch immune nation
 
 After having added your keys to Aura you need to set them on Polkadot.js.
 
-1. Select the RPC method `session` -> `setKeys(keys,proof)`
+1. Select the Extrinsic method `session` -> `setKeys(keys,proof)`
 2. In the keys parameter insert your key hex value
 3. In the proof parameter you can leave `0x00` &#x20;
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-03-28 at 11.11.36.png" alt=""><figcaption></figcaption></figure>
 
-Submit the RPC call, and you are good to go now!
+Submit the Extrinsic call, and you are good to go now!
