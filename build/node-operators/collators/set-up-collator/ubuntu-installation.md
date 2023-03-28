@@ -21,10 +21,37 @@ sudo dpkg -i pendululum(version)_amd64.deb
 sudo dpkg -i ampitude(version)_amd64.deb
 ```
 
-This installs the Pendulum collator. Once the installer is finished check if the **pendulum** service is running:
+### Firewall Config
+
+Configure your local firewall to allow communication for the required ports
 
 ```bash
-root@localhost:~# service pendulum status
+sudo ufw allow 30335/tcp
+sudo ufw allow 30334/tcp
+sudo ufw allow https
+sudo ufw enable
+```
+
+This installs the Pendulum collator. Once the installer is finished check if the **pendulum** service is running:
+
+{% tabs %}
+{% tab title="Amplitude" %}
+```
+ sudo service amplitude status
+● amplitude.service - amplitude
+     Loaded: loaded (/etc/systemd/system/amplitude.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2023-03-28 11:58:20 UTC; 54ms ago
+   Main PID: 1072 (amplitude-colla)
+      Tasks: 4 (limit: 4620)
+     Memory: 5.7M
+     CGroup: /system.slice/amplitude.service
+             └─1072 /usr/local/bin/amplitude-collator --collator --base-path /var/lib/amplitude --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /var/lib/amplitude/amplitude-spec-raw.json --execution=wasm --state-cache-size 0 --prometheus-external -- --port 30334 --chain /var/lib/amplitude/kusama.json --execution=wasm -d /var/lib/amplitude/ --prometheus-external
+```
+{% endtab %}
+
+{% tab title="Pendulum" %}
+```
+sudo service pendulum status
 ● pendulum.service - pendulum
      Loaded: loaded (/etc/systemd/system/pendulum.service; enabled; vendor preset: enabled)
      Active: active (running) since Thu 2023-03-09 11:36:20 UTC; 14min ago
@@ -37,16 +64,9 @@ root@localhost:~# service pendulum status
 Mar 09 11:36:20 pencol-kus-03 systemd[1]: Starting pendulum...
 Mar 09 11:36:20 pencol-kus-03 systemd[1]: Started pendulum.
 ```
+{% endtab %}
+{% endtabs %}
 
 The service will use the **/var/lib/pendulum** directory as the database location and the log files are located in **/var/log/pendulum** directory.
 
-### Firewall Config
-
-Configure your local firewall to allow communication for the required ports
-
-```bash
-sudo ufw allow 30335/tcp
-sudo ufw allow 30334/tcp
-sudo ufw allow https
-sudo ufw enable
-```
+###

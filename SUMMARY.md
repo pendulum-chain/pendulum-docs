@@ -37,7 +37,7 @@
     * [Set up Collator](build/networks/become-a-collator/README.md)
       * [Hardware Requirements](build/networks/become-a-collator/hardware-requirements.md)
       * [Ubuntu Installation](build/node-operators/collators/set-up-collator/ubuntu-installation.md)
-      * [Docker Installation](build/node-operators/collators/set-up-collator/docker-installation.md)
+      * [Docker Installation](build/networks/become-a-collator/installation.md)
       * [Keys Management](build/networks/become-a-collator/keys-management.md)
       * [Become a Collator](build/networks/become-a-collator/become-a-collator.md)
   * [Spacewalk Vaults](build/node-operators/spacewalk-vaults.md)
