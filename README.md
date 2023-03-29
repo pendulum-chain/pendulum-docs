@@ -1,6 +1,6 @@
 # Welcome to Pendulum
 
-Pioneering the internet of fiat. Pendulum blockchain will offer composable fiat services to fintech companies and build the future of forex on DeFi.
+Pioneering the internet of fiat. Pendulum blockchain offers composable financial services using stablecoins to businesses, fintech companies and builds the future of forex on DeFi.
 
 On this site, you'll find information and documentation on the project and network, as well as technical docs for developers, node operators, users, and other Pendulum communities.
 
@@ -19,6 +19,3 @@ Substrate is a blockchain framework developed by Parity Technologies. The framew
 ## What is the Big Picture?&#x20;
 
 The tools of money have changed to be evermore inclusive and accessible in an increasingly globalized and borderless world. Humans have evolved from trading metal coins to investing in stocks and sending online bank transactions. However, the centralized traditional financial systems, which historically provided these tools, tend to be unable to deliver flexible and composable services. Global fiat transfers and interactions in traditional finance suffer from high fees, slow speeds and limited optionality. In contrast, the explosive growth in the world of DeFi has brought about tools for building innovative financial products for future generations. But to date, bridging compliant fiat fintech services over to DeFi ecosystems has not been easy. Pendulum was created to be this bridge.
-
-##
-
