@@ -36,19 +36,19 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 **2023 Q1**
 
 * ✔️Pendulum chain launch
-* Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
-* $PEN listing
-* Ledger integration ($PEN)
-* Spacewalk bridge launch
-* Forex AMM (0xAmber) launch
+* ✔️Cross-parachain integration on Amplitude (XCMP/HRMP)&#x20;
+* ✔️$PEN listing
 
 **2023 Q2**
 
+* Spacewalk bridge launch
+* Forex AMM (0xAmber) launch
 * Real-time price oracle&#x20;
 * Direct fiat on/off ramp
 * Fiat on/off ramp interface standard
 * Accounting API
 * Portal V2
+* Ledger integration ($PEN)
 
 **2023 Q3**
 
@@ -63,4 +63,3 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 * Compliance layer for secure transmission of KYC/AML data
 * Multi-currency gas fees
 
-****
