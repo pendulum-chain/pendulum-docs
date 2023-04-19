@@ -15,7 +15,7 @@ We are interested in, but not limited to, funding ecosystem projects such as:
 * **General purpose AMM:** Either a unique offering or a rewrite of one the popular open-source AMMs (Curve, Uniswap) in Wasm or as a Substrate pallet.
 * **Lending protocol:** To provide safe, secure and sustainable avenues for fiat token holders to put their fiat tokens to work.
 * **Stable fiat tokens:** Bring your stable fiat tokens to Pendulum or or build them on Pendulum itself. On/off ramping to the banking world is a big bonus.
-* **Yield Optimizer:** A **** similar kind of yield optimizer to [yearn.finance](http://yean.finance/) and [beefy.finance](https://beefy.finance/) developing innovative yield earning strategies on Pendulum.
+* **Yield Optimizer:** A similar kind of yield optimizer to [yearn.finance](http://yean.finance/) and [beefy.finance](https://beefy.finance/) developing innovative yield earning strategies on Pendulum.
 * **Decentralized Custodianship:** To work on solving the UX challenge of managing secret keys in a decentralized and trustless manner.
 * **On/Off Ramps:** Reliable on/off ramps with regional banks.
 * **Money-Streaming Service:** Similar to [Spritz Finance](https://www.spritz.finance/) supporting the payment of salaries and bills to anybody, anywhere on the globe.

@@ -9,7 +9,7 @@ The assets we'll use in this example already exist on Stellar and are defined by
 
 **`GAKNDFRRWA3RPWNLTI3G4EBSD3RGNZZOY5WKWYMQ6CQTG3KIEKPYWAYC`**
 
-The the asset codes are **`EUR` ** and **`USDC`**.
+The the asset codes are **`EUR`** and **`USDC`**.
 {% endhint %}
 
 #### Creating the User Account&#x20;

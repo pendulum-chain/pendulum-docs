@@ -35,7 +35,7 @@ Take note of your secret seed and your public key, they're gonna be required in 
 
 Assuming that your node is running and accessible through DNS, connect to it via PolkadotJS Apps.
 
-1. Go to [`https://polkadot.js.org/apps/?rpc=wss://your-node-address#/rpc`](https://polkadot.js.org/apps/?rpc=wss://rpc.pendulumchain.tech)``
+1. Go to [`https://polkadot.js.org/apps/?rpc=wss://your-node-address#/rpc`](https://polkadot.js.org/apps/?rpc=wss://rpc.pendulumchain.tech)
 2. Select the RPC method: `author` -> `insertKey(keyType, suri, publicKey)` &#x20;
 3. Complete the fields:
    1. keyType: **aura**

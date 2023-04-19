@@ -5,8 +5,8 @@ The Pendulum & Amplitude ambassador program welcomes engaged community members t
 If you are passionate about transforming fiat on DeFi with Amplitude & Pendulum, please head to [our Discord](https://discord.gg/Dy3ABnHgJZ) and claim your ambassador role. No matter where you are from and where your skills lie, you are more than welcome to contribute however you see fit. We want to help you grow your reach and influence over the cryptosphere however we can. \
 \
 **Perks for ambassadors include:**\
-****\
-****-Collaborating with team members on joint content \
+\
+\-Collaborating with team members on joint content \
 \-Funding the organisation of meetups \
 \-Shouting out your content via our channels \
 \-Considering you first for ambassador bounties \
@@ -36,7 +36,7 @@ _**What ambassador ranks exist and how to get them?**_
 _-There are 5 ranks in total._&#x20;
 
 **Squire** - awarded for claiming the role in #ambassador-onboarding\
-__**Knight**- awarded for making an introduction in #ambassador-intro \
+**Knight**- awarded for making an introduction in #ambassador-intro \
 **Count** - awarded for first contribution in #🐦community-content \
 **Duke**- awarded for contributing continuously \
 **Marquess** - awarded for continued high-quality submissions \

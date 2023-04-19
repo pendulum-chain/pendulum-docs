@@ -71,6 +71,7 @@
   * [Delegation](community/staking/delegation.md)
   * [Rewards](community/staking/rewards.md)
   * [Further Operations on Delegators](community/staking/further-operations-on-delegators.md)
+* [Unlocking Vesting Tokens](community/unlocking-vesting-tokens.md)
 * [Governance](community/governance.md)
 * [Crowdloan](community/crowdloan/README.md)
   * [Introduction](community/crowdloan/introduction.md)

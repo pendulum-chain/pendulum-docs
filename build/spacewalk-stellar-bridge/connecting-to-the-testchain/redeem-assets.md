@@ -14,7 +14,7 @@ Finally, you can redeem your assets back to Stellar. To do so:
 6. Next, submit the transaction.
 7. Check that the redeem was successfully executed:\
    \- Check the balances of your imported test stellar account. It should have received `1 USDC`.\
-   ``- The Vault logs should print something similar to this
+   \- The Vault logs should print something similar to this
 
 ```
 INFO vault::redeem: Received redeem request: Redeem { asset_code: [85, 83, 68, 67], asset_issuer: [71, 65, 75, 78, 68, 70, 82, 82, 87, 65, 51, 82, 80, 87, 78, 76, 84, 73, 51, 71, 52, 69, 66, 83, 68, 51, 82, 71, 78, 90, 90, 79, 89, 53, 87, 75, 87, 89, 77, 81, 54, 67, 81, 84, 71, 51, 75, 73, 69, 75, 80, 89, 87, 65, 89, 67], stellar_user_id: [109, 129, 185, 73, 159, 66, 76, 36, 66, 10, 98, 117, 247, 128, 98, 227, 97, 129, 113, 211, 86, 76, 124, 74, 99, 228, 234, 42, 213, 76, 196, 88], stellar_vault_id: [61, 145, 178, 53, 12, 206, 132, 73, 245, 31, 243, 17, 86, 254, 157, 135, 112, 184, 250, 153, 58, 80, 0, 105, 190, 123, 172, 47, 134, 17, 81, 195], amount: 1000000000 }

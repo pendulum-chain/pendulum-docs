@@ -20,7 +20,7 @@ Bounty requests must also be applied for via contacting Jonathan on Discord.
 
 ### **Creation of an Amplitude Sticker Pack**
 
-**Task:** Create a minimum of 8 Stickers for Amplitude **** on Telegram. \
+**Task:** Create a minimum of 8 Stickers for Amplitude on Telegram. \
 \
 **Application**: Please contact Jonathan on Discord with an example of a Pendulum themed Sticker.\
 \
@@ -35,7 +35,7 @@ This applies to any actions that promote Pendulum or Amplitude and incurs a cost
 **Example**: You're organizing a meetup and want to offer beverages, we would like to cover your cost.\
 \
 **Template:**\
-****\
+\
 **What:** Please explain in Detail what you're doing to promote Pendulum & Amplitude\
 \
 **How much:** How much $ will you spend?\

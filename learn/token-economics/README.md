@@ -30,29 +30,29 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 
 ### **Distribution** <a href="#98b0" id="98b0"></a>
 
-****\
-****The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
+\
+The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
-****\
-****The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). [The Crowdloan](https://parachains.info/details/pendulum) #35 was won by Pendulum
+\
+The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). [The Crowdloan](https://parachains.info/details/pendulum) #35 was won by Pendulum
 
 <figure><img src="../../.gitbook/assets/Pen_Tokenomics charts and graphic_Token Allocation – Community (%) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Backers Distribution** <a href="#3ec6" id="3ec6"></a>
 
-****\
-****The below chart shows the distribution of tokens to Pendulum’s early backers that have supported the building of Pendulum and Amplitude for over 1 year now.
+\
+The below chart shows the distribution of tokens to Pendulum’s early backers that have supported the building of Pendulum and Amplitude for over 1 year now.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 _Note: The percentages in the Community and Backers charts should be halved to find the percentage of the overall tokenomics. For example, Staking Rewards is 14% of the overall tokenomics and 28% of the Community bucket._
 
 **Vesting Schedule**\
-****Below is the vesting schedule for all community and backer tokens. Most of the tokens include a vesting schedule that unlocks linearly over 2 to 3 years to ensure all participants are incentivized to work towards Pendulum’s long-term growth.
+Below is the vesting schedule for all community and backer tokens. Most of the tokens include a vesting schedule that unlocks linearly over 2 to 3 years to ensure all participants are incentivized to work towards Pendulum’s long-term growth.
 
 | Allocation                   | Distribution (%) | TGE Unlock (%) | Vesting (months) | Cliff (months) |
 | ---------------------------- | ---------------- | -------------- | ---------------- | -------------- |

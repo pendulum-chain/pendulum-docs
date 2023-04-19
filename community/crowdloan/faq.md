@@ -1,7 +1,7 @@
 # FAQ
 
 **What is Pendulum?**\
-****Pendulum’s interoperable blockchain brings together high-quality fiat tokens in a single, powerful DeFi network. Building the missing link between fiat and DeFi through a forex-optimized smart contract DeFi network allowing traditional finance services to seamlessly integrate with DeFi applications such as specialized forex AMMs, lending protocols and yield farming and offering composable fiat solutions with 1000x performance.
+Pendulum’s interoperable blockchain brings together high-quality fiat tokens in a single, powerful DeFi network. Building the missing link between fiat and DeFi through a forex-optimized smart contract DeFi network allowing traditional finance services to seamlessly integrate with DeFi applications such as specialized forex AMMs, lending protocols and yield farming and offering composable fiat solutions with 1000x performance.
 
 Building Pendulum on Polkadot’s Substrate framework maximizes multi-chain interoperability and increased security. Pendulum will operate as a key piece of Web3 infrastructure to finally unlock DeFi use cases for fiat currencies.
 
@@ -36,7 +36,7 @@ Crowdloan contributors receive PEN to their Pendulum address automatically accor
 Pendulum never has custody over your DOT tokens. Your DOT tokens stay bonded to the crowdloan module on the Polkadot Relay Chain and you will be able to see them inside your wallet.
 
 **What is the most user-friendly DOT wallet?**\
-****[Talisman](https://talisman.xyz/) is one of the most user-friendly wallets. Managing your wallet and contributing to our crowdloan via Talisman is probably the easiest way to go about it.
+[Talisman](https://talisman.xyz/) is one of the most user-friendly wallets. Managing your wallet and contributing to our crowdloan via Talisman is probably the easiest way to go about it.
 
 **What if I have more questions & need help?** \
 Haven’t found the info you were looking for? No problem, we’re ready to help around the clock! Swing by in our [Telegram](https://t.me/pendulum\_community) or [Discord](https://discord.com/invite/wJ2fQh776B) and ask away! We’re happy to assist however we can!
