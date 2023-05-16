@@ -18,11 +18,15 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 
 **Supply Structure:** Inflationary, through staking and vault operator rewards
 
-**Total Supply:** 210,000,000
+**Supply at Genesis:** 160,000,000
+
+**Max Supply:** 200,000,000
 
 **Initial Circulating Supply:** 10,000,000
 
-**Supply at Genesis:** 160,000,000
+**Total Supply:** see [here](https://api.pendulumchain.tech/v1/pendulum/token/stats)
+
+**Circulating Supply:** see [here](https://api.pendulumchain.tech/v1/pendulum/token/stats)
 
 **Consensus:** Limited Delegator Proof of Stake
 
@@ -75,7 +79,11 @@ Below is the vesting schedule for all community and backer tokens. Most of the t
 
 **Supply Structure:** Fixed
 
-**Total Supply:** 200,000,000
+**Max Supply:** 200,000,000
+
+**Total Supply:** see [here](https://api.pendulumchain.tech/v1/amplitude/token/stats)
+
+**Circulating Supply:** see [here](https://api.pendulumchain.tech/v1/amplitude/token/stats)
 
 **Initial Circulating Supply:** 11,555,556
 
