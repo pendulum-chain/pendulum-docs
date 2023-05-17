@@ -30,7 +30,6 @@
   * [Troubleshooting](build/build-environment/troubleshooting.md)
 * [Developing dApps](build/developing-dapps/README.md)
   * [ink!](build/developing-dapps/ink.md)
-  * [Solidity to ink!](build/developing-dapps/solidity-to-ink.md)
 * [Node Operators](build/node-operators/README.md)
   * [Collators](build/node-operators/collators/README.md)
     * [Collators List](build/node-operators/collators/collators-list.md)
