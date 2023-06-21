@@ -41,25 +41,34 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 
 **2023 Q2**
 
-* Spacewalk bridge launch
-* Forex AMM (0xAmber) launch
-* Real-time price oracle&#x20;
-* Direct fiat on/off ramp
-* Fiat on/off ramp interface standard
-* Accounting API
-* Portal V2
-* Ledger integration ($PEN)
+* DIA fiat price oracles (USDC, BRL, TZS)&#x20;
+* WalletConnect v2.0 live on Portal&#x20;
+* USDT live on Pendulum
 
 **2023 Q3**
 
-* Multi-user account management&#x20;
-* Lending dApp launch
-* Decentralized identity/KYC prototype&#x20;
-* SDK for ink! developers
+* $AMPE available on DEX (Zenlink)
+* Basic Ledger integration ($PEN)
+* Nabla Forex AMM launch
+* Spacewalk bridge Pendulum launch
 
 **2023 Q4**
 
-* Optional tx privacy&#x20;
-* Compliance layer for secure transmission of KYC/AML data
+* PendulumPay app MVP
+* Fiat on/off ramp interface standard&#x20;
+* PendulumPay accounting
+* Portal V2 (UI/UX upgrade)
+* Lending dApp launch
+* Decentralized identity/KYC prototype
+* Pen integration on Equilibrium
+
+**2024 H1**
+
+* Optional tx privacy
+* Compliance layer with KYC/AML data
 * Multi-currency gas fees
+* PendulumPay multi-user management
+* Accounting API
+* SDK for ink! Developers
+* Real-time price oracle
 
