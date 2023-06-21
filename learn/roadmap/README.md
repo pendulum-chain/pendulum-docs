@@ -41,9 +41,9 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 
 **2023 Q2**
 
-* DIA fiat price oracles (USDC, BRL, TZS)&#x20;
-* WalletConnect v2.0 live on Portal&#x20;
-* USDT live on Pendulum
+* ✔️DIA fiat price oracles (USDC, BRL, TZS)&#x20;
+* ✔️WalletConnect v2.0 live on Portal&#x20;
+* ✔️USDT live on Pendulum
 
 **2023 Q3**
 
