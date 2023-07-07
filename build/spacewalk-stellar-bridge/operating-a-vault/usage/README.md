@@ -14,4 +14,6 @@ We recommend using the portal if you are not comfortable with operating a wallet
 
 ### Operating the Vault
 
-As of writing, the vault offers two main operations, the Issue, and Redeem functionalities
+As of writing, the vault offers two main operations, the Issue, and Redeem functionalities.&#x20;
+
+The examples provided use the Amplitude canary network, you will be able to operate in the same way with both a testnet, Foucoco, or Pendulum.
