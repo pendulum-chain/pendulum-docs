@@ -23,7 +23,7 @@ Below we define some parameters to help define what elements make up the collate
 | Stellar Asset | Asset | Security Threshold | Premium Redeem | Liquidation |
 | ------------- | ----- | ------------------ | -------------- | ----------- |
 | USDC          | PEN   | 160%               | 140%           | 120%        |
-| MNX           | PEN   | 160%               | 140%           | 120%        |
+| MXN           | PEN   | 160%               | 140%           | 120%        |
 | BRL           | PEN   | 160%               | 140%           | 120%        |
 | XLM           | PEN   | 150%               | 130%           | 110%        |
 
@@ -32,7 +32,7 @@ Below we define some parameters to help define what elements make up the collate
 | Stellar Asset | Asset | Security Threshold | Premium Redeem | Liquidation |
 | ------------- | ----- | ------------------ | -------------- | ----------- |
 | USDC          | KSM   | 160%               | 140%           | 120%        |
-| MNX           | KSM   | 160%               | 140%           | 120%        |
+| MXN           | KSM   | 160%               | 140%           | 120%        |
 | BRL           | KSM   | 160%               | 140%           | 120%        |
 | XLM           | KSM   | 150%               | 130%           | 110%        |
 

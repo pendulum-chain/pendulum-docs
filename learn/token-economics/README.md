@@ -37,7 +37,7 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 \
 The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
@@ -51,7 +51,7 @@ The chart below shows the percentage that each community bucket takes up from th
 \
 The below chart shows the distribution of tokens to Pendulum’s early backers that have supported the building of Pendulum and Amplitude for over 1 year now.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 _Note: The percentages in the Community and Backers charts should be halved to find the percentage of the overall tokenomics. For example, Staking Rewards is 14% of the overall tokenomics and 28% of the Community bucket._
 
