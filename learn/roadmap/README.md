@@ -23,7 +23,7 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 
 **2022 Q3**
 
-* ✔️ Amplitude launch&#x20;
+* ✔️Amplitude launch&#x20;
 * ✔️Rococo launch (public testnet)
 * ✔️Uniswap-style AMM (testnet)
 
