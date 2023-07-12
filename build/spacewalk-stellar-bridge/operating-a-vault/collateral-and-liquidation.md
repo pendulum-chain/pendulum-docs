@@ -22,19 +22,21 @@ Below we define some parameters to help define what elements make up the collate
 
 | Stellar Asset | Asset | Security Threshold | Premium Redeem | Liquidation |
 | ------------- | ----- | ------------------ | -------------- | ----------- |
-| USDC          | PEN   | 160%               | 140%           | 120%        |
-| MXN           | PEN   | 160%               | 140%           | 120%        |
-| BRL           | PEN   | 160%               | 140%           | 120%        |
-| XLM           | PEN   | 150%               | 130%           | 110%        |
+| USDC          | PEN   | 130%               | 140%           | 125%        |
+| MXN           | PEN   | 160%               | 140%           | 125%        |
+| BRL           | PEN   | 160%               | 140%           | 125%        |
+| XLM           | PEN   | 150%               | 130%           | 125%        |
+| TZS           | PEN   | 150%               | 130%           | 125%        |
 
 #### Collateral Data for Amplitude
 
 | Stellar Asset | Asset | Security Threshold | Premium Redeem | Liquidation |
 | ------------- | ----- | ------------------ | -------------- | ----------- |
-| USDC          | KSM   | 160%               | 140%           | 120%        |
-| MXN           | KSM   | 160%               | 140%           | 120%        |
-| BRL           | KSM   | 160%               | 140%           | 120%        |
-| XLM           | KSM   | 150%               | 130%           | 110%        |
+| USDC          | KSM   | 160%               | 140%           | 125%        |
+| MXN           | KSM   | 160%               | 140%           | 125%        |
+| BRL           | KSM   | 160%               | 140%           | 125%        |
+| XLM           | KSM   | 150%               | 130%           | 125%        |
+| TZS           | KSM   | 150%               | 130%           | 125%        |
 
 ## Liquidation
 
