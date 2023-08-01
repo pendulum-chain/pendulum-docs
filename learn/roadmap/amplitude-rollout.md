@@ -14,30 +14,30 @@ On 11th August 2022, the Amplitude parachain goes [live on Kusama](https://mediu
 
 Until the road to democratization process is complete, governance is controlled by a sudo account. The sudo account is a multi-sig account controlled by the Pendulum foundation to issue transactions and runtime upgrades. Token transfers are not yet enabled.
 
-#### Distribute Crowdloan Rewards
+#### Distribute Crowdloan Rewards ✅
 
 Crowdloan AMPE rewards are distributed to the individual Amplitude accounts that contributed to the [crowdloan](https://parachains.info/auctions/kusama-42-47).
 
-#### Distribute Ecosystem Funds
+#### Distribute Ecosystem Funds ✅
 
 The vesting of the rest of the ecosystem funds gets distributed. The breakdown can be found [here](https://pendulum.gitbook.io/pendulum-docs/get-started/token-economics).
 
-#### Burning Rewards (Referenda #1)
+#### Burning Rewards (Referenda #1) ✅
 
 The Substrate pallet that we are using for collator and delegator staking requires the rewards to be minted new. However, our max supply of 200m AMPE tokens were minted in the genesis block. Therefore, in order to maintain constant token supply we want to burn the allocation of collator rewards and mint them anew. We will have a referenda to vote on this.
 
-#### Introduce Treasury
+#### Introduce Treasury ✅
 
 Implementation of the treasury pallet and its configuration is completed through a runtime upgrade.
 
-#### Introduce LDPoS
+#### Introduce LDPoS ✅
 
 LDPoS gets introduced to Amplitude. Both collator and delegator staking can go live after this is in place.
 
-#### Remove Sudo (Referenda #2)
+#### Remove Sudo (Referenda #2) ✅
 
 Sudo gets removed via a runtime upgrade and from here on the on-chain governance is completely live and fully functional.
 
-#### Enable token transfers
+#### Enable token transfers ✅
 
 Token transfers, previously blocked, will be enabled here.
