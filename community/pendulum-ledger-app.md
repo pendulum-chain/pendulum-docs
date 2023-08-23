@@ -11,13 +11,13 @@ This guide provides detailed instructions on how to interact with the Pendulum L
 ## How to install Pendulum app
 
 1. Launch Ledger Live([https://www.ledger.com/ledger-live](https://www.ledger.com/ledger-live)) on your device
-2. go to the ledger device
-3. choose Pendulum app and press install
+2. Go to the Ledger device
+3. Choose Pendulum app and press install
 
-## How to connect ledger to wallet
+## How to connect Ledger to wallet
 
 1. Ensure your Ledger Device is connected and unlocked
-2. Open the Pendulum app on the ledger device
+2. Open the Pendulum app on the Ledger device
    1. Once open, the Ledger device will show “Pendulum ready”
 3. Open the polkadot.js extension in your browser
 4. Click the “+” icon and select from the dropdown “Connect Ledger device”
@@ -27,7 +27,7 @@ This guide provides detailed instructions on how to interact with the Pendulum L
 ## View account balance
 
 1. Open [polkadot.js.org](http://polkadot.js.org)
-2. Connect the imported ledger account to the website.
+2. Connect the imported Ledger account to the website.
 3. From the top left dropdown, select “Pendulum chain”
 4. Navigate to Accounts in the top menu Accounts, then select Accounts again
 5. You will be able to see the Account here with the balance of the account
@@ -37,10 +37,10 @@ This guide provides detailed instructions on how to interact with the Pendulum L
 1. Ensure you are on the Pendulum network, as previously selected
 2. Navigate to polkadot.js.org
 3. Navigate to Accounts from the top menu, then choose Transfer
-4. In the "Send from account" dropdown, select the connected ledger account
+4. In the "Send from account" dropdown, select the connected Ledger account
 5. Enter the recipient's address in the "Send to address" field
 6. Input the amount of PEN you want to send and click **Make transfer**.
 7. In the confirmation pop-up click **sign and submit**
-8. A second pop-up will appear, asking to “Sign on ledger”
-9. After clicking it you can view all the details in the ledger device, such as the destination address and the option to approve the transaction
-10. If the transaction is succesful you will see a green dailog box on the [polkadot.js.org](http://polkadot.js.org) website stating the transaction was successful.
+8. A second pop-up will appear, asking to “Sign on Ledger”
+9. After clicking it you can view all the details in the Ledger device, such as the destination address and the option to approve the transaction
+10. If the transaction is succesfull you will see a green dailog box on the [polkadot.js.org](http://polkadot.js.org) website stating the transaction was successful.
