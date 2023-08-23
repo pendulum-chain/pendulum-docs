@@ -8,6 +8,11 @@ description: >-
 
 This guide provides detailed instructions on how to interact with the Pendulum Ledger App.
 
+## Requirements
+
+1. Update Ledger Live through the notification banner or [download the latest version](https://www.ledger.com/ledger-live/).
+2. Update the **firmware** on your Ledger [Nano S](https://support.ledger.com/hc/en-us/articles/360002731113) / [Nano S Plus](https://support.ledger.com/hc/en-us/articles/4445777839901?docs=true) / [Nano X](https://support.ledger.com/hc/en-us/articles/360013349800).
+
 ## How to install Pendulum app
 
 1. Launch Ledger Live([https://www.ledger.com/ledger-live](https://www.ledger.com/ledger-live)) on your device
