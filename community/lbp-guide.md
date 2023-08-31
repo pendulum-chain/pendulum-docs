@@ -10,9 +10,10 @@ description: Guide on how to participate in the AMPE/KSM LBP.
 
 1. Go to [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) and switch to Amplitude network from the network menu or directly click on this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Famplitude-rpc.dwellir.com#/explorer).
 2. Find `Developer` in the top menu, and choose `Extrinsics` from the drop down
-3.  You will be on the following page, see screenshot below.
+3. You will be on the following page, see screenshot below.
 
-    ![Screenshot 2023-08-29 at 4.45.45 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c9bb2c4-5ab3-49d4-bc49-d6f97d8c0b40/Screenshot\_2023-08-29\_at\_4.45.45\_PM.png)
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-29 at 4.45.45 PM.png" alt=""><figcaption><p>extrinsic screen example</p></figcaption></figure>
+
 4. Now choose the account you want to contribute from from the field “**using the selected account”**
 5. Next in the “**Submit the following extrinsic**” dropdown choose “**`zenlinkProtocol`**”
 6. In the next dropdown choose “**`bootstrapContribute(asset0, asset1, amount0Contribute, amount1Contribute, deadline)`**”
@@ -36,10 +37,11 @@ description: Guide on how to participate in the AMPE/KSM LBP.
 
 Note: This is to be done once the LBP contribution period ends.
 
-1.  Follow steps 1,2 and 3 from this section [How to contribute to the AMPE/KSM LBP?](https://www.notion.so/How-to-contribute-to-the-AMPE-KSM-LBP-4f38580fce004261b052d323f096b711?pvs=21)
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/462fec00-8a37-4e5c-a168-4fae178210da/Untitled.png)
+1. Follow steps 1,2 and 3 from this section How to contribute to the AMPE/KSM LBP?
 2. Now choose the account you want to sign this transaction from the field “**using the selected account”**
+
+<figure><img src="../.gitbook/assets/Untitled.png" alt=""><figcaption><p>bootstrapClaim extrinsic</p></figcaption></figure>
+
 3. Next in the “**Submit the following extrinsic**” dropdown choose “**`zenlinkProtocol`**”
 4. In the next dropdown choose “`**bootstrapClaim(recipient, asset0, asset1, deadline)**`”
 5. Now a list of fields would appear below.
