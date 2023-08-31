@@ -9,3 +9,9 @@ You can read more about the bridge concept and how it works in our [blog post](h
 {% hint style="info" %}
 The following guide uses the provided testchain for convenience. The idea is to illustrate how to connect Spacewalk to a standalone chain. The approach to connecting to the Pendulum chain differs slightly and is addressed in[Broken link](broken-reference "mention").
 {% endhint %}
+
+### Video guide for Spacewalk
+
+Following is the video guide on how to bridge using Spacewalk from Stellar to Amplitude and back.&#x20;
+
+{% embed url="https://www.loom.com/share/1d9d5ce1a4cf4ddbbe979e959b4a04be?sid=8ea5bb5b-a970-40c3-890f-3a1de3dcc6bc" %}
