@@ -37,7 +37,7 @@ description: Guide on how to participate in the AMPE/KSM LBP.
 
 Note: This is to be done once the LBP contribution period ends.
 
-1. Follow steps 1,2 and 3 from this section How to contribute to the AMPE/KSM LBP?
+1. Follow steps 1,2 and 3 from this section [How to contribute to the AMPE/KSM LBP?](https://pendulum.gitbook.io/pendulum-docs/community/lbp-guide#how-to-contribute-to-the-ampe-ksm-lbp)
 2. Now choose the account you want to sign this transaction from the field “**using the selected account”**
 
 <figure><img src="../.gitbook/assets/Untitled.png" alt=""><figcaption><p>bootstrapClaim extrinsic</p></figcaption></figure>
