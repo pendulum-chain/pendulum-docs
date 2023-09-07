@@ -56,4 +56,4 @@ Usage of the polkadot.js portal requires knowing how to navigate the various ext
 
 Just like with the portal, you will be required to execute a transaction after submitting the extrinsic. Finalize the transaction with the _executeIssue_ extrinsic.
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><strong>Note</strong> that for Stellar assets (besides XLM) you will have to specify them in the <em>Stellar::AlphaNum4</em> field.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p><strong>Note</strong> that for Stellar assets (besides XLM) you will have to specify them in the <em>Stellar::AlphaNum4</em> field.</p></figcaption></figure>

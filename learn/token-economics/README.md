@@ -37,7 +37,7 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 \
 The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
