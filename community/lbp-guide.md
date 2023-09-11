@@ -18,7 +18,7 @@ description: Guide on how to participate in the AMPE/KSM LBP.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-7. Now next in the assets section, enter the amount of KSM you want to transfer in the `Fungible` field. Note - Since there are 12 decimals for the KSM token, you need to add 12 zeros after choosing the KSM amount e.g. If you want to transfer 1 KSM, then you should write `1000000000`.
+7. Now next in the assets section, enter the amount of KSM you want to transfer in the `Fungible` field. Note - Since there are 12 decimals for the KSM token, you need to add 12 zeros after choosing the KSM amount e.g. If you want to transfer 1 KSM, then you should write `1000000000000`.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -51,9 +51,9 @@ description: Guide on how to participate in the AMPE/KSM LBP.
    1. `chainId` should be 2124
    2. `assetType` should be 2
    3. `assetIndex` should be 256
-10. In `amoun0Contribute`, enter the amount you want to contribute for AMPE. Make sure to add `12` zeros to your amount. For ex. if you wish to contribute `10` then the input should be `10000000000000`
-11. In `amoun1Contribute`, enter the amount you want to contribute for KSM. Make sure to add `12` zeros to your amount. For ex. if you wish to contribute `10` then the input should be `10000000000000`
-12. For `deadline` field, add the block number that is 5 blocks higher than the current block-number. For ex. current block number is 10 then add 5 so the input should be 15. Current blocknumber can be found in the top menu **Network > Explorer**
+10. In `amount0Contribute`, enter the amount you want to contribute for AMPE. Make sure to add `12` zeros to your amount. For ex. if you wish to contribute `10` then the input should be `10000000000000`
+11. In `amount1Contribute`, enter the amount you want to contribute for KSM. Make sure to add `12` zeros to your amount. For ex. if you wish to contribute `10` then the input should be `10000000000000`
+12. For `deadline` field, add the block number that is 5-10 blocks higher than the current block-number. For ex. current block number is 2,400,994 then add 5 so the input should be 2,400,999. Current blocknumber can be found in the top menu **Network > Explorer**
 13. Now click on the “Submit Transaction” at the bottom of the screen.
 14. Now from the pop-up click “Sign and Submit”. Next, enter your password in the wallet pop-up and confirm the transaction.
 15. Once done, if the contribution is successful on polkadot.js screen you will see a green confirmation in the top right corner.
@@ -80,7 +80,7 @@ Note: This is to be done once the LBP contribution period ends.
    1. `chainId` should be 2124
    2. `assetType` should be 2
    3. `assetIndex` should be 256
-10. In the `deadline` field, Add the block number that is 5 blocks higher than the current block-number. For ex. current block number is 10 then add 5 so the input should be 15. Current blocknumber can be found in the top menu **Network > Explorer**
+10. For `deadline` field, add the block number that is 5-10 blocks higher than the current block-number. For ex. current block number is 2,400,994 then add 5 so the input should be 2,400,999. Current blocknumber can be found in the top menu **Network > Explorer**
 11. Now click on “Submit Transaction” from the bottom of the screen.
 12. Now from the pop-up click “Sign and Submit”. Next enter your password in the wallet pop-up and confirm the transaction.
 13. Once done, if the contribution is successful on polkadot.js screen you will see a green confirmation in the top right corner.
