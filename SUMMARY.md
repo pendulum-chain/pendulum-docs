@@ -39,6 +39,7 @@
       * [Docker Installation](build/networks/become-a-collator/installation.md)
       * [Keys Management](build/networks/become-a-collator/keys-management.md)
       * [Become a Collator](build/networks/become-a-collator/become-a-collator.md)
+      * [Node upgrade instructions](build/node-operators/collators/become-a-collator/node-upgrade-instructions.md)
   * [Spacewalk Vaults](build/node-operators/spacewalk-vaults.md)
 * [Integrations](build/integrations/README.md)
   * [Indexers](build/integrations/indexers.md)

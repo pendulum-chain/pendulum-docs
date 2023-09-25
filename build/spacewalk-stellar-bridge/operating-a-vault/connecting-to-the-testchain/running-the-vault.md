@@ -16,7 +16,7 @@ Wait until it finishes building, and ignore any warnings. If it builds and runs 
 
 ![](../../../../.gitbook/assets/vaultlogs)
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Once your vault is up and running your terminal should look like this</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Once your vault is up and running your terminal should look like this</p></figcaption></figure>
 
 At this point, you have the main blocks up and running, and you're ready to bridge some assets.
 
