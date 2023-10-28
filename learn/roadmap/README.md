@@ -49,14 +49,14 @@ The inception of the Pendulum vision by SatoshiPay began in the summer of 2021. 
 
 **2023 Q3**
 
-* $AMPE available on DEX (Zenlink)
-* Basic Ledger integration ($PEN)
+* ✔️$AMPE available on DEX (Zenlink)
+* ✔️Basic Ledger integration ($PEN)
 * Nabla Forex AMM launch
 * Spacewalk bridge Pendulum launch
 
 **2023 Q4**
 
-* PendulumPay app MVP
+* ✔️PendulumPay app MVP
 * Fiat on/off ramp interface standard&#x20;
 * PendulumPay accounting
 * Portal V2 (UI/UX upgrade)
