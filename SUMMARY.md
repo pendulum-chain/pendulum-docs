@@ -69,6 +69,7 @@
   * [Delegation](community/staking/delegation.md)
   * [Rewards](community/staking/rewards.md)
   * [Further Operations on Delegators](community/staking/further-operations-on-delegators.md)
+* [On chain identity guide](community/on-chain-identity-guide.md)
 * [LBP Guide](community/lbp-guide.md)
 * [Pendulum Ledger App](community/pendulum-ledger-app.md)
 * [Unlocking Vesting Tokens](community/unlocking-vesting-tokens.md)
