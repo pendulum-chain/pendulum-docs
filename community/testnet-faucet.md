@@ -10,5 +10,5 @@ description: This is the guide on how to get the testnet tokens using the faucet
    2. Then switch to Foucoco under Rococo parachains
    3. Here you can navigate to the Accounts from the top menu
    4. Here you will find your address
-3. After replacing clicking enter
+3. After replacing and clicking enter
 4. If the testnet token transfer is successful, you would see an OK message on the screen.
