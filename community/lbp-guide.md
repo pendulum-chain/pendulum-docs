@@ -13,7 +13,7 @@
 
 3. Now switch to the `Submission` tab
 4. In the `using the selected account` select the account you want to send the KSM from
-5. **Now in the beneficiary section in the `id` field, enter your address. Please make sure you have entered your address here, the current address is not your address.**
+5. **Now in the beneficiary section in the `id` field, enter your address. Please make sure you have entered your address here, the prefilled address is not your address.**
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
