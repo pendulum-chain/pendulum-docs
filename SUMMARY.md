@@ -71,7 +71,7 @@
   * [Further Operations on Delegators](community/staking/further-operations-on-delegators.md)
 * [Testnet Faucet](community/testnet-faucet.md)
 * [On chain identity guide](community/on-chain-identity-guide.md)
-* [LBP Guide](community/lbp-guide.md)
+* [Cross-chain transfer KSM](community/lbp-guide.md)
 * [Pendulum Ledger App](community/pendulum-ledger-app.md)
 * [Unlocking Vesting Tokens](community/unlocking-vesting-tokens.md)
 * [Governance](community/governance.md)
