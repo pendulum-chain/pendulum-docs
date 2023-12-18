@@ -18,7 +18,31 @@ The Spacewalk vault client intermediates between the Stellar network and the Spa
 
 Make sure you have completed the basic Rust setup, see [here](https://github.com/pendulum-chain/spacewalk/blob/main/testchain/docs/rust-setup.md) for more information
 
-## Installation
+## Auto-upgrading Installation
+
+The easiest way to run a vault is by using the `runner` client. It is used to download and run the latest Spacewalk Vault client. For this, the `runner` periodically checks the on-chain release data and downloads and runs the vault client until the release data is updated again.&#x20;
+
+{% hint style="info" %}
+At the moment, we only offer pre-built binaries for Ubuntu Linux operating systems, so this approach only works on compatible machines.&#x20;
+{% endhint %}
+
+### Installing the runner
+
+You can download a prebuilt runner binary for Ubuntu-based operating systems from the release assets on GitHub [here](https://github.com/pendulum-chain/spacewalk/releases).
+
+To run a Spacewalk Vault using the `runner` you need to specify the parachain that you want to connect to. At the moment, Spacewalk is supported on the Rococo parachain _Foucoco_ (`wss://rpc-foucoco.pendulumchain.tech`) and the Kusama parachain _Amplitude_ (`wss://rpc-amplitude.pendulumchain.tech`). To connect the `runner` to _Amplitude_, you would run the following:
+
+```
+runner \ 
+--parachain-ws wss://rpc-amplitude.pendulumchain.tech \
+-- \ 
+--auto-register xxx # vault client arguments
+-- ...
+```
+
+You need to pass the CLI arguments specific to the vault client as positional arguments (after the double dashes`--` ). The available arguments are described in the sections below.&#x20;
+
+## Standard Installation
 
 ### Install a pre-built binary
 
@@ -40,7 +64,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 #### Build the Vault client
 
-Clone the Vault code, checkout the latest release and build the client:
+Clone the Vault code, `git checkout` the latest release and build the client:
 
 ```bash
 git clone https://github.com/pendulum-chain/spacewalk.git
@@ -69,7 +93,7 @@ A simple example of running a vault client that connects to the Foucoco network 
   --keyfile keys.json \
   --keyname my-key \
   --spacewalk-parachain-url wss://rpc-foucoco.pendulumchain.tech:443 \
-  --stellar-vault-secret-key-filepath secret_key_foucoco \
+  --stellar-vault-secret-key-filepath stellar_secret_key_foucoco \
   --stellar-overlay-config-filepath clients/stellar-relay-lib/resources/config/testnet/stellar_relay_config_sdftest1.json
 ```
 
@@ -98,23 +122,25 @@ For example, to auto-register the vault for providing collateral of `1` DOT for 
 --auto-register="0,GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN:USDC,10000000000" \
 ```
 
-`--stellar-vault-secret-key <STELLAR_VAULT_SECRET_KEY>` - The Stellar secret key that is used by the vault to sign transactions and receive user assets on Stellar.
+`--stellar-vault-secret-key <STELLAR_VAULT_SECRET_KEY>` - The Stellar secret key that is used by the vault to sign transactions and receive user assets on Stellar. Mutual exclusive with `--stellar-vault-secret-key-filepath`
 
-`--stellar-overlay-config-filepath <STELLAR_OVERLAY_CONFIG_FILEPATH>` - The file path to where the JSON config for the Stellar overlay network is located. This is important because the vault client needs to know where to find the consensus-related information. You can find an example for this file [here](https://github.com/pendulum-chain/spacewalk/blob/67f3b695a098be4ad687dc3df575204d9b214475/clients/stellar-relay-lib/resources/config/mainnet/stellar\_relay\_config\_mainnet\_iowa.json).
+`--stellar-vault-secret-key-filepath <PATH_TO_SECRET_KEY>` - The path to a file that contains the Stellar secret key. The file should just contain the secret key, without any extra characters or spaces. Mutual exclusive with `--stellar-vault-secret-key-filepath`
 
-`--keyfile <KEYFILE>` - Path to the json file containing key pairs in a map. Valid content of this file is e.g.
+`--stellar-overlay-config-filepath <STELLAR_OVERLAY_CONFIG_FILEPATH>` - The file path to where the JSON config for the Stellar overlay network is located. This is important because the vault client needs to know where to find the consensus-related information. You can find an example for this file [here](https://github.com/pendulum-chain/spacewalk/blob/a5cc81ececb9a464fc8caa12c191eeaecf453c4b/clients/stellar-relay-lib/resources/config/mainnet/stellar\_relay\_config\_mainnet\_iowa.json).
+
+`--keyfile <KEYFILE>` - Path to the JSON file containing key pairs for Substrate accounts in a map. Valid content of this file is e.g.
 
 ```json
 { "MyUser1": "<Polkadot Account Mnemonic>", "MyUser2": "<Polkadot AccountMnemonic>" }`
 ```
 
-`--keyname <KEYNAME>` - The name of the account from the `keyfile` to use
+`--keyname <KEYNAME>` - The name of the account from the `keyfile` to use, e.g. `MyUser1` in the previous example.
 
 `--keyring <KEYRING>` - The keyring to use, e.g. ‘ALICE’. Mutually exclusive with `keyfile`. This is more useful for testing purposes.
 
 `--no-auto-replace` - Opt out of participation in replace requests
 
-`--no-issue-execution` - Don't try to execute issues
+`--no-issue-execution` - Don't try to execute issues. Only for testing purposes, should not be used in production.
 
 `--payment-margin-minutes <PAYMENT_MARGIN_MINUTES>` - Minimum time to the redeem/replace execution deadline to make the stellar payment \[default: 1]. If requests are too close to the deadline the vault might not be able to complete them in time due to network latency, etc.
 
