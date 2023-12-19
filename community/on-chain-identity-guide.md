@@ -8,12 +8,13 @@ Here is the detailed [guide](https://support.polkadot.network/support/solutions/
 
 Once you set the on-chain identity, below are the steps on how to verify it:
 
-Go to Polkadot.js to find the accepted registrars of Pendulum: [https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-pendulum.prd.pendulumchain.tech#/chainstate](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-pendulum.prd.pendulumchain.tech#/chainstate) 2. Select the 'identity' as query and then 'registars()' method and click on the '+' sign 3. This should display the list of address's that are registars. Copy over the registars address and add it your address book. 4. Now to verify your identity you need to request a judgement from a registar, go to Polkadot extrinsics: identity >> requestJudgement
-
-1. Two fields
-   1. regIndex - Index of registrar i.e 0 in our case, as there is currently only 1 registrar.&#x20;
-   2. maxFee - Add the fee you would like to pay to the registar, this can be anything. Make sure you add appropriate zeroes. 1 PEN = 1,000,000,000,000
-2. Once you execute the extrinsic, you must see your status of identity changed from "no judgement" to "waiting". See images below for example
+1. Go to Polkadot.js to find the accepted registrars of Pendulum: [https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-pendulum.prd.pendulumchain.tech#/chainstate](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-pendulum.prd.pendulumchain.tech#/chainstate)&#x20;
+2. Select the 'identity' as query and then 'registars()' method and click on the '+' sign&#x20;
+3. This should display the list of address's that are registars. Copy over the registars address and add it your address book.&#x20;
+4. Now to verify your identity you need to request a judgement from a registar, go to Polkadot extrinsics: identity >> requestJudgement
+   1. Two fields
+5. regIndex - Index of registrar i.e 0 in our case, as there is currently only 1 registrar.&#x20;
+6. maxFee - Add the fee you would like to pay to the registar, this can be anything. Make sure you add appropriate zeroes. 1 PEN = 1,000,000,000,000
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
