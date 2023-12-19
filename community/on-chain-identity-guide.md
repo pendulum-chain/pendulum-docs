@@ -13,8 +13,8 @@ Once you set the on-chain identity, below are the steps on how to verify it:
 3. This should display the list of address's that are registars. Copy over the registars address and add it your address book.&#x20;
 4. Now to verify your identity you need to request a judgement from a registar, go to Polkadot extrinsics: identity >> requestJudgement
    1. Two fields
-5. regIndex - Index of registrar i.e 0 in our case, as there is currently only 1 registrar.&#x20;
-6. maxFee - Add the fee you would like to pay to the registar, this can be anything. Make sure you add appropriate zeroes. 1 PEN = 1,000,000,000,000
+      1. regIndex - Index of registrar i.e 0 in our case, as there is currently only 1 registrar.&#x20;
+      2. maxFee - Add the fee you would like to pay to the registar, this can be anything. Make sure you add appropriate zeroes. 1 PEN = 1,000,000,000,000
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
