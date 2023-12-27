@@ -179,7 +179,7 @@ When operating a Vault client ensure the following:
     2. fulfilling redeem requests on time
     3. ensuring that you have enough Assets in the Vault’s wallet to fulfill redeem requests.&#x20;
 
-> Note: In case the vault doesn't fulfil the redeem or replace request within the expected time period of 14400 blocks (48 hours), a punishment delay is applied to the vault making it inactive for 14400 blocks (48 hours). While banned, users cannot create new issue or redeem requests targeting that vault.
+**Note:  In case the vault doesn't fulfil the redeem or replace request within the expected time period of 14400 blocks (48 hours), a punishment delay is applied to the vault making it inactive for 14400 blocks (48 hours). While banned, users cannot create new issue or redeem requests targeting that vault.**
 
 ## Troubleshooting
 
