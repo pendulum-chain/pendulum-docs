@@ -171,7 +171,15 @@ When operating a Vault client ensure the following:
 1. **Do NOT operate two or more Vault clients with the same keyname/account at the same time.** The Vault stands the risk to execute redeem transactions twice which will lead to a loss of Assets - and, in the worst case, liquidation of collateral.
 2. **DO restricts access to your server.** If anyone has access to your server, they will be able to extract any funds present. Make sure to close any unnecessary ports to third parties.
 3. **DO backup your keys.** If the keys are not backed-up and the server operating the Vault client loses this data, the Vault stands the risk of losing all funds.&#x20;
-4. **DO monitor the Vault for potential failures.** This includes three parts: (1) keeping the collateralization level above the liquidation threshold, (2) fulfilling redeem requests on time, (3) ensuring that you have enough Assets in the Vault’s wallet to fulfill redeem requests.&#x20;
+4.  **DO monitor the Vault for potential failures.**&#x20;
+
+    This includes three parts:&#x20;
+
+    1. keeping the collateralization level above the liquidation threshold
+    2. fulfilling redeem requests on time
+    3. ensuring that you have enough Assets in the Vault’s wallet to fulfill redeem requests.&#x20;
+
+> Note: In case the vault doesn't fulfil the redeem or replace request within the expected time period of 14400 blocks (48 hours), a punishment delay is applied to the vault making it inactive for 14400 blocks (48 hours). While banned, users cannot create new issue or redeem requests targeting that vault.
 
 ## Troubleshooting
 
