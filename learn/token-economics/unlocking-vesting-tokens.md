@@ -6,7 +6,7 @@ On the far right side, if you have vested tokens, you will be able to unlock you
 
 
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 
 
