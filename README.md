@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Welcome to Pendulum
 
 Pioneering the internet of fiat. Pendulum blockchain offers composable financial services using stablecoins to businesses, fintech companies and builds the future of forex on DeFi.

@@ -66,6 +66,7 @@
 ## Community
 
 * [Staking](community/staking/README.md)
+  * [Choosing a Collator to Stake with for $PEN Staking Rewards](community/staking/choosing-a-collator-to-stake-with-for-usdpen-staking-rewards.md)
   * [Delegation](community/staking/delegation.md)
   * [Rewards](community/staking/rewards.md)
   * [Further Operations on Delegators](community/staking/further-operations-on-delegators.md)
