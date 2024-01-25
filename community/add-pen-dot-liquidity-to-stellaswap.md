@@ -41,6 +41,8 @@ For this transfer you will connect both your polkadot wallet (Subwallet, Talisma
 xcPEN contract address: 0xffFFfFFf2257622F345E1ACDe0D4f46D7d1D77D0\
 xcDOT contract address: 0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080
 
+Note: You will need to import these tokens to your EVM wallet (Metamask etc) UI to display them in your wallet.&#x20;
+
 <figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*PIq6H5ZCoUgXGWtI" alt="" height="270" width="700"><figcaption></figcaption></figure>
 
 <figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*xCYsSHpbLbkyZurn" alt="" height="342" width="700"><figcaption></figcaption></figure>
