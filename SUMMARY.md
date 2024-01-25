@@ -75,7 +75,6 @@
 * [Cross-chain transfer KSM](community/lbp-guide.md)
 * [Using Ledger](community/pendulum-ledger-app.md)
 * [Governance](community/governance.md)
-* [Get PEN](community/get\_pen.md)
 * [PEN & AMPE Wallets](community/pendulum-grant-program.md)
 * [Add PEN/DOT Liquidity to StellaSwap](community/add-pen-dot-liquidity-to-stellaswap.md)
 * [Pendulum Grant Program](community/pendulum-grant-program-1.md)
