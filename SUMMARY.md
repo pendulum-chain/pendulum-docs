@@ -57,6 +57,7 @@
       * [Redeem assets](build/spacewalk-stellar-bridge/operating-a-vault/usage/redeem-assets.md)
     * [Collateral and Liquidation](build/spacewalk-stellar-bridge/operating-a-vault/collateral-and-liquidation.md)
     * [Fees, Costs and Incentives](build/spacewalk-stellar-bridge/operating-and-using-a-vault/fees-costs-and-incentives.md)
+    * [Vault rewards](build/spacewalk-stellar-bridge/operating-a-vault/vault-rewards.md)
   * [Troubleshooting](build/spacewalk-stellar-bridge/troubleshooting/README.md)
     * [Generating metadata](build/spacewalk-stellar-bridge/troubleshooting/generating-metadata.md)
 * [Technical FAQ](build/techincal-faq.md)
