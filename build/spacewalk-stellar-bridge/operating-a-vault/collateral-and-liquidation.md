@@ -20,13 +20,7 @@ Below we define some parameters to help define what elements make up the collate
 
 #### Collateral Data for Pendulum
 
-| Stellar Asset | Asset | Security Threshold | Premium Redeem | Liquidation |
-| ------------- | ----- | ------------------ | -------------- | ----------- |
-| USDC          | PEN   | 130%               | 140%           | 125%        |
-| MXN           | PEN   | 160%               | 140%           | 125%        |
-| BRL           | PEN   | 160%               | 140%           | 125%        |
-| XLM           | PEN   | 150%               | 130%           | 125%        |
-| TZS           | PEN   | 150%               | 130%           | 125%        |
+<table><thead><tr><th>Stellar Asset</th><th>Asset</th><th width="200">Security Threshold</th><th>Premium Redeem</th><th>Liquidation</th></tr></thead><tbody><tr><td>USDC</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>MXN</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>BRL</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>XLM</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>TZS</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>NGNC</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>EURC</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr><tr><td>AUDD</td><td>DOT</td><td>160%</td><td>140%</td><td>125%</td></tr></tbody></table>
 
 #### Collateral Data for Amplitude
 
@@ -35,8 +29,11 @@ Below we define some parameters to help define what elements make up the collate
 | USDC          | KSM   | 160%               | 140%           | 125%        |
 | MXN           | KSM   | 160%               | 140%           | 125%        |
 | BRL           | KSM   | 160%               | 140%           | 125%        |
-| XLM           | KSM   | 150%               | 130%           | 125%        |
-| TZS           | KSM   | 150%               | 130%           | 125%        |
+| XLM           | KSM   | 160%               | 140%           | 125%        |
+| TZS           | KSM   | 160%               | 140%           | 125%        |
+| NGNC          | KSM   | 160%               | 140%           | 125%        |
+| EURC          | KSM   | 160%               | 140%           | 125%        |
+| AUDD          | KSM   | 160%               | 140%           | 125%        |
 
 ## Liquidation
 
