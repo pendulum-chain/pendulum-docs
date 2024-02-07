@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/Pen_Docs_Grant Program Cover.png
+coverY: 0
+---
+
 # Pendulum Grant Program
 
 On our mission to build the fiat DeFi future, the release of the [Pendulum Grants Program](https://medium.com/pendulum-chain/pendulum-launches-ecosystem-grant-program-c193237305ce) will offer support for projects building out the internet of fiat ecosystem and infrastructure. Anyone can apply for a grant including individuals, companies, governments, universities, etc. Fill in [this form](https://satoshipay.notion.site/Pendulum-Grant-Program-b38f44726d034e0bbe7286300f999df4) to apply.
@@ -8,7 +13,7 @@ On our mission to build the fiat DeFi future, the release of the [Pendulum Grant
 * Footprint in the DotSama ecosystem
 * Grow your network with introductions to our tech, marketing and community connections
 
-## Projects we want to fund <a href="#1ff8" id="1ff8"></a>
+## Projects we want to fund <a href="#id-1ff8" id="id-1ff8"></a>
 
 We are interested in, but not limited to, funding ecosystem projects such as:
 

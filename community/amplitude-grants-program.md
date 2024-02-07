@@ -1,8 +1,13 @@
+---
+cover: ../.gitbook/assets/Amp_Docs_Grant Program Cover.png
+coverY: 0
+---
+
 # Amplitude Grants Program
 
 The [Amplitude Grants Program](https://pendulumchain.org/ecosystem-grants/amplitude/requirements) will support developers in translating EVM protocols over to WebAssembly (Wasm) for the Amplitude parachain on Kusama. The [Pendulum Grants Program](https://medium.com/pendulum-chain/pendulum-launches-ecosystem-grant-program-c193237305ce) is already working with teams to fund the development of blockchain infrastructure and dApps that connect fintech fiat services to DeFi. Now Amplitude will fund builders to grow Pendulum’s Amplitude chain.
 
-### **Benefits of an Amplitude Grant** <a href="#9461" id="9461"></a>
+### **Benefits of an Amplitude Grant** <a href="#id-9461" id="id-9461"></a>
 
 * Financial support
 * Footprint in the Dotsama ecosystem
@@ -10,7 +15,7 @@ The [Amplitude Grants Program](https://pendulumchain.org/ecosystem-grants/amplit
 
 A footprint in a Dotsama ecosystem, one of the most respected and lively developer communities in the entire blockchain space, is a strong benefit for any serious Web3 builder. Developers will have opportunities for technical and marketing support from Pendulum, who have co-hosted live events with [Parity](https://www.parity.io/) and have a rapidly growing community.
 
-### **Projects we want to fund** <a href="#80d2" id="80d2"></a>
+### **Projects we want to fund** <a href="#id-80d2" id="id-80d2"></a>
 
 EVM → Wasm Translations
 
@@ -30,7 +35,7 @@ For example (but not limited to):
 * **Transaction privacy →** optional transactional privacy features
 * **Tooling for Wasm smart contracts →** something like the [Truffle Suite](https://trufflesuite.com/) for Wasm
 
-### **Requirements** <a href="#4a2f" id="4a2f"></a>
+### **Requirements** <a href="#id-4a2f" id="id-4a2f"></a>
 
 All code must be open source and available on GitHub. Code should either be written in WebAssembly (”Wasm”) or compiled to Wasm (e.g. Solang) and can be implemented either as a pallet or as a smart contract. Individuals, universities, companies etc. are welcome to apply. The payout will be in both USDC and AMPE. AMPE is Amplitude’s native token, you can [click here](https://medium.com/pendulum-chain/amplitude-ampe-tokenomics-2063d3bafde0) for the tokenomics breakdown.
 
