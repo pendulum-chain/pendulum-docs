@@ -1,4 +1,5 @@
 ---
+cover: .gitbook/assets/Pen_Docs_Cover.png
 coverY: 0
 ---
 
