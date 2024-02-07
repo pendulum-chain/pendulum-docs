@@ -32,26 +32,26 @@ PEN will be the native token of Pendulum. PEN utilities include powering transac
 
 **Token Usage:** Gas,Staking and Governance
 
-### **Distribution** <a href="#98b0" id="98b0"></a>
+### **Distribution** <a href="#id-98b0" id="id-98b0"></a>
 
 \
 The distribution maintains a balance between Pendulum’s early supporters and the Pendulum community with an even 50/50 split.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pen_Docs_Tokenomics_Token Allocation Overall.png" alt=""><figcaption></figcaption></figure>
 
 #### **Community Distribution** <a href="#a266" id="a266"></a>
 
 \
 The chart below shows the percentage that each community bucket takes up from the community bucket that takes up 50% of the total PEN total allocation. The community distribution includes staking rewards for directly staking PEN (28%) as well as staking rewards related to Spacewalk bridge (12%). [The Crowdloan](https://parachains.info/details/pendulum) #35 was won by Pendulum
 
-<figure><img src="../../.gitbook/assets/Pen_Tokenomics charts and graphic_Token Allocation – Community (%) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pen_Docs_Tokenomics_Token Allocation Community.png" alt=""><figcaption></figcaption></figure>
 
-#### **Backers Distribution** <a href="#3ec6" id="3ec6"></a>
+#### **Backers Distribution** <a href="#id-3ec6" id="id-3ec6"></a>
 
 \
 The below chart shows the distribution of tokens to Pendulum’s early backers that have supported the building of Pendulum and Amplitude for over 1 year now.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pen_Docs_Tokenomics_Token Allocation Early Supporters.png" alt=""><figcaption></figcaption></figure>
 
 _Note: The percentages in the Community and Backers charts should be halved to find the percentage of the overall tokenomics. For example, Staking Rewards is 14% of the overall tokenomics and 28% of the Community bucket._
 
@@ -71,7 +71,7 @@ Below is the vesting schedule for all community and backer tokens. Most of the t
 | Liquidity                    | 4                | 0              | 24               | -              |
 | Team/Advisors                | 20               | 0              | 18-36            | 6-12           |
 
-## **AMPE Tokenomics Overview** <a href="#74ef" id="74ef"></a>
+## **AMPE Tokenomics Overview** <a href="#id-74ef" id="id-74ef"></a>
 
 **Ticker:** AMPE
 
@@ -87,7 +87,7 @@ Below is the vesting schedule for all community and backer tokens. Most of the t
 
 **Initial Circulating Supply:** 11,555,556
 
-### **Distribution** <a href="#89f7" id="89f7"></a>
+### **Distribution** <a href="#id-89f7" id="id-89f7"></a>
 
 {% hint style="info" %}
 In order to ensure Amplitude is a community-first project, the Pendulum team decided to take no allocation of AMPE tokens for themselves or advisors and held no token private sales.
@@ -95,13 +95,13 @@ In order to ensure Amplitude is a community-first project, the Pendulum team dec
 
 The distribution is reflective of the intended nature of the project that truly gives Amplitude to the community.
 
-<figure><img src="https://miro.medium.com/max/1400/0*hJI7ggJ5cHjotvGX" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Amp_Docs_Tokenomics-Distribution.png" alt=""><figcaption></figcaption></figure>
 
 Protocol & Ecosystem Breakdown:
 
-<figure><img src="https://miro.medium.com/max/1400/0*WiDQTAPYhLsMNg2P" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Amp_Docs_Tokenomics-Protocol&#x26;Ecosystem Breakdown.png" alt=""><figcaption></figcaption></figure>
 
-### **AMPE Token Utility** <a href="#3483" id="3483"></a>
+### **AMPE Token Utility** <a href="#id-3483" id="id-3483"></a>
 
 Amplitude will be the canary network of its sister blockchain, Pendulum. It will act as a testing ground for applications and network parameters for Pendulum, but with real financial consequences.
 
