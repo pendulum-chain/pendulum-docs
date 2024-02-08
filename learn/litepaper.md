@@ -28,7 +28,7 @@ The [Stellar network](https://www.stellar.org/?locale=en) is an open blockchain 
 
 [Spacewalk](https://pendulum-chain.medium.com/introducing-spacewalk-the-trust-minimized-bridge-between-stellar-and-pendulum-68ddbe7349a0) is a trust-minimized bridge and the first to connect the Stellar network and the DotSama ecosystems. Based on XCLAIM and interBTC, it is implemented as a Substrate pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.
 
-<figure><img src="../.gitbook/assets/SW_Bridge Diagram.png" alt=""><figcaption><p>Spacewalk bridge diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SW_Bridge Diagram-01.png" alt=""><figcaption><p>Spacewalk bridge diagram</p></figcaption></figure>
 
 The architecture of the bridge consists of the following components:
 
