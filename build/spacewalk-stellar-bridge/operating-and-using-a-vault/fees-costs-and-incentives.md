@@ -4,6 +4,8 @@
 
 Users risks are born of the trustless nature of the vault, by giving up custody to a Vault, a user accepts the risk of losing their stable-coins&#x20;
 
+
+
 ### Incentives and Income
 
 Users can earn income through a vault:
@@ -26,7 +28,7 @@ In locking up their assets as a collateral, Vaults make a bet that their asset w
 
 Vault Operators earn an income through:
 
-* The Issue and Redeem fees&#x20;
+* ~~The Issue and Redeem fees~~&#x20;
 * Slashed collateral of Users (On failed issues)
 * Slashed collateral of Vaults (On failed replace)
 
