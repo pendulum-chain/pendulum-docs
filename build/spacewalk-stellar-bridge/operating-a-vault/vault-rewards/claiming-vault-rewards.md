@@ -4,14 +4,14 @@ description: >-
   with specific parameters.
 ---
 
-# Vault claim rewards
+# Claiming Vault rewards
 
 ### How to claim rewards for Spacewalk on Amplitude?
 
 1. Go to [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) and switch to **Amplitude** network from the network menu or directly click on this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-amplitude.pendulumchain.tech#/extrinsics/decode).
 2. Find `Developer` in the top menu, and choose `Extrinsics` from the drop down. Select the `Decode` tab
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Top tab</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Top tab</p></figcaption></figure>
 
 3. For USDC, BRL, TZS paste the below in the field `hex-encoded call`&#x20;
 
@@ -23,7 +23,7 @@ For XLM Paste the below in the field `hex-encoded call`
 
 
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-16 at 14.46.11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-02-16 at 14.46.11 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Now switch to the `Submission` tab
 5. Make sure the **'using the selected account'** and '**accountId'** fields are filled with your Vaultid
@@ -69,9 +69,9 @@ Issuer:
 
 10. After successfully submitting the transaction, a confirmation prompt will appear in the upper right corner.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-20 at 12.01.27 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-02-20 at 12.01.27 (2).png" alt=""><figcaption></figcaption></figure>
 
 11. You can check the polkadot.js explorer for details
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-02-20 at 12.05.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-02-20 at 12.05.50.png" alt=""><figcaption></figcaption></figure>
 
