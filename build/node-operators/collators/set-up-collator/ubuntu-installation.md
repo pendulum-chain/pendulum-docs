@@ -28,7 +28,7 @@ download the relevant installation package then install it with the following co
 ```bash
 sudo dpkg -i pendululum(version)_amd64.deb
 - OR -
-sudo dpkg -i ampitude(version)_amd64.deb
+sudo dpkg -i amplitude(version)_amd64.deb
 ```
 
 This installs the Pendulum collator. Once the installer is finished check if the **pendulum** service is running:
