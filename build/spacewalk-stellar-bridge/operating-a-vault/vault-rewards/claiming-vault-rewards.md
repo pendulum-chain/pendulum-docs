@@ -43,6 +43,9 @@ AlphaNum4 - asset has 4 or less characters, AlphaNum 12 - asset has 12 or less c
 * USDC - USDC
 * BRL - `0x42524c00`
 * TZS - `0x545a5300`
+* NGNC - NGNC
+* EURC - EURC
+* AUDD - AUDD
 * XLM - Stellar: SpacewalkPrimitivesAsset is StellarNative
 
 8. Choose the Issuer
@@ -58,6 +61,9 @@ Issuer:
     0x3b9911380efe988ba0a8900eb1cfe44f366f7dbe946bed077240f7f624df15c5
 * BRL: `0xeaac68d4d0e37b4c24c2536916e830735f032d0d6b2a1c8fca3bc5a25e083e3a`
 * TZS: `0x34c94b2a4ba9e8b57b22547dcbb30f443c4cb02da3829a89aa1bd4780e4466ba`
+* AUDD: 0xc5fbe9979e240552860221f4fe2f2219f35e40458b8b58fc32da520a154a561d
+* EURC: 0x2112ee863867e4e219fe254c0918b00bc9ea400775bfc3ab4430971ce505877c
+* NGNC: 0x241afadf31883f79972545fc64f3b5b0c95704c6fb4917474e42b0057841606b
 * XLM: not required
 
 9. Make sure `rewardCurrencyId`: `SpacewalkPrimitivesCurrencyId` is Native
