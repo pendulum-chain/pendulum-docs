@@ -13,7 +13,7 @@ description: >-
 
 <figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Top tab</p></figcaption></figure>
 
-3. For USDC, BRL, TZS paste the below in the field `hex-encoded call`&#x20;
+3. For USDC, BRL, TZS, NGNC, AUDD, EURC paste the below in the field `hex-encoded call`&#x20;
 
 `0x4901d0925b8a6233c50f35eab7236336b4a90a4ec0435bb45d0e525918a62fbb403401000201555344433b9911380efe988ba0a8900eb1cfe44f366f7dbe946bed077240f7f624df15c50000`
 
