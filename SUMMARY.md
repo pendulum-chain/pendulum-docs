@@ -68,7 +68,8 @@
 
 ## Community
 
-* [Crowdloan](community/crowdloan.md)
+* [Crowdloan](community/crowdloan/README.md)
+  * [Sign T\&Cs for rewards](community/crowdloan/sign-t-and-cs-for-rewards.md)
 * [Staking](community/staking/README.md)
   * [Choosing a Collator to Stake with for $PEN Staking Rewards](community/staking/choosing-a-collator-to-stake-with-for-usdpen-staking-rewards.md)
   * [Delegation](community/staking/delegation.md)
