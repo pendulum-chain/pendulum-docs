@@ -71,6 +71,33 @@ Below is the vesting schedule for all community and backer tokens. Most of the t
 | Liquidity                    | 4                | 0              | 24               | -              |
 | Team/Advisors                | 20               | 0              | 18-36            | 6-12           |
 
+## **Definitions:** <a href="#id-74ef" id="id-74ef"></a>
+
+Advisors: Allocation for backers with specific expertise supporting Pendulum with their advisory services
+
+Team: Allocation for current and future team
+
+Private Sale: Allocated tokens for the private sale investors
+
+Strategic Sale: Allocated tokens for the strategic sale investors
+
+Crowdloan: Allocation for rewarding participants who help us in winning the parachain auction. Remaining funds from this will be added to the treasury.&#x20;
+
+Crowdloan Reserve: Allocated to fund future parachain actions
+
+Liquidity incentives: Allocated for providing initial liquidity on exchanges and liquidity provisioning rewards
+
+Treasury: Allocated to the Pendulum network treasury required to fund product development and enhancements
+
+Marketing: Allocated for marketing campaigns, airdrops, partnerships and events
+
+Staking rewards: Allocated for consensus staking related rewards
+
+Spacewalk rewards: Allocated for rewards related to Spacewalk
+
+\
+
+
 ## **AMPE Tokenomics Overview** <a href="#id-74ef" id="id-74ef"></a>
 
 **Ticker:** AMPE
