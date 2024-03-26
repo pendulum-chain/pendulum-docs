@@ -46,6 +46,7 @@
   * [Oracles](build/integrations/oracles.md)
   * [Wallets](build/integrations/wallets.md)
 * [Spacewalk (Stellar bridge)](build/spacewalk-stellar-bridge/README.md)
+  * [Step-by-step guide](build/spacewalk-stellar-bridge/step-by-step-guide.md)
   * [User](build/spacewalk-stellar-bridge/user.md)
   * [Operating a Vault client](build/spacewalk-stellar-bridge/operating-a-vault/README.md)
     * [Getting Started](build/spacewalk-stellar-bridge/operating-a-vault/installation.md)
