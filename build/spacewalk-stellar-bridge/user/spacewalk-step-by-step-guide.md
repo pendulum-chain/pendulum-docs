@@ -59,14 +59,11 @@ You can swap DOT and GLMR tokens to PEN directly on [Zenlik](https://app.zenlink
 Navigate to the Pendulum Spacewalk bridge [here](https://portal.pendulumchain.org/pendulum/spacewalk/bridge).&#x20;
 
 1. Choose 'To Pendulum' and select the asset you wish to bridge.&#x20;
-2. Enter the token amount and click 'Bridge.'&#x20;
+2. Enter the token amount, then click 'Bridge.'
 3. If you have not yet connected your Polkadot wallet (e.g., Talisman, Subwallet, Polkadot.js) you'll be prompted to do so, and then click ‘Approve’.
-4. Manual Selection if you want
-5. Pop up with the transaction details (memo etc)
+4. Pop up with the transaction details (memo etc) will appear.&#x20;
 
 ![](https://lh7-us.googleusercontent.com/2sHD3PfdBLlsDuE03eTQoQ9n9I61BMlgerNmCgIJUxRl\_dMN-2fXtbhpIklq2Kwc2QXFOaJZ0JkibE-aaj2Rt5KjW90jI-2cymYiZIM-PZ6oPPCzNbPPx7gZOzmmRBUveOFYnk2KDsCbaQx1R3K9WgM)
-
-
 
 {% hint style="info" %}
 If the network is busy it may take a few seconds to process after clicking Bridge, please wait.
@@ -74,14 +71,18 @@ If the network is busy it may take a few seconds to process after clicking Bridg
 
 <img src="https://lh7-us.googleusercontent.com/uWY2hDFt9NEM2BPu6kwyX04Idhavu2qFmkfxUrcVNgBxgJH7HbGLgNfnxa14fdL_EWq4OnD7_jSsqPE5JXBAmMG5FjnbwW7GHIxIlk_veQrVSN3o1D-qb3J3iIP80Ms5q5_bH18NqXptm0fJaiP4ORs" alt="" data-size="original">
 
+
+
+{% hint style="info" %}
+Please note that manual selection of the vault is available in the settings. If you wish to manually select the vault, click on the Settings symbol before bridging the assets.
+{% endhint %}
+
 ### **Step 7: Deposit via Stellar Wallet**&#x20;
 
 Return to LOBSTR and select 'Send' from the left-hand tabs. Enter the deposit details as provided by the Spacewalk bridge. Ensure to paste the recipient's address from the 'In a single transaction to' section. Tick the 'Add Memo' box to input the required text memo. Note: if you do not include the memo you coins will be lost. Stellar transactions require memos. Review your payment details before clicking 'Send.'
 
-
-
 {% hint style="info" %}
-Memo
+Remember to include a transaction memo when depositing assets to avoid potential loss of coins.
 {% endhint %}
 
 ![](https://lh7-us.googleusercontent.com/nIa2IhfMfB2mxGRmc3RHJoKD0Px8B020Azkl--0iNM3m6wZHOFYLpZN7N9LyO5YtUXu\_O4vDH3wDy3zJ\_Jb9fo3CIK6dC4bDXXGACpl6ttBDrWTvGTIH7nlI-EtXCyF4dU5TyhvL6L52Jn6CaTdSA-U)
