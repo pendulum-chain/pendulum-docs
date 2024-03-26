@@ -42,7 +42,7 @@ If you already have a Polkadot wallet skip to step 5. Learn more about choosing 
 
 ### **Step 5: Get PEN**
 
-You will need PEN to fund the gas fees for Spacewalk transactions and for security deposit. If you already have PEN jump to step 6. If you don’t have PEN yet you can acquire from a CEX or DEX:
+You will need PEN to fund the gas fees for Spacewalk transactions and for security deposit (1 pen will be enough for multiple transactions). If you already have PEN jump to step 6. If you don’t have PEN yet you can acquire from a CEX or DEX:
 
 **From centralized exchange**\
 Signup with [MEXC](https://www.mexc.com/exchange/PENDULUM\_USDT) and purchase Pendulum ([step-by-step guide](https://medium.com/pendulum-chain/step-by-step-guide-how-to-trade-pendulums-pen-token-on-mexc-c47a5444e712)). Withdraw your PEN tokens to your Pendulum address. If you need help setting up your Polkadot/Pendulum wallet, check out our [docs](https://pendulum.gitbook.io/pendulum-docs/community/pen-and-ampe-wallets).
