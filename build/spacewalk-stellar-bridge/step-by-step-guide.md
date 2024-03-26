@@ -80,7 +80,7 @@ The bridging transaction typically completes within a minute. Monitor the transa
 **Bridging from Polkadot to Stellar**\
 The same process in reverse can be used for bridging assets back to Stellar. First click ‘Back to Stellar’ on [Spacewalk Bridge](https://portal.pendulumchain.org/pendulum/spacewalk/bridge), select the asset you wish to bridge back and the amount of tokens. Copy and paste your Lobstr wallet address (or any Stellar wallet address) and then click ‘Bridge’ and approve in your Polkadot wallet.&#x20;
 
-![](https://lh7-us.googleusercontent.com/Y6M3xov2oVYG5bO7K2u39LQePoJ7bd5H9AHkN313OXqyauvicaygxnqsoEKk3-XpUrlK7zOw-NJn\_xupnJ27DIw0PqsNhVScf3zXfNZJBx883ToplSuF-3kYkAPvjLnMffwcf1y\_TKM6rRkvEo2o-tY)![](https://lh7-us.googleusercontent.com/Y6M3xov2oVYG5bO7K2u39LQePoJ7bd5H9AHkN313OXqyauvicaygxnqsoEKk3-XpUrlK7zOw-NJn\_xupnJ27DIw0PqsNhVScf3zXfNZJBx883ToplSuF-3kYkAPvjLnMffwcf1y\_TKM6rRkvEo2o-tY)
+![](https://lh7-us.googleusercontent.com/cPFE1XJghGxbGyplxTAgxQHV3pjJkfWosZ1-mTQeMqV23nC2DBQPsb4FZ9HOgQaRcJD-CT0a1ZfMy\_8KMVcULFlHkpYMXSB3ZXpwPImVF3uOchKBlG3oKalcPt4v8CI5gfNKHwxylKDzAy2JxnCpbMo)
 
 ![](https://lh7-us.googleusercontent.com/TQQ7m7gWRunOqKfxnQDJthKAsvS6-YNBCS\_SLDhYv5dN8OKbBf4QpwN7HO8Hor6ZbbZj1186toz43qELveQI5Q0A5WuAOpU-eTnttGBkorSoeUQAYvCoAL4doWpwONKj0CpMhNrTErsEN6Pvij2IH64)
 
