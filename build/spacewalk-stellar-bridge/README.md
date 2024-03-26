@@ -14,4 +14,6 @@ The following guide uses the provided testchain for convenience. The idea is to 
 
 Following is the video guide on how to bridge using Spacewalk from Stellar to Amplitude and back.&#x20;
 
-{% embed url="https://www.loom.com/share/1d9d5ce1a4cf4ddbbe979e959b4a04be?sid=8ea5bb5b-a970-40c3-890f-3a1de3dcc6bc" %}
+[https://drive.google.com/file/d/1xRdmAFVQx2BWCU5xC6NjV06--V4W\_eKx/view?usp=sharing](./#video-guide-for-spacewalk)
+
+{% embed url="https://drive.google.com/file/d/1xRdmAFVQx2BWCU5xC6NjV06--V4W_eKx/view?usp=sharing" fullWidth="true" %}
