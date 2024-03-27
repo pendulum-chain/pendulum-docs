@@ -42,7 +42,7 @@ If you already have a Polkadot wallet skip to step 5. Learn more about choosing 
 
 ### **Step 5: Get PEN**
 
-You will need PEN to fund the gas fees for Spacewalk transactions and for security deposit (1 pen will be enough for multiple transactions). If you already have PEN jump to step 6. If you don’t have PEN yet you can acquire from a CEX or DEX:
+You will need PEN to fund the gas fees for Spacewalk transactions and for security deposit (1 pen will be enough for multiple transactions). If you already have PEN jump to step 6. If you don’t have PEN yet you can acquire from a CEX or DEX, or you can swap on Zenlink:
 
 **From centralized exchange**\
 Signup with [MEXC](https://www.mexc.com/exchange/PENDULUM\_USDT) and purchase Pendulum ([step-by-step guide](https://medium.com/pendulum-chain/step-by-step-guide-how-to-trade-pendulums-pen-token-on-mexc-c47a5444e712)). Withdraw your PEN tokens to your Pendulum address. If you need help setting up your Polkadot/Pendulum wallet, check out our [docs](https://pendulum.gitbook.io/pendulum-docs/community/pen-and-ampe-wallets).
@@ -61,13 +61,18 @@ Navigate to the Pendulum Spacewalk bridge [here](https://portal.pendulumchain.or
 1. Choose 'To Pendulum' and select the asset you wish to bridge.&#x20;
 2. Enter the token amount, then click 'Bridge.'
 3. If you have not yet connected your Polkadot wallet (e.g., Talisman, Subwallet, Polkadot.js) you'll be prompted to do so, and then click ‘Approve’.
-4. Pop up with the transaction details (memo etc) will appear.&#x20;
 
 ![](https://lh7-us.googleusercontent.com/2sHD3PfdBLlsDuE03eTQoQ9n9I61BMlgerNmCgIJUxRl\_dMN-2fXtbhpIklq2Kwc2QXFOaJZ0JkibE-aaj2Rt5KjW90jI-2cymYiZIM-PZ6oPPCzNbPPx7gZOzmmRBUveOFYnk2KDsCbaQx1R3K9WgM)
 
 {% hint style="info" %}
 If the network is busy it may take a few seconds to process after clicking Bridge, please wait.
 {% endhint %}
+
+4. Pop up with the transaction details will appear:&#x20;
+
+Text memo: transaction memo
+
+In single Transaction to: Recipient's address
 
 <img src="https://lh7-us.googleusercontent.com/uWY2hDFt9NEM2BPu6kwyX04Idhavu2qFmkfxUrcVNgBxgJH7HbGLgNfnxa14fdL_EWq4OnD7_jSsqPE5JXBAmMG5FjnbwW7GHIxIlk_veQrVSN3o1D-qb3J3iIP80Ms5q5_bH18NqXptm0fJaiP4ORs" alt="" data-size="original">
 

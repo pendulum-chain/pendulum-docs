@@ -28,9 +28,9 @@ In locking up their assets as a collateral, Vaults make a bet that their asset w
 
 Vault Operators earn an income through:
 
-* ~~The Issue and Redeem fees~~&#x20;
-* Slashed collateral of Users (On failed issues)
-* Slashed collateral of Vaults (On failed replace)
+* **Issue and Redeem Fees:** Currently set at zero for enhancing accessibility for users.
+* **Slashed Collateral of Users:** Occurs on failed issuance transactions by the user.
+* **Slashed Collateral of Vaults:** refers to the penalty imposed on a Vault when it fails to successfully execute an asset replacement process.
 
 ### Costs
 

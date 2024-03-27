@@ -14,8 +14,8 @@ To bridge from Stellar to the Parachain, users choose a vault, send a request\_i
 
 **Stellar to Parachain:**
 
-Initiate the transfer of Spacewalk assets from the Stellar network to any Parachain
+Initiate the transfer of Spacewalk assets from the Stellar network to any Parachain.
 
 **Parachain to Stellar:**
 
-Transferring assets from a Substrate-based Parachain back to the Stellar network
+Transferring assets from a Substrate-based Parachain back to the Stellar network.
