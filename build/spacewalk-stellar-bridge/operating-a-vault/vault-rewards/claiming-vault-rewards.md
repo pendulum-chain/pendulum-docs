@@ -11,7 +11,7 @@ description: >-
 1. Go to [https://polkadot.js.org/apps/](https://polkadot.js.org/apps/) and switch to **Amplitude** network from the network menu or directly click on this [link](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-amplitude.pendulumchain.tech#/extrinsics/decode).
 2. Find `Developer` in the top menu, and choose `Extrinsics` from the drop down. Select the `Decode` tab
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Top tab</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Top tab</p></figcaption></figure>
 
 3. For USDC, BRL, TZS, NGNC, AUDD, EURC paste the below in the field `hex-encoded call`&#x20;
 

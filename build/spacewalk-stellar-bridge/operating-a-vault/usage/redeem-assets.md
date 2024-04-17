@@ -11,7 +11,7 @@ Navigate to the bridge tab on the portal and click on "Back To Stellar" on the w
 * Select the asset and the amount you want to redeem
 * Enter your wallet address
 
-![](<../../../../.gitbook/assets/image (3).png>)
+![](<../../../../.gitbook/assets/image (3) (1).png>)
 
 From there, it might take up to 48h for the vault to transfer the funds back
 
@@ -19,7 +19,7 @@ From there, it might take up to 48h for the vault to transfer the funds back
 
 You can verify the status of your bridge requests anytime under the transfer page. You can also see the details if you need more information about the transaction.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## With Polkadot.js
 
