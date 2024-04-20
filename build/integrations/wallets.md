@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Wallets are tools to safeguard, manage and operate with assets, allowing yyou to interact with apps, without worrying about the underlying operations
+Wallets are tools to safeguard, manage and operate with assets, allowing you to interact with apps, without worrying about the underlying operations
 
 Currently, Pendulum/Amplitude is supported by:
 
