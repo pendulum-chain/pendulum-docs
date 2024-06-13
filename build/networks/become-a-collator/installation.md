@@ -68,15 +68,15 @@ Install the application using docker. This will name the docker container the sa
 {% tabs %}
 {% tab title="Amplitude" %}
 ```
-sudo docker pull pendulumchain/amplitude-collator:v0.9.37
-docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/amplitude-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/kusama.json --execution=wasm -d /data
+sudo docker pull pendulumchain/amplitude-collator:v0.9.42
+docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/amplitude-collator:v0.9.42 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/kusama.json --execution=wasm -d /data
 ```
 {% endtab %}
 
 {% tab title="Pendulum" %}
 ```
-sudo docker pull pendulumchain/pendulum-collator:v0.9.37
-docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/pendulum-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/polkadot.json --execution=wasm -d /data
+sudo docker pull pendulumchain/pendulum-collator:v0.9.42
+docker run --name $(hostname) --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.42 --collator --no-private-ipv4 --rpc-cors all --force-authoring --enable-offchain-indexing=true --ws-port 8844 --port 30335 --rpc-port 9955 --chain /data/pendulum-spec-raw.json --execution=wasm --name $(hostname) -d /data/ --state-cache-size 0 -- --port 30334 --chain /data/polkadot.json --execution=wasm -d /data
 ```
 {% endtab %}
 {% endtabs %}
@@ -89,11 +89,11 @@ You may want to only run an RPC Node instead. That is, a reachable node, that co
 
 {% code overflow="wrap" %}
 ```bash
-docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.37 --no-private-ipv4 --rpc-cors all --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
+docker run --name $1 --restart unless-stopped -d -v /data:/data -it -p 30335:30335 -p 30334:30334 pendulumchain/pendulum-collator:v0.9.42 --no-private-ipv4 --rpc-cors all --ws-port 8844 --ws-max-connections 200 --port 30335 --rpc-port 9955 --chain /data/amplitude-spec-raw.json  --execution=wasm -- --port 30334 --chain /data/kusama.json --database=RocksDb --execution=wasm -d /data:/data --unsafe-pruning --pruning=256
 ```
 {% endcode %}
 
-After you have run this, you can continue with the next verification steps, taking into account that your node **will not produce blocks if you executed the command above.**&#x20;
+After you have run this, you can continue with the next verification steps, taking into account that your node **will not produce blocks if you executed the command above.**
 
 </details>
 
@@ -104,7 +104,7 @@ Run **`docker ps`** command to verify if the collator is running properly. You s
 ```bash
 # docker ps
 CONTAINER ID   IMAGE                                     COMMAND                  CREATED          STATUS          PORTS                                                                                                                                                                   NAMES
-3212d72e1291   pendulumchain/pendulum-collator:v0.9.37   "tini -- /usr/local/…"   10 minutes ago   Up 10 minutes   0.0.0.0:8844->8844/tcp, :::8844->8844/tcp, 0.0.0.0:9935->9935/tcp, :::9935->9935/tcp, 0.0.0.0:30334-30335->30334-30335/tcp, :::30334-30335->30334-30335/tcp, 9945/tcp   yourhostname
+3212d72e1291   pendulumchain/pendulum-collator:v0.9.42   "tini -- /usr/local/…"   10 minutes ago   Up 10 minutes   0.0.0.0:8844->8844/tcp, :::8844->8844/tcp, 0.0.0.0:9935->9935/tcp, :::9935->9935/tcp, 0.0.0.0:30334-30335->30334-30335/tcp, :::30334-30335->30334-30335/tcp, 9945/tcp   yourhostname
 ```
 
 The **/data** directory should start to get populated with data and should have a structure similar to:
@@ -133,12 +133,9 @@ When the node is syncing, you can see the block it is trying to sync up to. The 
 
 As we previously pointed out, syncing the **Kusama**/**Polkadot** chain could take many days. Luckily enough, there is a solution for that provided by [Polkashots](https://polkashots.io/). Follow the procedure in one of the following links to try and speed up your sync procedure:
 
-| Chain | Link |
-|---|---|
-| Kusama | [https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) |
+| Chain    | Link                                                                     |
+| -------- | ------------------------------------------------------------------------ |
+| Kusama   | [https://ksm-rocksdb.polkashots.io/](https://ksm-rocksdb.polkashots.io/) |
 | Polkadot | [https://dot-rocksdb.polkashots.io/](https://dot-rocksdb.polkashots.io/) |
-
-
-{% hint style="info" %}
 
 💡 Polkashots is a 3rd party service provider and in no way affiliated with Pendulum/Amplitude
