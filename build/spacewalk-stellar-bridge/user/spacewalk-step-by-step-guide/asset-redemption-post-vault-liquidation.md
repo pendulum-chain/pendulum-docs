@@ -59,4 +59,3 @@ KSM, Asset ID = XCM:0
 
 Liquidation is designed with user security and value maximization in mind. By participating in the liquidation swap, users can take advantage of a premium exchange rate, thereby receiving a higher value in KSM compared to typical market rates. This ensures that even in the event of liquidation, users can benefit from favorable terms.
 
-For any further questions or assistance with the redemption process, please refer to the [support channel](https://discord.com/channels/841944723979108403/1247164487883292672).
