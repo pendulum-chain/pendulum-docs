@@ -9,7 +9,7 @@
   * [Token Utility](learn/token-economics/token-utility.md)
   * [Unlocking Vesting Tokens](learn/token-economics/unlocking-vesting-tokens.md)
 * [Roadmap](learn/roadmap.md)
-* [Grants Recieved](learn/grants-recieved.md)
+* [Grants Received](learn/grants-received.md)
 
 ## Build
 
