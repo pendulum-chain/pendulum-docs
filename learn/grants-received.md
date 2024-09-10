@@ -1,4 +1,4 @@
-# Grants Recieved
+# Grants Received
 
 ## Web3
 
